@@ -1,1 +1,13 @@
-"key"="value";
+/*------------------------ MODULE/PAGE NAME 1 ------------------------*/
+/* Here is the description */
+“KEY1” = "VALUE1"
+
+/* Here is the description */
+“KEY2” = "VALUE2"
+“KEY3” = "VALUE3"
+
+/*------------------------ MODULE/PAGE NAME 2 ------------------------*/
+/* Here is the description */
+“KEY4” = "VALUE4"
+“KEY5” = "VALUE5"
+“KEY6” = "VALUE6"
