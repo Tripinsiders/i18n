@@ -1,6 +1,6 @@
 "New Key"="Simplified Chinese";
 "TRIPINSIDERS"="脆饼";
-"MAIN_NAV_POPULAR"="推荐";
+"MAIN_NAV_POPULAR"="推荐1";
 "MAIN_NAV_FAVORITES"="喜欢";
 "MAIN_NAV_BOOK"="预约";
 "MAIN_NAV_TRIPS"="行程";
@@ -131,7 +131,7 @@
 "TIME_ZONE_LOCAL"="当地时间";
 "TIME_ZONE_DESC"="行程日期以当地时间为准";
 "DATE"="日期";
-"CATEGORY"="主题";
+"CATEGORY"="主题2";
 "CATEGORY_LIFESTYLE"="生活方式";
 "CATEGORY_NIGHTLIFE"="夜生活";
 "CATEGORY_MUSIC_AND_MOVIE"="音乐与电影";
