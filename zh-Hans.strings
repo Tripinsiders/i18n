@@ -235,7 +235,7 @@
 "TRIP_STATE_REJECTED"="审核不通过";
 "TRIP_STATE_SUBMISSION_DESC_1"="行程正在审核中\n审核通过后即可接受旅行者的预约";
 "TRIP_STATE_SUBMISSION_DESC_2"="请完善你的个人资料\n这将会帮助旅行者更好的了解你\n以获得更多预约";
-"TRIP_OPERATION_CREATE"="创建行程";
+"TRIP_OPERATION_CREATE"="创建行程x";
 "TRIP_OPERATION_CREATE_CONFIRM"="是否确认提交行程？";
 "TRIP_OPERATION_CREATE_ANOTHER"="创建另一个行程";
 "TRIP_OPERATION_START"="开始行程";
