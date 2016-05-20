@@ -600,7 +600,7 @@
 "MESSAGE"="消息";
 "MESSAGE_FEEDBACK_NO_RESULT"="当前没有系统消息";
 "MESSAGE_TYPE_BOOK"="预约消息";
-"MESSAGE_TYPE_SYSTEM"="系统消息test";
+"MESSAGE_TYPE_SYSTEM"="系统消息";
 "PASSWORD"="密码";
 "PASSWORD_OLD"="旧密码";
 "PASSWORD_NEW"="新密码";
