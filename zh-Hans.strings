@@ -468,6 +468,7 @@
 "USER_INVITE_DETAIL_REWARD"="奖励";
 "USER_INVITE_RULE"="一旦你邀请的朋友加入脆饼，并且创建了一条通过审核的行程，你的钱包中将会收到{INT}美元的奖励。";
 "USER_INVITE_DESC_1"="发送你的邀请码";
+"USER_INVITE_DESC_2"="目前你还没有邀请一个好友加入脆饼，赶快让更多好友加入我们吧！";
 "USER_INVITE_SHARE_TITLE"="{STRING}邀请你加入脆饼";
 "USER_INVITE_SHARE_CONTENT"="{STRING}邀请你参加这个活动，注册可以获得更多的奖励…";
 "CHAT_CONNECT_ERROR"="聊天状态异常";

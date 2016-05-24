@@ -468,6 +468,7 @@
 "USER_INVITE_DETAIL_REWARD"="Reward";
 "USER_INVITE_RULE"="Once your invited friend has a trip created and reviewed, you will receive {INT} USD as a Reward to your Wallet.";
 "USER_INVITE_DESC_1"="Send your Promo Code";
+"USER_INVITE_DESC_2"="So far you haven't invited any friends to join Tripinsiders. Why not take a moment now and send someone an invitation?";
 "USER_INVITE_SHARE_TITLE"="Join Tripinsiders with {STRING}";
 "USER_INVITE_SHARE_CONTENT"="{STRING} invited you to join this adventure. Sign up and learn more on about our rewards…";
 "CHAT_CONNECT_ERROR"="Exception state of chat";

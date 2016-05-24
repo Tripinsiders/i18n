@@ -468,6 +468,7 @@
 "USER_INVITE_DETAIL_REWARD"="獎勵";
 "USER_INVITE_RULE"="一旦你邀請的朋友加入脆餅，並且創建了一條通過審核的行程，你的錢包中將會受到{INT}美金的獎勵";
 "USER_INVITE_DESC_1"="發送你的邀請碼";
+"USER_INVITE_DESC_2"="目前你還沒有邀請一個好友加入脆餅，趕快讓更多好友加入我們吧！";
 "USER_INVITE_SHARE_TITLE"="{STRING}邀請你加入脆餅";
 "USER_INVITE_SHARE_CONTENT"="{STRING}邀請你參加這個活動，註冊可以獲得更多的獎勵...";
 "CHAT_CONNECT_ERROR"="聊天狀態異常";
