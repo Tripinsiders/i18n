@@ -1,4 +1,4 @@
-/*
+I/*
  * Tripinsiders Language Package for App
  *
  * @file: en.strings
@@ -9,6 +9,7 @@
  * Author: Ciaran
  * Author: Carlos 
  *
+ * changed
  * Copyright © 2016 Tripinsiders.com. All Rights Reserved.
  */
 
@@ -44,11 +45,14 @@
  * Screenshot: http://weibsite
  */
 
-“Test Steve”
-
 "OPERATION_OK_1"="OK";
+// single comment
+
+
 "OPERATION_OK_2"="OK";
+
 "OPERATION_APPLY"="Apply";
+
 "OPERATION_APPLIED"="Applied";
 "OPERATION_YES"="Yes";
 "OPERATION_CANCEL"="Cancel";
