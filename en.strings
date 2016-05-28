@@ -285,7 +285,7 @@
 "TRIP_CREATE_SUCC"="Successfully created a trip";
 "TRIP_CREATE_SUCC_DESC"="Great! In order to finish your trip,\nplease complete the following steps";
 "TRIP_CREATE_TITLE"="Continue";
-"TRIP_LIST_PROFILE"="Complete your profile so your Trips can be approved!";
+"TRIP_LIST_PROFILE"="Please complete your profile!";
 "TRIP_OPERATION_PROFILE_TITLE_1"="Basic Information";
 "TRIP_OPERATION_PROFILE_NAME"="Hi";
 "TRIP_OPERATION_PROFILE_PHOTO"="Please upload a profile photo";
