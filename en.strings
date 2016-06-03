@@ -3,298 +3,575 @@ I/*
  *
  * @file: en.strings
  * @Language: English
- * @App version: v2.1.0
+ * @App version: v2.2.0
  *
- * Date: 2016-05-19
- * Author: Ciaran
+ * Date: 2016-06-03
+ * Author: Ciaran Robert McLinton Esquire
  * Author: Carlos 
  *
- * changed
  * Copyright © 2016 Tripinsiders.com. All Rights Reserved.
  */
 
 
 "New Key"="English（US）";
+
+/* Please note: The descriptions adding context to the strings
+* will be added directly beneath the string. For Example:
+*
+* "STRING_EXAMPLE"="Example"
+* //This string is used as an example to explain context//
+*/
+ 
+
 /*
  * -----------------------------------------------------------------------
  * Section: Navigation Bar
  * -----------------------------------------------------------------------
  */
 
-/*
- * Description:
- * Screenshot: http://weibsite
- */
+
 "TRIPINSIDERS"="Tripinsiders";
-
-
-/*
- * Description:
- * Screenshot: http://weibsite
- */
+//Main navigation option in the App.
 "MAIN_NAV_POPULAR"="Popular";
+//Main navigation option in the App.
 "MAIN_NAV_FAVORITES"="Favorites";
+//Main navigation option in the App
 "MAIN_NAV_BOOK"="Bookings";
+//Main navigation option in the App
 "MAIN_NAV_TRIPS"="Trips";
+//Main navigation option in the App
 "MAIN_NAV_CALENDAR"="Calendar";
+//Main navigation option in the App
 "MAIN_NAV_REDERVATION"="Bookings";
+//Main navigation option in the App
 "MAIN_NAV_ME"="Me";
+//Main navigation option in the App
 
-/*
- * Description:
- * Screenshot: http://weibsite
+ 
+ /*
+ * -----------------------------------------------------------------------
+ * Section: Operational Commands/ Options
+ * -----------------------------------------------------------------------
  */
+
 
 "OPERATION_OK_1"="OK";
-// single comment
-
-
+// As in: confirm
 "OPERATION_OK_2"="OK";
-
+// As in: Ok, I understand
 "OPERATION_APPLY"="Apply";
-
+// As in ‘apply the changes that I made’. Is also used when you enter a coupon code and want to ‘Apply’ it.
 "OPERATION_APPLIED"="Applied";
+// The change or coupon code has been made and confirmed.
 "OPERATION_YES"="Yes";
+// This means yes in the sense of ‘confirm’. i.e do you want to make this change? Yes/No
 "OPERATION_CANCEL"="Cancel";
+// Yes/ No scenario, ‘Confirm these changes? Yes/Cancel.’
 "OPERATION_CONFIRM_AND_CANCEL"="Confirm & Cancel";
+// This is used when a pop up appears in app and asks ‘Are you sure you want to cancel? No/ Confirm & Cancel’
 "OPERATION_NO"="No";
+// Like cancel. Do not complete and action.
 "OPERATION_FINISH"="Finished";
+// This action/process is complete. You are saving the changes.
 "OPERATION_CREATE"="Create";
+// Used in processes such as creating a new trip.
 "OPERATION_DELETE"="Delete";
+// To erase. Delete a trip you created, delete a picture. To get rid of.
 "OPERATION_EDIT"="Edit";
+/* Used, for example, to edit a trip that you created. When you view the trip, ‘Edit’ appears in the top right hand corner of the screen.
+This allows you to change the trip.
+Also appears in trip creation under the trip title, lets you create or change the title. */
 "OPERATION_CANCEL_CONFRIM"="Exit without saving？";
+// After creating or editing a trip, if you click the ‘back’, or ‘previous screen’ button without saving, this message will appear.
 "OPERATION_SUBMIT"="Submit";
+// This is used in lots of circumstances, for example; ‘Submit a booking request’, ‘Submit a trip for review’, ‘Submit a user review’ etc.
 "OPERATION_CHOOSE"="Choose";
+// This is used when selecting a picture. Either your profile picture, pictures to be used in your trip description etc. But always with pictures.
 "OPERATION_SET"="Set";
+// This allows you you to confirm a change on something, price/ date etc
 "OPERATION_RESET"="Reset";
+// We use this when reverting to original settings
 "OPERATION_RETURN"="Return";
+// Goes back to the previous page
 "OPERATION_VIEW_DETAIL"="Details";
+// Expands trip descriptions to see further details
 "OPERATION_SAVE"="Save";
+// Allows you to save changes that have been made to your user profile and trips that you create.
 "OPERATION_SAVE_AS_DRAFT"="Save as Draft";
+// Allows you to save a draft trips that you are creating before completion and submission for approval.
 "OPERATION_SAVE_NO"="Exit without Saving";
+// A button that exits any edit pages without saving the changes. So profile/ trips etc
 "OPERATION_PREVIEW"="Preview";
+// Lets you see the trip you are designing as it will be seen by the Travelers visiting your page.
 "OPERATION_SEARCH"="Search";
+// Appears as a button to take you to the search bar and also as a command button (i.e press search after you have entered the text)
 "OPERATION_CONNECT"="Connect";
+//
 "OPERATION_DISCONNECT"="Disconnect";
+//
 "OPERATION_UPLOAD_PROFILE_PICTURE"="Upload Profile Picture";
-"OPERATION_UPLOAD_PHOTO_DESC"="You can upload %d photos more";
+// An option in profile edit section
+"OPERATION_UPLOAD_PHOTO_DESC"="You can upload %d more photos";
+// Appears to show you how many more photos you can upload during trip creation.
 "OPERATION_UPLOAD_PHOTO_STATE"="Uploading…";
+// Appears when loading images that you are using in your trips.
 "OPERATION_UPLOAD_PHOTO_LIMIT_1"="Up to %d Photos";
+// Shows how many photos you can use on your trip creation.
 "OPERATION_UPLOAD_PHOTO_LIMIT_2"="Maximum %dMB";
+// Shows the maximum size for images that you can upload.
 "OPERATION_UPLOAD_PHOTO_LIMIT_3"="Please upload 1 photo";
+/* Message that appears when you try to go to next step of trip creation without having loaded any photos for the trip.
+Must have at least on to be used as a cover photo for the trip. */
 "OPERATION_TAKE_PHOTO"="Take Photo";
+// Option allows you to access your camera directly from the app to load for Profile or trip creation purposes.
 "OPERATION_CHOOSE_PHOTO"="Choose from Library";
+// Option allows you to select a photo from images saved to your mobile device for profile pic and trip creation purposes.
 "OPERATION_START_EXPLORING"="Start Exploring";
+// A link that takes you to see the trips of Insiders (only appears when your profile is in Traveler mode).
 "OPERATION_CONTINUE_EXPLORING"="Continue Exploring";
+// 	Button on the page that allows you to go and view more trips
 "OPERATION_VIEW_BOOK"="View Booking";
+// Allows you to see bookings that have been made for your trip in more detail
 "OPERATION_VIEW_TRIP"="View";
+//
 "OPERATION_VIEW_DATE"="View";
+//
 "OPERATION_EXPLORE_NEXT_TRIP"="Explore Next Trip";
+// Button that equates to ‘next’ when viewing trips
 "OPERATION_SHARE_WITH_FRIENDS"="Share with Friends";
+// Allows you to share content via various social media platforms
 "OPERATION_RELOAD"="Reload";
+// Reloads the current page
 "OPERATION_SEND"="Send";
+//Send various functions: messages, verification messages, etc
 "OPERATION_RESEND"="Resend";
+// Appears after having sent a request or confirmation once
 "OPERATION_VERIFY"="Verify";
+// Submits identify verification material
 "OPERATION_MORE"="More";
+// Allows you to see further information, usually when viewing trips
 "OPERATION_SKIP"="Skip";
+// Button the appears on tips and tutorial info
 "OPERATION_CONTINUE"="Continue";
+//
 "OPERATION_GOT_IT"="Got it!";
+//
 "OPERATION_CONTACT_TRAVELLER"="Contact Traveler";
+// Button allows you to get in touch with the traveler via the in-app message system.
 "OPERATION_BECOME_INSIDER"="Go";
+//
 "OPERATION_NEXT"="Next";
-"OPERATION_REFER_FRIEND"="Refer a friend to Tripinsiders";
+// Goes to the next page. Used in various points like trip creation, profile set up etc.
+"OPERATION_REFER_FRIEND"="Refer a Friend to Tripinsiders";
+// Takes you to the ‘refer a friend’ page in-app
 "OPERATION_VIEW_THIS_TRIP"="View this trip";
+// Allows you to see more details about a trip that appears in a list while ‘exploring’  trips
 "OPERATION_TRY_AGAIN"="Try Again";
+//
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Value
+ * -----------------------------------------------------------------------
+ */
+
+
 "VALUE_NO_LIMIT"="Any";
 "VALUE_NO_SET"="Not Set";
 "VALUE_CONNECTED"="Connected";
 "VALUE_OPTIONAL"="optional";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Feedback
+ * -----------------------------------------------------------------------
+ */
+
 "FEEDBACK_SUBMIT_SUC"="Submitted Successfully";
+// This message is shown when feedback has been entered
 "FEEDBACK_EDIT_SUC"="Changes Saved";
+// Edits to feedback saved
 "FEEDBACK_NO_RESULTS"="No results found. View other popular trips.";
+// Specific search yielded no results. On screen message
 "FEEDBACK_NO_DATA"="No Data";
+// Appears when a specific search has yielded no results
 "FEEDBACK_NO_ADDRESS"="No Address";
-"FEEDBACK_NO_REVIEW"="No Review";
+// Appears when no address for a trip is provided
+"FEEDBACK_NO_REVIEW"="No Reviews";
+// Appears when a trip you are viewing has not had a user review
 "FEEDBACK_LOADING"="Loading…";
-"FEEDBACK_NO_INTERNET_1"="No Internet connection. Please check network settings.";
-"FEEDBACK_NO_INTERNET_2"="Please connect to Internet";
+// Shown when a page is loading data
+"FEEDBACK_NO_INTERNET_1"="Woops…no Internet connection. Try checking your network settings.";
+// Appears when attempting to load a page and network connection is lost
+"FEEDBACK_NO_INTERNET_2"="Please connect to Internet. It’s the source from which we draw our power.";
+// Appears as a prompt when trying to access part of the app without network connection
 "FEEDBACK_NO_GPS"="Open location services to allow Tripinsiders to determine your location";
-"FEEDBACK_UPDATE"="Your current version is v%@. A new version is available. Do you want to update now?";
-"FEEDBACK_UPDATE_2"="Update now! Have a new experience";
+// Appears when attempting to determine location or add a preloaded location to trip descriptions, and Location access has not been granted to Tripinsiders.
+"FEEDBACK_UPDATE"="Your current version is v{STRING}. We have a shiny new version ready for you to try. Do you want to update now?";
+// Appears when opening the app and a new version is available and detected as a prompt to update
+"FEEDBACK_UPDATE_2"="Update now! New content is waiting…";
+// Appears when opening the app and a new version is available and detected as a prompt to update
 "FEEDBACK_UPDATE_NEXT_TIME"="Next time";
-"FEEDBACK_UPDATE_NOW"="Update now";
+// Option offered when being asked to update
+"FEEDBACK_UPDATE_NOW"="I’m ready. Update me.";
+// Option offered when being asked to update
 "FEEDBACK_GOOGLE_PLAY_NOT_AVAILABLE"="Google Play Service not Available";
+// Shown when Google Play is not currently available
 "FEEDBACK_DATA_ERR"="Oops! Something went wrong";
+// Error message used in various circumstances
 "FEEDBAKC_EXIT_APP"="Pressing again will exit Tripinsiders";
+// When ‘backing out’ of the app this message incase the button was pressed in error. A second press will close the app
 "FEEDBACK_UPLOAD_FAIL"="Failed to Upload";
+// Shown when uploading an image and it fails. Can be due to any reason, linked with the error not the cause.
 "FEEDBACK_SIGN_IN_AGAIN"="Please sign in again";
+// Shown when the app has been closed and it has logged you out of your profile
 "FEEDBACK_CAN_NOT_CONTAIN_EMOJI"="The text can not contain emojis";
+// Shown when entering any text in-app in a point that does not support emojis
 "FEEDBACK_THANKS"="Thank you!";
+// Shown whenever a requested action is completed or feedback is submitted.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Term
+ * -----------------------------------------------------------------------
+ */
+
 "TERM_SERVICE_CN"="Terms of Service";
+// Shows the option for opening Tripinsiders Terms of service that apply to all users
 "TERM_SERVICE_EN_FT"="Terms of Service for Travelers";
+// Shows the option for opening Tripinsiders Terms of service specifically associated with Travelers.
 "TERM_SERVICE_EN_FI"="Terms of Service for Insiders";
+// Shows the option for opening Tripinsiders Terms of service specifically for Insiders
 "TERM_REFUND"="Refunds Policy Terms";
+// Shows the option for opening Tripinsiders refunds Policy Terms
 "TERM_OPERATION_AGREE"="I have read and accept the %@";
+// A tick box that appears which confirms you have read, and agree to the specified T&C’s
 "TERM_OPERATION_VIEW_DETAIL"="For details, view %@";
+// Shown when a Terms type is mentioned as an option to view the terms in full. (It's a link)
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Search
+ * -----------------------------------------------------------------------
+ */
+
 "SEARCH_BAR_DESC"="What are you interested in?";
+// Shown in the search bar of the app when looking for trips
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Sort
+ * -----------------------------------------------------------------------
+ */
+
 "SORT"="Sort";
+// Filter button found at top of page. Opens a drop down menu to specify how to organise results of page/search
 "SORT_OPTION_DEFAULT"="Sort by Popularity";
+// Sorts results by most popular trips
 "SORT_OPTION_PRICE_LOW_TO_HIGH"="Price (Low to High)";
+// Sorts results by price from lowest to highest
 "SORT_OPTION_PRICE_HIGH_TO_LOW"="Price (High to Low)";
+// Sorts results by price from highest to lowest
 "SORT_OPTION_REVIEW"="Most Reviewed";
+// Sorts results by trips that have been reviewed the most times
 "SORT_OPTION_POPULAR"="Most Favorited";
+// Sorts results by the trips that are most commonly favourited
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Filter
+ * -----------------------------------------------------------------------
+ */
+
 "FILTER"="Filter";
+// This is an option at the top of the page that allows you to assign specific filters to the type of Trips that appear in the results
 "FILTER_OPTION_FEATURED"="Interested In";
+// Identifies the interests of the Insider for the trip you are looking at
 "FILTER_OPTION_DATE"="Date";
+//
 "FILTER_OPTION_INSIDER"="Insider";
+// Title that appears above the Insiders details at the bottom of their trip description that you view as a traveller
 "FILTER_OPTION_INSIDER_DESC"="Insider's Gender";
+//  Identifies the Insider as Male or Female
 "FILTER_OPTION_INSIDER_VALUE_MALE"="Male";
+// Filters search results to only show trips made by Male Insiders
 "FILTER_OPTION_INSIDER_VALUE_FEMALE"="Female";
+// Filters search results to only show trips made by Female Insiders
 "FILTER_OPTION_LANGUAGE"="Spoken Language";
+// Shows the language(s) that the Insider can communicate in
 "FILTER_OPTION_ANY"="Any";
+// Indicates that there is no preference for a particular filter. I.e: Sex of the Insider offering the trip.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Week, Month, and Time
+ * -----------------------------------------------------------------------
+ */
+
 "WEEK_MON"="M";
+// Stands for the Weekday Monday
 "WEEK_TUES"="T";
+// Stands for the Weekday Tuesday
 "WEEK_WED"="W";
+// Stands for the Weekday Wednesday
 "WEEK_THUR"="T";
+// Stands for the Weekday Thursday
 "WEEK_FRI"="F";
+// Stands for the Weekday Friday
 "WEEK_SAT"="S";
+// Stands for the Weekday Saturday
 "WEEK_SUN"="S";
+// Stands for the Weekday Sunday
 "MONTH_JAN"="January %d";
+// Month with adjustable year
 "MONTH_FEB"="February %d";
+// Month with adjustable year
 "MONTH_MAR"="March %d";
+// Month with adjustable year
 "MONTH_APR"="April %d";
+// Month with adjustable year
 "MONTH_MAY"="May %d";
+// Month with adjustable year
 "MONTH_JUN"="June %d";
+// Month with adjustable year
 "MONTH_JUL"="July %d";
+// Month with adjustable year
 "MONTH_AUG"="August %d";
+// Month with adjustable year
 "MONTH_SEP"="September %d";
+// Month with adjustable year
 "MONTH_OCT"="October %d";
+// Month with adjustable year
 "MONTH_NOV"="November %d";
+// Month with adjustable year
 "MONTH_DEC"="December %d";
+// Month with adjustable year
 "TIME_ZONE_LOCAL"="Local Time";
+/* Shows the local time in the place of the trip, as the confirmations you receive about date
+and time for the trip are based on the local time, not the time in the area you booked from */
 "TIME_ZONE_DESC"="The trip date is based on local time";
+// Appears near the date/ time confirmation and local time indicator to make the Traveler aware that the trip start/finish time is local time
 "DATE"="Date";
+// Identifies the date trip will take place
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Category
+ * -----------------------------------------------------------------------
+ */
+
 "CATEGORY"="Categories";
+/* This identifies the different categories of trips that you can search with the search and filter functions.
+This list includes all currently active categories. */
 "CATEGORY_LIFESTYLE"="Lifestyle";
+// Trips Based around specific lifestyle types
 "CATEGORY_NIGHTLIFE"="Nightlife";
+// Trips that in some way incorporate the night scene of an area
 "CATEGORY_MUSIC_AND_MOVIE"="Music & Movie";
+// Trips that can be anything from concerts to movie trivia discussions.
 "CATEGORY_PHOTOGRAPHY"="Photography";
+// Any Trip that incorporates or focuses on an photography in some way
 "CATEGORY_SHOPPING"="Shopping";
+// Trips that in some way include shopping (for clothes, souvenirs etc)
 "CATEGORY_FAMILY_AND_FUN"="Family & Fun";
+// Trips that are family friendly or suitable for all age groups
 "CATEGORY_HANDICRAFTS"="Handicrafts";
+// Trips that have include of handmade goods
 "CATEGORY_RELAX_AND_WELLNESS"="Relaxation & Wellness";
+// Any Trips that benefit overall wellbeing or are particularly relaxing
 "CATEGORY_PARTY"="Party";
+// Trips that involve parties or partying
 "CATEGORY_FOOD_AND_CUISINE"="Food & Cuisine";
+// Any Trips that involve food at its core or as an additional aspect
 "CATEGORY_PRIVATE_DINNING"="Private Dining";
+// Specific to Trips that involve private meals or more exclusive locations for food
 "CATEGORY_LOCAL_TASTE"="Local Taste";
+// Trips that include specifically local dishes
 "CATEGORY_NIGHT_MARKET"="Night Market";
+// A trip that includes visits to the local street markets
 "CATEGORY_CULINARY_ARTS"="Culinary Arts";
+// More specifically associated with Trips that have a high level of food appreciation in some aspect
 "CATEGORY_ADVENTURE_AND_SPORTS"="Adventure & Sports";
+// Trips that include outdoor/water/indoor sports or adrenaline related trips
 "CATEGORY_DANCE"="Dance";
+// Any trip that includes an influence of dance
 "CATEGORY_RUNNING"="Running";
+// Usually trips that focus specifically on running for running enthusiasts
 "CATEGORY_CYCLING"="Cycling";
+// Usually trips that focus specifically on cycling for running enthusiasts
 "CATEGORY_WATER_SPORTS"="Water Sports";
+// Any trip that is based around water sports: waterboarding, surfing, snorkelling etc
 "CATEGORY_OUTDOOR_ACTIVITIES_AND_SPORTS"="Outdoor Activities & Sports";
+// Similer to adventure and sports but focusing only on outdoor based activities and not necessarily adrenaline based
 "CATEGORY_NATURE_DISCOVERY"="Nature Discovery";
+// Any trip that tries to bring a focus and appreciation to nature and it’s beauty
 "CATEGORY_CULTURE_AND_SIGHTS"="Culture & Sights";
+// Based on the local culture and maybe having more ‘normal’ tourist destinations associated with them
 "CATEGORY_CREATIVITY_FAIR"="Creative Fairs & Markets";
+// Similar to night markets, but tending to focus on creativity and originality
 "CATEGORY_CULTURE_AND_ART"="Culture & Art";
+// Trips touching on the appreciation of the culture and art of an area
 "CATEGORY_MUSEUM"="Museum";
+// Any trip which visits a museum or display
 "CATEGORY_EXHIBITION"="Exhibition";
+// Usually referring to art exhibitions but not limited to this
 "CATEGORY_SET_DESC"="What categories best describe your trip?";
+/* Used when creating a trip as a prompt asking the user to define the categories their trips cover.
+You can currently select up to a maximum of 4 main categories */
 "CATEGORY_SET_LIMIT"="Select up to %d categories";
-"TAG_FOOD"="Food";
-"TAG_HISTORY"="History";
-"TAG_CULTURE"="Culture";
-"TAG_TRADITION"="Local customs";
-"TAG_ART"="Art";
-"TAG_NATURE"="Nature";
-"TAG_SPORT"="Sport";
-"TAG_OUTDOOR"="Outdoor";
-"TAG_ADVENTURE"="Adventure";
-"TAG_SKILL"="Skill";
-"TAG_EDUCATION"="Education";
-"TAG_RELIGION"="Religion";
-"TAG_SHOPPING"="Shopping";
-"TAG_PARENT_CHILD"="Family";
-"TAG_PET"="Pet";
-"TAG_LEISURE"="Leisure";
-"TAG_VOLUNTEER"="Volunteer";
-"TAG_PARTY"="Party";
-"TAG_FESTIVAL"="Festival";
-"TAG_MUSIC"="Music";
-"TAG_EXHIBITION"="Exhibition";
-"TAG_VOCATION"="Vocational";
+// This identifies how many categories the insider can select in regards to their trip.
+ 
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Trip
+ * -----------------------------------------------------------------------
+ */
+
 "TRIP_ATTRIBUTE_CREATE_DATE"="Published On: %@";
+// Informs the Insider who created the trip when it was first created and published for bookings.
 "TRIP_ATTRIBUTE_TITLE"="Title";
+// Next to the spot that the Insider decides on and enters the same of their trip
 "TRIP_ATTRIBUTE_TITLE_DESC"="Pick a clear and descriptive title";
+// Advice for the Insider when picking their trip title that appears in the Title box
 "TRIP_ATTRIBUTE_LOCATION"="Location";
+// The section the Insider completes to show where the Trip is taking place. This can include several locations if the Trip moves around
 "TRIP_ATTRIBUTE_DESTINATION"="Destination";
+// This appears as the title of drop down message that allows you to select the location of the trip you are creating.
 "TRIP_ATTRIBUTE_DESTINATION_DESC_1"="Where is your trip taking place?";
+// Title that appears above the drop down menu to select country and city you trip is taking place in when creating a trip.
 "TRIP_ATTRIBUTE_DESTINATION_DESC_2"="Can’t find your country/city?";
+// Link that you can press if you are the first person to make a Trip in your area to add it to the list of options.
 "TRIP_ATTRIBUTE_DESTINATION_DESC_3"="Your trip location";
+//
 "TRIP_ATTRIBUTE_HIGHLIGHT"="Highlights & Category";
+// Title of the section that allows you to add highlights of your trip and select the category that it is associated with
 "TRIP_ATTRIBUTE_HIGHLIGHT_DESC_1"="Highlights";
-"TRIP_ATTRIBUTE_HIGHLIGHT_DESC_2"="List your highlights in bullet points here.";
+// Title of the page that  allows you to make short bullet points that summarise the main features of your trip. The ‘selling points’
+"TRIP_ATTRIBUTE_HIGHLIGHT_DESC_2"="List the most impressive parts of your trip here..";
+// Space that is used to describe your trip highights. Each point you add is shown as a bullet point
 "TRIP_ATTRIBUTE_TAG"="Tags";
+/* Title of the section in trip creation that allows you to assign ‘tags’ to your trip of things that it may include.
+These are category titles like: Nightlife, shopping, party etc  */
 "TRIP_ATTRIBUTE_TAG_DESC"="Add tags to let the travelers know some of your trip features";
+// This message appears below page title to let the Insider know what to do.
 "TRIP_ATTRIBUTE_TAG_LIMIT"="Select up to %d Tags";
+// This indicates the maximum number of tags that they can assign to a trip
 "TRIP_ATTRIBUTE_CATEGORIES_DESC_1"="Your trip categories";
-"TRIP_ATTRIBUTE_CATEGORIES_DESC_2"="what categories best describe your trip?";
+// First page that appears when creating trip. This is the title of the page.
+"TRIP_ATTRIBUTE_CATEGORIES_DESC_2"="What categories best describe your trip?";
+// Message found directly beneath the title ‘Your trip categories.
 "TRIP_ATTRIBUTE_COVER_PHOTO"="Add a cover photo for your trip";
-"TRIP_ATTRIBUTE_COVER_PHOTO_DESC"="Choose a picture that will represent you trip";
+// Title for the page that the user to add a main photo for the trip. The one that Travellers will see as the trip appears in a list.
+"TRIP_ATTRIBUTE_COVER_PHOTO_DESC"="We need a picture that will represent you trip, so choose an impressive one!";
+// Underneath the page title for adding cover photo
 "TRIP_ATTRIBUTE_DESCRIPTION"="Description";
+// Title on the page
 "TRIP_ATTRIBUTE_DESCRIPTION_DESC_1"="Description";
+// Add a description for the trip (the text box under title)
 "TRIP_ATTRIBUTE_DESCRIPTION_DESC_2"="Upload relevant photos and tell the travelers what you love about the experience you are hosting.";
+// This is  the message seen for the full length trip description that includes a detailed description and pictures
 "TRIP_ATTRIBUTE_DATE"="Trip Date";
+// This is a title page for the date (mm/dd) of the trip
 "TRIP_ATTRIBUTE_ADVANCE"="Booking Notice Required";
+// This is inside price menu. It is a button that allows you to select the number of days that a booking must be made in advance by a traveler in order to book a trip.
 "TRIP_ATTRIBUTE_ADVANCE_DESC"="Number of days";
+// The title on the page after pressing “Booking Notice Required’ directly below it gives the option of 1-7 days notice
 "TRIP_ATTRIBUTE_ADVANCE_VALUE_ONE"="%d Day";
+// The option that appears for ‘1 Day’ notice
 "TRIP_ATTRIBUTE_ADVANCE_VALUE_MORE"="%d Days";
+// The option that appears for ‘[n] Days’ notice. From 2-7
 "TRIP_ATTRIBUTE_DURATION"="Duration";
+// Inside price setting menu also. Allows you to choose the length of the trip you are creating
 "TRIP_ATTRIBUTE_DURATION_DESC"="How long is your trip?";
+// After pressing duration, this menu appears to let you select the time the trip begins and ends.
 "TRIP_ATTRIBUTE_DURATION_VALUE_ONE"="%d hour";
+// Trip starts at this time; e.g. 15:00
 "TRIP_ATTRIBUTE_DURATION_VALUE_MORE"="%d hours";
+// Trip ends at this time; e.g. 19:00
 "TRIP_ATTRIBUTE_TRAVELLER"="Number of Travelers";
+// This button takes you to the page that allows you to select the maximum number of people that can attend your trip in one booking.
 "TRIP_ATTRIBUTE_TRAVELLER_DESC"="How many people?";
+// This appears above the drop down menu for selecting number of people that can attend the trip
 "TRIP_ATTRIBUTE_CAPACITY"="Capacity";
+// This button replaces ‘Number of Travelers’ and takes you to the page that allows you to select the maximum number of people that can attend your trip in one booking.
 "TRIP_ATTRIBUTE_CAPACITY_DESC"="How many people?";
-"TRIP_ATTRIBUTE_CAPACITY_VALUE_MIN_ONE"="From %d traveler";
-"TRIP_ATTRIBUTE_CAPACITY_VALUE_MIN_MORE"="From %d travelers";
-"TRIP_ATTRIBUTE_CAPACITY_VALUE_MAX_ONE"="Up to %d traveler";
-"TRIP_ATTRIBUTE_CAPACITY_VALUE_MAX_MORE"="Up to %d travelers";
-"TRIP_ATTRIBUTE_CAPACITY_VALUE_ONE"="%d traveler";
-"TRIP_ATTRIBUTE_CAPACITY_VALUE_MORE"="%d travelers";
+// This appears above the drop down menu for selecting number of people that can attend the trip
+"TRIP_ATTRIBUTE_CAPACITY_VALUE_MIN_ONE"="From %d Traveler";
+// Shows minimum number of travelers (used when you select 1)
+"TRIP_ATTRIBUTE_CAPACITY_VALUE_MIN_MORE"="From %d Travelers";
+// Shows minimum number of travelers (used when you select 2-6)
+"TRIP_ATTRIBUTE_CAPACITY_VALUE_MAX_ONE"="Up to %d Traveler";
+// Shows maximum number of Travelers (used when you select 1)
+"TRIP_ATTRIBUTE_CAPACITY_VALUE_MAX_MORE"="Up to %d Travelers";
+// Shows maximum number of Travelers (used when you select 2-6)
+"TRIP_ATTRIBUTE_CAPACITY_VALUE_ONE"="%d Traveler";
+// Used to display your selection (1 Travelers)
+"TRIP_ATTRIBUTE_CAPACITY_VALUE_MORE"="%d Travelers";
+// Used to display your selection (3-5 Travelers)
 "TRIP_ATTRIBUTE_MEET"="Meeting Point";
-"TRIP_ATTRIBUTE_MEET_DESC"="Where will you meet?";
+// Found in ‘Additional Information section’. Allows you to select a meeting point Using Maps.
+"TRIP_ATTRIBUTE_MEET_DESC"="Where will you meet? Be remarkably specific.";
+// Shows above the section that allows you to select meeting point.
 "TRIP_ATTRIBUTE_ADVICE"="Notices";
+/* Section is insider additional information. Allows you to add any relevant tips or advice. For example;
+ ‘Be sure to allows at least on hour to reach the meeting point as traffic is usually bad’ */
 "TRIP_ATTRIBUTE_SAFETY"="Safety Notices";
+/* Insider Additional info section: allows to add any safety tip for the trip. For example;
+‘We will be hiking in rough terrain, so do not bring too many things as it may effect your balance’. */
 "TRIP_ATTRIBUTE_OUTFIT"="Outfit Recommendations";
+// In Addition info Section; Tips on what clothes to wear. For example: ‘Bring swimming clothes’, or ‘wear waterproof clothing’
 "TRIP_ATTRIBUTE_WEATHER"="Poor Weather Plan";
+/* In Additional Info Section: Tells the Traveler what will happen and how the trip will adapt if the weather is particularly 
+ bad on the day of the trip, resulting in the original trip not being possible */
 "TRIP_ATTRIBUTE_PRICE"="Price";
+// Section that allows you to set price of trip. Can be either ‘Fixed Price’, ‘Per Traveler’, or ‘Free’
 "TRIP_ATTRIBUTE_PRICE_VALUE_PER_PERSON"="%@ pp";
+// Shows the price in this way when you choose ‘Per person’ pricing option
 "TRIP_STATE_DRAFT"="Draft";
+// Identifies the status of the trip you are creating. If it is not yet completed and submitted for review, it shows as draft
 "TRIP_STATE_WAITING"="Waiting for Review";
+// Identifies trip status. Shows when trip is completed and submitted for tripinsiders to review and approve
 "TRIP_STATE_REJECTED"="Rejected";
-"TRIP_STATE_SUBMISSION_DESC_1"="Great! Now we just need to approve your trip. It shouldn't take long and you can start taking reservations as soon as its done.";
-"TRIP_STATE_SUBMISSION_DESC_2"="Please update your profile so that travelers can know you better";
+// Identifies Trip Status. Shows when the trip has been created, submitted, and subsequently rejected by Tripinsiders
+"TRIP_STATE_SUBMISSION_DESC_1"="Great! Now we just need to approve your Trip. It shouldn't take long and you can start taking reservations as soon as its done.";
+// Message that shows when you submit your Trip for review and approval after creating
+"TRIP_STATE_SUBMISSION_DESC_2"="Make sure your profile is as complete as possible so that Travelers see you as less of a scary stranger. It will help them get to know you better as a person.";
+// Prompt that shows to encourages you to finish entering your personal data
 "TRIP_OPERATION_CREATE"="Create a Trip";
+// Button that appears top right of screen when you are on Insider profile in ‘Trips’ sction. Allows you to create a new Trip
 "TRIP_OPERATION_CREATE_CONFIRM"="Ready to share your experience with the world?";
+// Appears as a confirmation request when your Trip creation is complete and you want to finish
 "TRIP_OPERATION_CREATE_ANOTHER"="Create Another Trip";
+// Shows after completing a Trip and submitting in case you want to make more than one Trip.
 "TRIP_OPERATION_START"="Start";
-"TRIP_OPERATION_START_CONFIRM"="Are you sure you want to start the trip?";
+// Button that when selected, begins a booked Trip.
+"TRIP_OPERATION_START_CONFIRM"="Are you sure you want to start the Trip?";
+// Confirms that you are ready to begin
 "TRIP_OPERATION_FINISH"="Finish";
-"TRIP_OPERATION_FINISH_CONFIRM"="Are you sure you want to finish the trip?";
+// Button that finishes an active Trip.
+"TRIP_OPERATION_FINISH_CONFIRM"="Are you sure you want to finish the Trip?";
+// Confirms that you are ready to finish
 "TRIP_OPERATION_SET_MAIN_PICTURE"="Set main picture";
+// Sets the main picture for the trip. Button.
 "TRIP_GROUP_DETAIL"="Details";
+// Travel details page : top title
 "TRIP_GROUP_ADDITIONAL_INFO"="Additional Information";
+// Button that shows any additional info that the Insider left for the Traveler not included in the other sections
 "TRIP_GROUP_BOOK"="Booking Information";
-"TRIP_BLANK_DESC"="Create an interesting trip and share the wonderful experience with travelers from all over the world";
+// Gives a breakdown of the Booking Info
+"TRIP_BLANK_DESC"="Create an interesting Trip and share the wonderful experience with Travelers from all over the world";
+// This appears in trip description box when Insiders are creating the Trip.
 "TRIP_PRICE"="Trip Price";
-"TRIP_PRICE_DESC_1"="To know more about payout and fees please visit our %@ page.";
-"TRIP_PRICE_DESC_2"="FAQS";
+// Displays total price of trip
+"TRIP_PRICE_DESC_1"="To know more about payouts and fees please visit our %@ page.";
+// Link to the page that describes fees in their entirety
+"TRIP_PRICE_DESC_2"="FAQs";
+// Takes user to our FAQ page in-app regarding price/fees etc
 "TRIP_LIST_TITLE_ONE"="%d Trip";
+//
 "TRIP_LIST_TITLE_MORE"="%d Trips";
+//
 "TRIP_TITLE_DESC_1"="Enter a title for your trip";
 "TRIP_TITLE_DESC_2"="Choosing a great trip title is very important!";
 "TRIP_OPERATE_EDIT"="Edit trip";
@@ -328,247 +605,574 @@ I/*
 "TRIP_CREATE_SUCC"="Successfully created a trip";
 "TRIP_CREATE_SUCC_DESC"="Great! In order to finish your trip,\nplease complete the following steps";
 "TRIP_CREATE_TITLE"="Continue";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Book
+ * -----------------------------------------------------------------------
+ */
+
 "BOOK"="Book";
+// Button that allows you to book a trip
 "BOOKING"="Bookings";
+// Button that takes you to a page that lists all your bookings.
 "BOOKING_SUMMARY"="Booking Summary";
+// Shows the summary of your bookings
 "BOOKING_DETAILS"="Details";
+// Shows a booking in more detail. Price, date, number of people etc
 "BOOK_STATE_CONFIRM"="To be confirmed";
+// Tag that shows a booking you have made has not yet been confirmed by the Insider
 "BOOK_STATE_CONFIRM_DESC_FT"="Awaiting confirmation";
+// Shows that a Booking request requires the Insider to confirm
 "BOOK_STATE_CONFIRM_DESC_FI"="Requires your confirmation";
+// Shows that a Booking request requires the Insider to confirm
 "BOOK_STATE_PAY"="Awaiting payment";
+// Tag that shows when a booking req has been accepted. Next stage is to pay for the trip.
 "BOOK_STATE_PAY_DESC_FT"="Payment required";
-"BOOK_STATE_PAY_DESC_FI"="Waiting for traveler's payment";
+//
+"BOOK_STATE_PAY_DESC_FI"="Waiting for Travelers payment";
+// Shows when Insider views booking and Traveler has not yet paid
 "BOOK_STATE_BEGIN"="Paid";
-"BOOK_STATE_BEGIN_DESC"="Paid & Waiting to begin trip";
+// Shows when Trip has been paid
+"BOOK_STATE_BEGIN_DESC"="Paid & waiting to begin Trip";
+// Shows when trip has been paid
 "BOOK_STATE_BEGIN_DESC_DAYS"="Paid & Trip will start in %d days";
+// Shows as a status for the Trip after payment is completed
 "BOOK_STATE_BEGIN_DESC_TOMORROW"="Paid & Trip will start tomorrow";
-"BOOK_STATE_PROGRESS"="Have a nice trip today! :)";
+// Shows when trip is paid and Trip begins the next day
+"BOOK_STATE_PROGRESS"="Have a nice Trip today! :)";
+// Shows as a message when the Trip is taking place the same day
 "BOOK_STATE_PROGRESS_DESC"="Aaaaand go!\nHave a great trip!";
+// Shows at the beginning of the trip and as a progress status during trip
 "BOOK_STATE_FINISHED"="Completed";
-"BOOK_STATE_REVIEW"="To be reviewed";
-"BOOK_STATE_REVIEW_FT"="Trip Completed & Awaiting review";
-"BOOK_STATE_REVIEW_FI"="Trip Completed & Waiting for traveler's review";
+// Shows when Trip is finished
+"BOOK_STATE_REVIEW"="To be Reviewed";
+// Shows when trip is completed but has not yet been reviewed by the Traveler
+"BOOK_STATE_REVIEW_FT"="Trip Completed & Awaiting Review";
+// Shown from the Travelers perspective.
+"BOOK_STATE_REVIEW_FI"="Trip Completed & Waiting for Travelers Review";
+// Status shown from the Insiders perspective.
 "BOOK_STATE_REVIEWED"="Reviewed";
+// Status shown when a review is completed
 "BOOK_STATE_REVIEWED_FT"="Trip Completed & Reviewed";
+// Status indicator
 "BOOK_STATE_REVIEWED_FI"="Trip Completed & Reviewed";
+// Status indicator
 "BOOK_STATE_EXPIRED"="Expired";
+// A status when trip date passes but process was not completed
 "BOOK_STATE_CANCELLED"="Cancelled";
-"BOOK_STATE_REFUND"="Processing refund";
+// Shows when the booked trip has been canceled by either party
+"BOOK_STATE_REFUND"="Processing Refund";
+// Shows when a refund is being processed to the Traveler.
 "BOOK_STATE_REFUNDED"="Refunded";
+// Shows when refund to Traveler is complete
 "BOOK_STATE_REFUND_FAILED"="Refund Failed";
+// Shows when an issue occurred with transferring the money
 "BOOK_OPERATION_BOOK"="Request to Book";
+// Shows as a banner at bottom of screen when viewing specific trip as a Traveler
 "BOOK_OPERATION_SUMBIT"="Submit";
-"BOOK_OPERATION_SUMBIT_CONFIRM"="Are you sure you want to book this trip?";
+// Shows as a banner at bottom of page after pressing request to book. Page allows you to select date and number of travelers
+"BOOK_OPERATION_SUMBIT_CONFIRM"="Ready to book this Trip?";
+// Confirmation request
 "BOOK_OPERATION_CHANGE"="Modify";
+// Shows when a you want to modify a booking request
 "BOOK_OPERATION_ACCEPT"="Confirm";
-"BOOK_OPERATION_ACCEPT_CONFIRM"="Are you sure you want to confirm this booking?";
+// Confirms a booking request (Insider)
+"BOOK_OPERATION_ACCEPT_CONFIRM"="Ready to confirm this booking?";
+// Confirmation of the confirmation
 "BOOK_CANCELLATION"="Cancellation";
+// Shows when you select to cancel a booking
 "BOOK_CANCELLATION_RESAON"="Other";
+/* Shows as a cancellation reason when the reasons listed do not explain the issue. 
+ You can type a more detailed explanation after selecting this option */
 "BOOK_OPERATION_CANCEL"="Cancel this Booking?";
+// Button that allows you to cancel the booking’
 "BOOK_OPERATION_CANCEL_CONFIRM"="Are you sure you want to cancel this booking?";
+//  Confirmation of cancellation request
 "BOOK_OPERATION_CANCEL_FEEDBACK_SUC"="Cancelled Successfully";
-"BOOK_OPERATION_PICK_ANOTHER_DATE"="Pick Another Date";
+// Shows when a booking cancellation was successful
+"BOOK_OPERATION_PICK_ANOTHER_DATE"="Sorry! This one’s already booked. Try another date!";
+// Shows when a selected date for having the trip was not suitable
 "BOOK_OPERATION_BOOK_OTHER_TRIPS"="Book Other Trips";
+// Shows on the page once a booking request is successfully sent. Takes you back to view more possible trips
 "BOOK_HISTROY"="History";
+// Shows your history of views
 "BOOK_RECORD"="Booking Details";
-"BOOK_CANCEL_DESC_FT"="If you have to cancel the trip, please do so as soon as possible as cancellations effect our insiders. Please note, aside from cancelations due to uncontrollable reasons, you may be charged a cancellation fee.";
-"BOOK_CANCEL_DESC_FI"="If you have to cancel the trip, please do so as soon as possible as cancellations effect our travelers. Please note, aside from cancelations due to uncontrollable reasons, you may be charged a cancellation fee.";
+// Shows the booking in further detail.
+"BOOK_CANCEL_DESC_FT"="If you have to cancel the Trip, try to do it as soon as possible. The cancellations do effect our Insiders, so some warning is better. But remember, aside from cancelations due to uncontrollable reasons, you may be charged a cancellation fee.";
+// Message that advises on cancellations. Seen by the Traveler
+"BOOK_CANCEL_DESC_FI"="If you have to cancel the Trip, try to do it as soon as possible. The cancellations do effect our Travelers, so some warning is better. But remember, aside from cancelations due to uncontrollable reasons, you may be charged a cancellation fee.";
+// Message that advises on cancellations. Seen by the Insider
 "BOOK_CANCEL_REASON"="Reasons for Cancellation";
+// Shows the Reason that the trip was cancelled
 "BOOK_EXPIRED_REASON"="Reasons for Expiration";
+// Shows the Reason that the trip expired
 "BOOK_POPUP_SUC"="Booking Successful";
-"BOOK_POPUP_SUC_DESC_1"="Please complete payment process within 2 hours.";
-"BOOK_POPUP_SUC_DESC_2"="%d other people are attempting to book this trip. You can secure your booking by paying now.";
+// Shows when a booking has been successfully completed
+"BOOK_POPUP_SUC_DESC_1"="Please try to complete the payment process within 2 hours in order to guarantee your booking.";
+// Shows when an Insider has accepted your booking request.
+"BOOK_POPUP_SUC_DESC_2"="%d other people are requesting to book this Trip. If you really like this Trip, you should consider paying now to guarantee your spot. ";
+// Advise that although your booking has been accepted, if someone pays before you, then you will lose the booking.
 "BOOK_POPUP_FAIL"="Booking Failed";
-"BOOK_POPUP_FAIL_DESC_1"="The Insider cancelled your booking. Please choose a different date or book another trip.";
-"BOOK_POPUP_FAIL_DESC_2"="Sorry! Another traveler got to this date first and booked the trip at this time. Please choose a different  date or book another trip.";
+// Shows when a booking has been unsuccessful
+"BOOK_POPUP_FAIL_DESC_1"="We’re really sorry, but the Insider has cancelled your booking. Don’t let this put you off though! You may be able to choose a different date, and if not, there are hundreds of other Trips you can try instead!";
+/* We’re really sorry, but the Insider has cancelled your booking. Don’t let this put you off though! 
+ You may be able to choose a different date, and if not, there are hundreds of other Trips you can try instead! */
+"BOOK_POPUP_FAIL_DESC_2"="Sorry! Another Traveler got to this date first and has already booked the Trip. Try choosing a different date or maybe explore some of the other Trips we have! ";
+// Shows when attempting to  book a date that someone has already reserved]
 "BOOK_POPUP_FINISH"="Trip Finshed!";
-"BOOK_POPUP_FINISH_DESC_FT"="How did you feel about this trip? Please leave our Insider a review!";
-"BOOK_POPUP_FINISH_DESC_FI"="Your trip is complete!";
+// Pop up when trip finished
+"BOOK_POPUP_FINISH_DESC_FT"="How did you feel about this Trip? Was is good? Great? Exciting? Fabulous? Leave our Insider a review and let them know what you think!";
+// After ‘Trip finished’ pop up, this one encourages Traveler to leave a review
+"BOOK_POPUP_FINISH_DESC_FI"="Your Trip is complete!";
+// Pop up for the Insider
 "BOOK_POPUP_CANCEL"="Trip Cancelled";
-"BOOK_POPUP_CANCEL_DESC_FT"="Insider cancelled the trip";
-"BOOK_POPUP_CANCEL_DESC_FI"="Traveler cancelled the trip";
+// Pop up when Trip has been cancelled
+"BOOK_POPUP_CANCEL_DESC_FT"="Insider cancelled the Trip";
+// Further info for the Traveler
+"BOOK_POPUP_CANCEL_DESC_FI"="Traveler cancelled the Trip";
+// Further info for the Insider
 "BOOK_POPUP_NEW"="You have a new booking!";
-"BOOK_POPUP_NEW_DESC"="%@ has requested a booking";
+// Pop up for the insider
+"BOOK_POPUP_NEW_DESC"="%@ has requested a booking!";
+// Identifies which Traveller has requested the booking
 "BOOK_POPUP_PAY"="Paid Successfully";
-"BOOK_POPUP_PAY_DESC"="%@ has paid for the trip";
+// Shows to the traveler as a pop up after payment
+"BOOK_POPUP_PAY_DESC"="%@ has paid for the Trip";
+//  Shows as pop up to the Insider
 "BOOK_POPUP_REVIEW"="You have a new review!";
-"BOOK_POPUP_REVIEW_DESC"="%@ left a review of the trip!";
+// Pop up for the Insider
+"BOOK_POPUP_REVIEW_DESC"="%@ left a review of the Trip!";
+// Further info for the insider
 "BOOK_POPUP_MODIFY"="%@ changed the booking details";
-"BOOK_BLANK_DESC_FT"="Book your favorite trip\nDiscover a different world!";
+// Shows as a pop up for insider or traveler
+"BOOK_BLANK_DESC_FT"="Book your favorite Trip\nDiscover a different world!";
+// Shows as a full screen message when using Traveler Profile
 "BOOK_BLANK_DESC_FI"="Waiting for your confirmed reservations";
+// Shows in the ‘Bookings’ section of Insider profile when you do not have any booking requests
 "BOOK_TRIP_DATE"="Trip Date: %@";
-"BOOK_MESSAGE_DEFAULT"="Hi, I'm %@. I'm interested in going on  your  '%@' trip on %@.";
-"BOOK_MESSAGE_ADDITIONAL"="Is there any additional information that you would like to give the insider?";
-"BOOK_MSG_BOOKED"="[NICK] has booked the trip scheduled for [DATE]";
-"BOOK_MSG_MODIFY_ONE"="[NICK] has changed the booking to: [DATE] with [PERSON] person";
-"BOOK_MSG_MODIFY_MORE"="[NICK] has changed the booking to: [DATE] with [PERSON] people";
-"BOOK_MSG_CONFRIMED"="[NICK] has confirmed the trip scheduled for [DATE]";
-"BOOK_MSG_PAID"="[NICK] has paid the trip scheduled for [DATE]";
-"BOOK_MSG_CANCELLED"="[NICK] has cancelled the trip scheduled for [DATE]";
-"BOOK_MSG_REVIEWED"="[NICK] has reviewed the trip";
+// Identifies the trip date in bookings list
+"BOOK_MESSAGE_DEFAULT"="Hi, I'm %@. I'm interested in going on  your  '%@' Trip on %@.";
+// Automated message sent to the Insider when a Traveler Requests to book a trip
+"BOOK_MESSAGE_ADDITIONAL"="Is there any additional information that you would like to give the Insider?";
+// Allows the Traveler to enter a personalised message when requesting to book a trip
+"BOOK_MSG_BOOKED"="Yeeea! [NICK] has booked the Trip scheduled for [DATE]! Log in now and check it out!";
+// Message sent via email and/or SMS. Sent to Insider
+"BOOK_MSG_MODIFY_ONE"="We have some news. [NICK] has changed the booking to: [DATE] with [PERSON] person. Go to your bookings to check it out!";
+// Message seen in-app. Sent to Insider. Shows a change in group size
+"BOOK_MSG_MODIFY_MORE"="[NICK] We have some news. [NICK] has changed the booking to: [DATE] with [PERSON] people. Go to your bookings to check it out!";
+// Message seen in-app. Sent to Insider. Shows a change in group size
+"BOOK_MSG_CONFRIMED"="Great news! [NICK] has confirmed the Trip scheduled for [DATE]. Go to your bookings to check it out!";
+// Message sent in-app. Sent to Traveler
+"BOOK_MSG_PAID"="Hey there! [NICK] has paid the Trip scheduled for [DATE]. \n Next to sharing your local culture, making new friends, experiencing a different view of life, and having a bunch of great new experiences, this is probably the best part about being an Insider.";
+// Message sent in-app. Sent to Insider
+"BOOK_MSG_CANCELLED"="We’re really sorry, but [NICK] has cancelled the Trip scheduled for [DATE]. We hope this doesn’t put you off looking for another great experience. You can check your bookings page to get more details about why the Trip was cancelled. If you have any questions, feel free to get in touch through our IM service on our website.";
+// Message sent in-app. Sent to Insider/ Traveler.
+"BOOK_MSG_REVIEWED"="Woo! [NICK] just reviewed the trip! Check your now and find out what they thought of it!";
+// Message sent in-app. Sent to Insider.
 "BOOK_SUBMIT_DATE_TITLE"="When do you want to go?";
+// Used in search bar
 "BOOK_SUBMIT_PEOPLE_TITLE"="How many people?";
+// Used as a filter
 "BOOK_SUBMIT_PEOPLE_MAX_ONE"="%d person maximum";
+// Shows when you select the maximum people that can attend your Trip (1 Person)
 "BOOK_SUBMIT_PEOPLE_MAX_MORE"="%d people maximum";
+// shows when you select the maximum people that can attend your Trip (2-6 people)
 "BOOK_SUBMIT_ADDITIONAL_TITLE"="Any preferences?";
-"BOOK_SUBMIT_ADDITIONAL_DESC"="For the Insider to be able to exceed your expectations, let the Insider know about any personal preferences.";
+//
+"BOOK_SUBMIT_ADDITIONAL_DESC"="So that our Insiders have a chance to exceed your expectations, let us know if you have any personal preferences that they can work around. For example, you love shell fish, or you’re scared of heights, or that even being near shellfish might be lethal for you. You know, the little things.";
+// Section that allows travellers to add a small personal statement, i.e ‘Hate jellyfish, please no jellyfish food’.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Chat
+ * -----------------------------------------------------------------------
+ */
+
 "CHAT"="Chat";
+// Button lets you enter the IM system and chat with another user
 "CHAT_STATE_CONNETCTING"="Connecting…";
+// Status indicator
 "CHAT_STATE_RECONNECT"="Reconnecting…";
+// Status indicator
 "CHAT_STATE_DISCONNECTED"="Disconnected";
+// Status indicator
 "CHAT_MSG_ROLE_CONFIRM_FT"="You have a message waiting from a Traveler. Do you want to change to your Insider profile to view the message?";
+// Pop up when an Insider is using their Traveler profile (all users can switch between being a Traveler and Insider)
 "CHAT_MSG_ROLE_CONFIRM_FI"="You have a message waiting from an Insider. Do you want to change to your Traveler profile to view the message?";
+// Pop up when an Traveler is using their Insider profile (all users can switch between being a Traveler and Insider)
 "CHAT_MSG_ROLE_OPERATION_CHANGE"="Switch profile role?";
+// Pop up on ‘Me’ page that appears when you press the “Switch to Insider/Traveler’ button
 "CHAT_MSG_TYPE_IMAGE"="sent you a photo";
+// Pop up to indicate received message
 "CHAT_MSG_TYPE_VOICE"="sent you a voice message";
+// Pop up to indicate received message
 "CHAT_MSG_TYPE_LOCATION"="shared a location with you";
+// Pop up to indicate received message
 "CHAT_MSG_TYPE_IMAGE_TEXT"="sent you a multi media message";
+// Pop up to indicate received message
 "CHAT_MSG_TYPE_NOTICE"="sent you a message";
+// Pop up to indicate received message
 "CHAT_MSG_TYPE_NOT_SUPPORT"="The system does not support this type of message";
+// Shows when you attempt to transfer an unsupported file. Travel or Insider
 "CHAT_READ"="Seen";
+// Indicates that the message has been viewed by the other user. For Insiders and Travelers
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Navigation Bar
+ * -----------------------------------------------------------------------
+ */
+
 "USER_ROLE_TRAVELLER"="Traveler";
+//Title at the top of ‘Me’ page when in Traveler mode/profile
 "USER_ROLE_INSIDER"="Insider";
+// Title at the top of ‘Me’ page when in Insider mode/profile
 "USER_SWTICH_TO_TRAVELER"="Switch to Traveler";
+// Button on ‘Me’ Page that switches profile role. Insider-Traveler
 "USER_SWTICH_TO_INSIDER"="Switch to Insider";
+// Button on ‘Me’ Page that switches profile role. Traveler- Insider
 "USER_ROLE_HE"="He";
+// Users identify their gender when signing up. This role is assigned to automated messages being sent to other users.
 "USER_ROLE_SHE"="She";
+// Users identify their gender when signing up. This role is assigned to automated messages being sent to other users.
 "USER_ATTRIBUTE_JOIN"="Member Since";
+// When you select a Trip, scrolling to the bottom of the page will give you details about the Insider, Including this.
 "USER_ATTRIBUTE_NICKNAME"="Display Name";
-"USER_ATTRIBUTE_NICKNAME_LIMIT"="We suggest you use your real name to help encourage trust. Maximum %d characters. This display name  can only be changed once every 30 days.";
+// In ‘About Me’ page, this indicates the section you choose the name that everyone sees. Press to change.
+"USER_ATTRIBUTE_NICKNAME_LIMIT"="We suggest you use your real name to help encourage trust. Maximum %d characters. This display name can only be changed once every 30 days, so don't change your identity too often unless witness protection tells you it's necessary.";
+// Tip given when you press “Display Name’ and it takes you to the page you can change it
 "USER_ATTRIBUTE_NICKNAME_SAVE_CONFIRM"="Your display name is now %@, and cannot be changed for 30 days.";
+// Message that appears after changing your display name
 "USER_ATTRIBUTE_PROFILE_PICTURE"="Profile Picture";
+// In 'About me’ section. Allows you to change your display pic if pressed.
 "USER_ATTRIBUTE_WORK"="Work";
+// About me’ section. You can type your job/profession/ occupation here.
 "USER_ATTRIBUTE_WORK_LIMIT"="Maximum %d characters";
+// Identifies how many characters a section can have
 "USER_ATTRIBUTE_CITY"="City";
+// ‘about me’ section. Identifies your home country and region.
 "USER_ATTRIBUTE_CITY_DESC"="Where do you live?";
+// Description beside ‘City’
 "USER_ATTRIBUTE_HOBBY"="Passionate about";
+// ‘About me' section. Section gives 60 characters for brief description of passions and hobbies
 "USER_ATTRIBUTE_HOBBY_DESC"="What are you passionate about?";
+// Description beside the ‘passionate about’ title
 "USER_ATTRIBUTE_LANGUAGE"="Spoken Language";
+// ‘About me’ section. Lets you select your spoken languages
 "USER_ATTRIBUTE_LANGUAGE_DESC"="Please select at least one language";
+// Description beside the “spoken Language’ section
 "USER_ATTRIBUTE_INTRODUCE"="Describe yourself";
-"USER_ATTRIBUTE_INTRODUCE_DESC"="Let people know who you are as a person. What is your style of traveling? What is your approach to life?";
+// “about me’ section. Lets you write a short introduction
+"USER_ATTRIBUTE_INTRODUCE_DESC"="Let people know who you are as a person. What is your style of traveling? What is your approach to life? Let them get to know you a little.";
+// Tip written inside the ‘describe yourself’ box, before you begin writing
 "USER_ATTRIBUTE_ID_DOCUMENT"="Identification Document";
+// Insider the ‘Verified ID’ section. Takes you to a page that lets you fill in the details of you ID document.
 "USER_ATTRIBUTE_ID_DOCUMENT_TYPE"="Identification Type";
+// Inside ‘Identification document’ section. Pressing this lets you select ‘id card’ or ‘passport’
 "USER_ATTRIBUTE_ID_DOCUMENT_TYPE_DESC"="Choose identification type";
+// Inside ‘Identification document’ section. Allows you to choose ID card of Passport
 "USER_ATTRIBUTE_ID_DOCUMENT_TYPE_VALUE_PASSPORT"="Passport";
+// Pop up. One of the options for ID Type
 "USER_ATTRIBUTE_ID_DOCUMENT_TYPE_VALUE_IDCARD"="ID Card";
+// Pop up. One of the options for ID Type
 "USER_ATTRIBUTE_ID_DOCUMENT_NUMBER"="ID Number";
+// Inside ‘Identification document’ section. Pressing this lets you enter the ID card/ passport number
 "USER_ATTRIBUTE_ID_DOCUMENT_NUMBER_LIMIT"="Please enter your ID number.";
+// Prompt that appears under the box ‘ID Number’
 "USER_ATTRIBUTE_ID_DOCUMENT_EXPIRY"="Expires On";
+// Inside ‘Identification document’ section. Lets you choose the date once pressed.
 "USER_ATTRIBUTE_ID_DOCUMENT_EXPIRY_DESC"="Expires On";
+// Inside ‘Identification document’ section. Lets you choose the date once pressed.
 "USER_ATTRIBUTE_NAME"="Legal Name";
+// Inside ‘Identification document’ section. Pressing this allows you to enter the name on the ID Doc
 "USER_ATTRIBUTE_NAME_LIMIT"="Please enter your full legal name.";
+// Prompt insider the ‘Legal Name’ box
 "USER_ATTRIBUTE_GENDER"="Gender";
+// Inside ‘Identification document’ section. Allows you to choose
 "USER_ATTRIBUTE_GENDER_DESC"="Your Gender";
+// Next page title after selecting ‘Gender’
 "USER_ATTRIBUTE_GENDER_VALUE_MALE"="Male";
+// Pop up choice. Your own gender.
 "USER_ATTRIBUTE_GENDER_VALUE_FEMALE"="Female";
+// Pop up choice. Your own gender.
 "USER_ATTRIBUTE_BIRTH"="Date of Birth";
+// Inside ‘Identification document’ section. Pressing this brings up a calendar that lets you select your DOB
 "USER_ATTRIBUTE_BIRTH_DESC"="Date of Birth";
+// Page title after selecting’Date of Birth’ in Identification Document section
 "USER_ATTRIBUTE_TRIP_ONE"="%d Trip";
+//
 "USER_ATTRIBUTE_TRIP_MORE"="%d Trips";
+//
 "USER_GROUP_ABOUT"="About Me";
-"USER_VERIFIED_PAGE_DESC"="In order to improve security for both insiders and travelers, and to encourage trust with other users, we strongly encourage you to complete as many forms of identity verification as possible. Rest assured, we will never share any of this information with any third party entities. ";
+//
+"USER_VERIFIED_PAGE_DESC"="In order to improve security for both Insiders and Travelers, and to encourage trust with other users, we strongly encourage you to complete as many forms of identity verification as possible. Don’t worry, we will never share any of this information with any third parties.";
+// Prompt in the personal details for ‘Me’ section.
 "USER_GROUP_VERIFICATION"="Verified ID";
+// Title of the section in ‘me’ area. Both Insiders and Traveler
 "USER_OPERATION_UPLOAD_ID_COPY"="Upload a copy of your Passport or ID Card";
+// Button in ‘Identification document’ section that allows you to upload a photo so that we can confirm your details.
 "USER_OPERATION_UPLOAD_ID_COPY_DESC"="Upload your valid certificate, such as passport, ID card, etc. Do not forget to include the expiry date if it appears on a different page. Please make sure the upload is clear.";
+// Prompt  in the section that allows you to upload your ID photo.
 "USER_OPERATION_VERIFY_FEEDBACK"="Your information is being verified. You'll receive a notice once it is completed.";
-"USER_VERIFY_STATE_0"="Not Verified";
+// Message shown once your ID documents have been submitted]
+"USER_VERIFY_STATE_0"="Not Yet Verified";
+// Status indicator
 "USER_VERIFY_STATE_1"="Processing…";
+// Status indicator
 "USER_VERIFY_STATE_2"="Verified";
+// Status indicator
 "USER_VERIFY_STATE_3"="Verification Failed";
+// Status indicator
 "USER_COMPLETE_PROFILE_TITLE"="Oops!";
+// Pop up when an error has occurred
 "USER_COMPLETE_PROFILE_DESC"="Your profile isn’t quite complete. Completing your profile will help you gain more trust from Insiders.";
+// A prompt shown when there are details left incomplete in your profile
 "USER_COMPLETE_PROFILE_PICTURE_DESC"="Please upload a clear picture of yourself";
+// Prompt beside the profile picture upload section
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Favourite
+ * -----------------------------------------------------------------------
+ */
+
 "FAVORITE_NUMBER"="%d Likes";
+// Indicates how many ‘Likes’ a particular trip has received. Shown at bottom of Trip description
 "FAVORITE_OPERATION_DELETE_CONFIRM"="Want to remove this trip from your favorites?";
-"FAVORITE_404"="This trip is no longer offered by the insider. Explore other wonderful trips.";
-"FAVORITE_BLANK_DESC"="Put your favorite trips here";
+// “Liking’ a trip adds it to your favourites. ‘Unliking’ a trip removes. When you unlike, this pop up appears to confirm he decision
+"FAVORITE_404"="We’re sorry, but this trip is no longer offered by the Insider. Why not explore some of the other wonderful trips we have?";
+// When you try to book a trip that you liked in the past, but has since been deleted or removed, this message will appear
+"FAVORITE_BLANK_DESC"="Put your favourite Trips here so that they’re easy to find.";
+// The message that appears in the ‘Favourites’ section before you have liked any trips.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Review
+ * -----------------------------------------------------------------------
+ */
+
 "REVIEW"="Review";
+// Button allows you begin the review process
 "REVIEW_AND_FEEDBACK"="Review & Feedback";
-"REVIEW_DESC"="Do you have any comments to make about this trip?";
+//
+"REVIEW_DESC"="Do you have any comments you’d like to make about this Trip?";
+// Allows you to add further comments/ observations than the simple review/scoring system offered by default.
 "REVIEW_ATTRIBUTE_NUMBER_ONE"="%d Review";
+// Shows when a trip has 1 Review.
 "REVIEW_ATTRIBUTE_NUMBER_MORE"="%d Reviews";
+// Shows when a trip has >1 Review.
 "REVIEW_ATTRIBUTE_NUMBER_ALL"="All Reviews";
+// Button allows you to see all the reviews rather than just the most recent one on the Trip description page.
 "REVIEW_ATTRIBUTE_PEOPLE_MY"="My Review";
+//
 "REVIEW_ATTRIBUTE_PEOPLE_SOMEONE"="Reviewed by %@";
+//
 "REVIEW_OPERATION_VIEW"="All Reviews";
+//
 "REVIEW_OPERATION_REVIEW"="Submit";
+// Submit button. Found in the review section
 "REVIEW_OPERATION_REVIEW_NOW"="Write a Review";
+// Button allows you to write a review for the trip that you have been on
 "REVIEW_OPERATION_RATE_DESC"="Rate this Trip";
+// Allows you to choose a rating for the trip. Different from review because it is a star based system. But it is found in the ‘Review this trip section’
 "REVIEW_OPERATION_REVIEW_FEEDBACK"="Reviewed Successfully";
+// Pop up shows when review is completed
 "REVIEW_OPERATION_REVIEW_FEEDBACK_GOOD"="Live Like a Local wherever you want to go with Tripinsiders";
-"REVIEW_OPERATION_REVIEW_FEEDBACK_BAD"="We really appreciate your feedback";
+// This pop up is given if the person leaves positive feedback about the trip
+"REVIEW_OPERATION_REVIEW_FEEDBACK_BAD"="Thanks for taking the time to respond. We really appreciate your feedback and will use it to constantly try and improve our services.";
+// This pop up is given if the person leaves negative feedback about the trip
 "REVIEW_NPS_QUESTION"="How likely are you to recommend Tripinsiders to a friend?";
+// Text that comes with a simple rating from not at all likely to extremely likely
 "REVIEW_NPS_LIKELY"="Extremely likely";
+// highest positive response
 "REVIEW_NPS_NOT_LIKELY"="Not at all likely";
+// lowest negative response
 "REVIEW_NPS_FEEDBACK"="Can you tell us a bit more about why you chose %d?";
+// Section that asks for further information regarding a selection.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Price
+ * -----------------------------------------------------------------------
+ */
+
 "PRICE"="Price";
+// This Describes the price of the trip when viewing and is only used in this method. In the screen for purchasing, the word used it ‘total’
 "PRICE_ATTRIBUTE_TYPE"="Pricing Type";
+// This describes the method used for pricing trips: I.e fixed price/ per traveller.
 "PRICE_ATTRIBUTE_TYPE_VALUE_FREE"="Free";
+// This description is used for a trip that does not charge a fee.
 "PRICE_ATTRIBUTE_TYPE_VALUE_FIXED"="Fixed Price";
+// This is used to describe trips that are the same price regardless of number of travellers.
 "PRICE_ATTRIBUTE_TYPE_VALUE_PEOPLE"="Per Traveler";
+// This is used to describe trips that charge the displayed amount for each traveller that comes. E.g 1 Traveler: 10 USD, 5 Travelers: 50 USD
 "PRICE_ATTRIBUTE_INCLUSION"="Price includes";
+// This is the title of a list that shows all things included in the price of the trip: e.g. lunch, admission tickets etc
 "PRICE_ATTRIBUTE_EXCLUSION"="Price does not include";
+// This is the title of a list that shows all things included in the price of the trip: e.g. Umbrella, extra food etc
 "PRICE_SET"="Price";
+// This is shown when creating a trip and selecting the price you want to charge for it.
 "PRICE_GROUP_DETAIL"="Price Details";
+// This is the title on a screen which covers all details related to setting the price: e.g Pricing Type/ Currency/ Price/ Price Includes/ Price does not include
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Fee
+ * -----------------------------------------------------------------------
+ */
+
 "FEE_TOTAL"="Total";
+// This is the total amount that Tripinsiders take as a charge for using the platform. Our usage Fee.
 "FEE_PAID"="Paid";
+// This refers to the amount that was pad for the trip including fees and discounts/coupon codes.
 "FEE_RECIVED"="Received";
+// This shows the total amount received.
 "FEE_TYPE_TRANSACTION_FT"="Transaction Fee";
+// This is the fee that appears for Travelers
 "FEE_TYPE_TRANSACTION_FI"="Transaction Fee";
+// This is fee that appears for ‘Insiders’. The people offering the trips on our service platform
 "FEE_TYPE_TRANSACTION_DESC"="The Transaction Fee is included in the payment processes by the third-party payment platform or organisation; VISA, MasterCard, etc.";
+// This description appears to explain what the transaction fee is.
 "FEE_TYPE_SERVICE"="Service Fee";
+// This is the fee charged by tripinsiders for the use of the platform
 "FEE_TYPE_SERVICE_DESC"="Tripinsiders is a service platform. The Service Fee is charged for the use of this platform and will be used to ensure future user experience and security.";
+// Explanation for the users as to what the service fee is, and why it is charged.
 "FEE_TYPE_COUPON"="Coupon";
+// This is a section that a coupon code can be entered and a discount of percentage or set value can be applied
 "FEE_TYPE_PAID"="Paid";
+// Shows the amount paid after completed transaction
 "FEE_TYPE_CANCELLATION"="Cancellation Fee";
+// This cancellation fee appears both for travelers and Insiders if the rules regarding cancelations and minimum notice are breached.
 "FEE_TYPE_REFUND"="Refund";
+// A refund is only processed to a traveler.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Coupon
+ * -----------------------------------------------------------------------
+ */
+
 "COUPON"="Coupon";
+// In the ‘me’ section there is this option for ‘coupon’
 "COUPON_ATTRIBUTE_EXPIRY"="Expired On: %@";
+// Shows the expiration date of the coupon
 "COUPON_STATE_UNUSED"="Unused";
+// Shows whether a coupon is still able to be used
 "COUPON_STATE_INVALID"="Invalid";
+// Shows that a coupon is no longer valid
 "COUPON_NOT_USE"="Don't use Coupon";
+// Confirmation request to confirm the use of the coupon.
 "COUPON_BLANK_DESC"="You don't have any coupons at the moment";
+// Text that shows when coupon section is empty
 "COUPON_CODE_DESC"="Enter Promo Code";
+// Text appears in the box used to enter the coupons code to validate it (using a code you received and activating the coupon.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Pay
+ * -----------------------------------------------------------------------
+ */
+
 "PAY"="Pay";
+// Used as a button. Same idea as ‘Submit’
 "PAYMENT"="Payment";
+// Used for page titles.
 "PAY_OPERATION_PAY_NOW"="Pay Now";
-"PAY_OPERATION_PAY_FEEDBACK_SUC"="Paid Successfully";
-"PAY_OPERATION_PAY_FEEDBACK_SUC_DESC"="We have received your payment.\nOnce the trip is completed, as long as there have been no problems with the trip, we will transfer the money to %@s’ account.\n\nWe hope you have a great trip! :)";
+// Button that allows the Traveller to pay for the trip. Takes them to payment screed.
+"PAY_OPERATION_PAY_FEEDBACK_SUC"="Paid Successfully!";
+// Confirmation message
+"PAY_OPERATION_PAY_FEEDBACK_SUC_DESC"="We have received your payment.\nOnce the trip is completed, as long as there have been no problems, we will transfer the money to %@s’ account.\n\nWe hope you have a great trip! :)";
+// This message appears after payment is completed.
 "PAY_OPERATION_PAY_FEEDBACK_FAIL"="Payment Failed";
+// Message to show a failed payment, can be due to a variety of reasons.
 "PAY_OPERATION_TRY_AGAIN"="Try Again";
+// Button that allows another payment attempt
 "PAY_STATE_WAITING"="Paying…";
+// Same idea as ‘Loading…’
 "PAY_CREDIT_CARD_DESC"="Secure credit card payment";
+// Description on the card payment page
 "PAY_CONFIRM"="You will pay %@ %.2f";
+// Summarises the payment. X amount to {example name}
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Account
+ * -----------------------------------------------------------------------
+ */
+
 "ACCOUNT_ALIPAY"="Alipay";
+// Option for payment button. Popular payment system app in Mainland China.
 "ACCOUNT_WECHATPAY"="WeChat Pay";
+// Option for payment. Popular payment system app in Mainland China. Wechat is also the most popular Social Media platform.
 "ACCOUNT_PAYPAL"="PayPal Account";
-"ACCOUNT_PAYPAL_LIMIT"="Please check your account to avoid transfer failure";
+// Option for payment button. PayPal is one of the better know worldwide payment systems
+"ACCOUNT_PAYPAL_LIMIT"="Please make sure your your account details are correct to avoid transfer failure";
+// Prompt to double check the details entered to avoid any possible transfers to the incorrect account.
 "ACCOUNT_PAYPAL_SET_CONFIRM"="Your PayPal account is %@";
-"ACCOUNT_PAYPAL_WITHDRAW_DESC"="The funds will be transferred to your account within 3-4 hours. Please bear in mind that PayPal will charge a service fee when you withdraw money from their platform.";
-"ACCOUNT_PAYPAL_WITHDRAW_CONFIRM"="You'll withdraw %.2f to your account %@";
+// Confirmation pop up.
+"ACCOUNT_PAYPAL_WITHDRAW_DESC"="The funds should be transferred to your account within 3-4 hours roughly. Please bear in mind that PayPal will charge a service fee when you withdraw money from their platform.";
+// Info given when using Paypal
+"ACCOUNT_PAYPAL_WITHDRAW_CONFIRM"="You’re about to withdraw %.2f to your PayPal account %@";
+// Summarises the transaction to confirm the amount and location
 "ACCOUNT_VISA"="VISA";
+// Option for 'Payment' button.
 "ACCOUNT_VISA_ATTRIBUTE_VALIDATION"="Card Verification Value 2";
-"ACCOUNT_VISA_PAY_DESC"="Please make sure you are using a VISA credit card payment to Tripinsiders";
+// Enter details of VISA card here
+"ACCOUNT_VISA_PAY_DESC"="Please make sure you are using a VISA credit card when selecting this option.";
+// Prompt when using VISA option
 "ACCOUNT_MASTERCARD"="MasterCard";
+// Payment option Button
 "ACCOUNT_MASTERCARD_ATTRIBUTE_VALIDATION"="Card Validation Code 2";
-"ACCOUNT_MASTERCARD_PAY_DESC"="Please make sure you are using a MasterCard credit card payment to Tripinsiders.";
-"ACCOUNT_CARD_ATTRIBUTE_HOLDER"="Holder Name";
+// Enter details of MasterCard card here
+"ACCOUNT_MASTERCARD_PAY_DESC"="Please make sure you are using a MasterCard credit card when selecting this option.";
+// Prompt when using Mastercard option
+"ACCOUNT_CARD_ATTRIBUTE_HOLDER"="Card Holders Name";
+// Space for enter name as it appears on card
 "ACCOUNT_CARD_ATTRIBUTE_NUMBER"="Card Number";
+// Space for entering card number
 "ACCOUNT_CARD_ATTRIBUTE_EXPIRY"="Expiry MM/YY";
+// Space for Expiry details
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Transaction
+ * -----------------------------------------------------------------------
+ */
+
 "TRANSACTION"="Transactions";
+// Section in ‘Wallet’ on Insider Profile. Summarises all transactions in a list when pressed
 "TRANSACTION_DETAIL"="Details";
+// Gives further information on specific transaction
 "TRANSACTION_RATE"="Today's Exchange Rate";
+// Button on top right of ‘transactions’ page that when pressed loads current days exchange rates
 "TRANSACTION_AMOUNT"="Amount";
+// Shows total transaction value
 "TRANSACTION_ATTRIBUTE_BALANCE"="Balance";
+// Shows current total “balance’ in your ‘wallet’ in USD
 "TRANSACTION_ATTRIBUTE_BALANCE_DESC"="Due to the many types of currencies received, we exchange all payments into US Dollars according to the latest International Exchange rates to be withdrawn at your convenience. ";
+// Info offered when a ‘?’ button in the top right of “wallet” screen is pressed
 "TRANSACTION_ATTRIBUTE_PAYER"="From";
+// Gives info regarding transaction. From {traveler name}
 "TRANSACTION_ATTRIBUTE_TIME"="Transferred On";
+// Gives info regarding transaction. Transferred on {date}
 "TRANSACTION_ATTRIBUTE_TYPE"="Transaction Type";
+// Gives info regarding transaction. Transaction type {Reward/penalty/withdrawal/payment}
 "TRANSACTION_ATTRIBUTE_TYPE_REWARD"="Reward";
-"TRANSACTION_ATTRIBUTE_TYPE_WITHDRAW"="Withdraw";
+// Gives info regarding transaction. From {traveler name}
+"TRANSACTION_ATTRIBUTE_TYPE_WITHDRAW"="Withdrawal";
+// Gives info regarding transaction. Withdrawal {$value}
 "TRANSACTION_STATE_RECEIVED"="Received";
+// Gives info regarding transaction. Received {$value}
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Wallet
+ * -----------------------------------------------------------------------
+ */
+
 "WALLET"="Wallet";
+//
 "WALLET_POINT"="To access your Wallet just click in the \"Wallet\" item";
 "WALLET_INTRO_TITLE_1"="Wallet";
 "WALLET_INTRO_DESC_1"="We have added the 'Wallet' to your profile.";
@@ -614,62 +1218,167 @@ I/*
 "WALLET_TRANSACTION_TYPE_WITHDRAWAL"="Withdrawal";
 "WALLET_TRANSACTION_TRANSFERRED_ON"="Transferred On";
 "WALLET_TRANSACTION_AMOUNT"="Amount";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Withdraw
+ * -----------------------------------------------------------------------
+ */
+
 "WITHDRAW"="Withdraw";
+// Button to withdraw cash.
 "WITHDRAW_DETAIL"="Details";
+// Gives a breakdown of the withdrawal
 "WITHDRAW_ATTRIBUTE_AMOUNT"="Amount";
+// Shows total amount being withdrawn in the details
 "WITHDRAW_ATTRIBUTE_WITHDRAW_TIME"="Withdraw Date";
+// Shows date withdrawal was made
 "WITHDRAW_ATTRIBUTE_APPROXIMATE_TIME"="Estimated Time of Arrival";
+// Gives an estimated time of arrival to account based on the information provided by the company
 "WITHDRAW_ATTRIBUTE_COMPLETE_TIME"="Transferred On";
+// Date transfer was made
 "WITHDRAW_STATE_PROCESS"="Processing";
+// Status indicator
 "WITHDRAW_STATE_COMPLETE"="Completed";
-"WITHDRAW_STATE_FAIL"="Withdrawl Failed";
+// Status indicator
+"WITHDRAW_STATE_FAIL"="Withdrawal Failed";
+// Status indicator
 "WITHDRAW_STATE_FAIL_REASON"="Please verify your account";
+// Request made when verification is required
 "WITHDRAW_APPROXIMATE_TIME"="5-7 Days";
+// Approximate time for deposit of funds to your account
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Setting
+ * -----------------------------------------------------------------------
+ */
+
 "SETTING"="Settings";
+// Main Button that takes you to ‘Settings’ section.
 "SETTING_COUNTRY"="Country and Region";
+// Allows you to edit your location
 "SETTING_CURRENCY"="Currency";
+// Button in ‘Settings’. Allows you to choose the currency you want all prices to appear in, in-app.
 "SETTING_CURRENCY_DESC"="Choose your currency";
+// After pressing ‘Currency’ this title appears above the list of available currencies for selection.
 "SETTING_ABOUT"="About Us";
+// Button takes you to a page which shows you’re current app version, the link to website, Facebook page, Instagram page, and Wordpress page.
 "SETTING_ADVICE"="Feedback";
+// Button takes you to a page which allows for direct feedback to be written and submitted to Tripinsiders in a simple format.
 "SETTING_ADVICE_DESC"="Share your ideas with us! We appreciate any feedback.";
-"SETTING_ADVICE_SUBMIT_FEEDBACK"="Many thanks for your great advice. We'll keep refining.";
+// Message  that appears in the text box on the ‘Feedback’ page
+"SETTING_ADVICE_SUBMIT_FEEDBACK"="Many thanks for your feedback. We are constantly trying to improve and refine our service.";
+// Pop up following feedback successful submission
 "SETTING_RATE"="Rate Us";
+// Button which redirects to app stores to leave a rating for the App.
 "SETTING_CONTACT"="Contact Us";
+// Button gives the links to Facebook and the direct email address for contacting Tripinsiders with any issues, queries or questions.
 "SETTING_CONTACT_WECHAT"="Follow us on our official WeChat account: cuitrip";
+// Tip which appears in order to make the user aware of the official Wechat account
 "SETTING_CONTACT_PHONE"="Phone";
+// Direct Contact number for Tripinsiders
 "SETTING_CONTACT_PHONE_CONFIRM"="You want to call Tripinsiders?";
+// Confirmation pop up
 "SETTING_SHARE"="Share with Friends";
+// Button leads to page which allows to share through facebook, email or to copy links
 "SETTING_HELP"="Help";
+// Button leads to the knowledge base/help section of the app
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Message
+ * -----------------------------------------------------------------------
+ */
+
 "MESSAGE"="Inbox";
+// Button takes you to your inbox as Traveler or Insider
 "MESSAGE_FEEDBACK_NO_RESULT"="You currently have no messages";
+// Message appears on screen when inbox is empty
 "MESSAGE_TYPE_BOOK"="Booking Message";
+// Message content is related to bookings.
 "MESSAGE_TYPE_SYSTEM"="System Message";
-"PASSWORD"="Password";
+// Message is system generated
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Password
+ * -----------------------------------------------------------------------
+ */
+
+"PASSWORD"="Change Password";
+// Option in “settings”. Button takes you too password change page
 "PASSWORD_OLD"="Old Password";
+// In ‘change password’.Writing appears in box to prompt user to enter current password
 "PASSWORD_NEW"="New Password";
+// In ‘change password’.Writing appears in box to prompt user to enter new password
 "PASSWORD_NEW_REENTER"="Re-enter new password";
+// In ‘change password’.Writing appears in box to prompt user to re-enter new password
 "PASSWORD_NEW_CONFIRM"="Confirm new password";
+// Prompt to re-enter new password once again.
 "PASSWORD_FORGOT"="Forgot Password";
+// Button appears on log-in screen.
 "PASSWORD_RETRIEVE"="Retrieve Password";
-"PASSWORD_RETRIEVE_FEEDBACK_SUC"="Retrieve password success. Please sing in.";
+// Button that gives you the option to retrieve by email or by cell phone.
+"PASSWORD_RETRIEVE_FEEDBACK_SUC"="Password retrieval successful. Feel free to sign in!";
+// Pop up when retrieval is successfully completed
 "PASSWORD_CHANGE"="Change Password";
+// Option in “change password” section.
 "PASSWORD_CHANGE_FEEDBACK_SUC"="Password Changed";
+// Confirmation of change
 "PASSWORD_DIFFERENT"="Passwords do not match";
-"PHONE"="Mobile Phone";
-"PHONE_VERIFY"="Verify Mobile Phone";
-"PHONE_VERIFY_DESC"="You can login with your phone\nafter verifying your number";
-"PHONE_NUMBER"="Phone Number";
-"PHONE_NUMBER_DESC"="Please select region code and enter your phone number";
+// Pop up when new password and re-enter new password sections do not match.
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Cell Phone
+ * -----------------------------------------------------------------------
+ */
+
+"PHONE"="Cell Phone";
+// Button inside ‘Verified ID’ section. Pressing this will take you to the page to add/edit your phone number
+"PHONE_VERIFY"="Verify Cell Phone";
+// Title on page after pressing ‘Mobile Phone’
+"PHONE_VERIFY_DESC"="You can login with your cell phone number \nafter verifying it here.";
+// Mesesage on the page beneath title ‘Verify Mobile Phone’
+"PHONE_NUMBER"="Cell Phone Number";
+// Text appears in box that you enter your number
+"PHONE_NUMBER_DESC"="Please select region code and enter your cell phone number";
+// Text appears above box that you enter your number
 "PHONE_NOT_RECEIVE"="Didn't receive SMS?";
-"PHONE_CHANGE"="Change Mobile Phone";
+// Message that appears if after 60 seconds you have not entered the code sent to you via SMS
+"PHONE_CHANGE"="Change Cell Phone";
+// Allows you to change your cellphone number
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Email
+ * -----------------------------------------------------------------------
+ */
+
 "MAIL"="Email";
+// Button inside ‘Verified ID’ section
 "MAIL_VERIFY"="Verify Email";
+// Title on the page if you have not verified your email
 "MAIL_VERIFY_DESC"="You can login using your email address\nafter verifying it";
+// Message that appears directly below the title ‘Verify Email’
 "MAIL_ADDRESS"="Email Address";
+// Appears in the box that you enter your email address
 "MAIL_ADDRESS_DESC"="Please enter your email address";
-"MAIL_LIMIT"="Please enter the correct email address";
+// Appears above the box that you enter your email address
+"MAIL_LIMIT"="Oops, this email address doesn't seem right, try entering the address again";
+// Pop up if email address is incorrect
 "MAIL_NOT_RECEIVE"="Didn't receive email?";
+// Option that appears that you can press and confirm appears, and lets you confirm that the email was correct
 "MAIL_CHANGE"="Change Email";
+// Allows you to change email addresses if you have already confirmed one
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Verification Code
+ * -----------------------------------------------------------------------
+ */
+
 "VERIFICATION_CODE"="Verification Code";
 "VERIFICATION_CODE_SEND"="Send Verification Code";
 "VERIFICATION_CODE_SEND_FEEDBACK_SUC"="A verification code has been sent to\n%@";
@@ -679,6 +1388,13 @@ I/*
 "VERIFICATION_CODE_DESC_1"="Please enter verification code";
 "VERIFICATION_CODE_RESEND"="Resend after %ds";
 "VERIFICATION_CODE_INCORRECT"="Your verification code is not correct";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Sign up, Sign in, and Sign out
+ * -----------------------------------------------------------------------
+ */
+
 "SIGN_IN"="Login";
 "SIGN_IN_WITH"="Login with";
 "SIGN_IN_NOT"="Login";
@@ -695,12 +1411,26 @@ I/*
 "SIGN_UP_SET_EMAIL"="Please fill out an email as your account";
 "SIGN_OUT"="Sign Out";
 "SIGN_OUT_CONFIRM"="Sign Out?";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Social
+ * -----------------------------------------------------------------------
+ */
+
 "SOCIAL"="Social Network Account";
 "SOCIAL_WECHAT"="WeChat";
 "SOCIAL_FACEBOOK"="Facebook";
 "SOCIAL_GOOGLE_PLUS"="Google+";
 "SOCIAL_SINA"="Weibo";
 "SOCIAL_WECHAT_NOT_INSTALLED"="WeChat is currently not installed";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Share
+ * -----------------------------------------------------------------------
+ */
+
 "SHARE"="Share";
 "SHARE_COPY"="Copy Links";
 "SHARE_COPY_SUC"="Copied Successfully";
@@ -718,9 +1448,23 @@ I/*
 "SHARE_MESSENGER"="Messenger";
 "SHARE_QZONE"="Qzone";
 "SHARE_QQ"="QQ";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Map
+ * -----------------------------------------------------------------------
+ */
+
 "MAP_CHOOSE"="Choose your preferred map provider.";
 "MAP_GOOGLE"="Google Maps";
 "MAP_GAODE"="GaoDe Maps";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Insider Guide
+ * -----------------------------------------------------------------------
+ */
+
 "INSIDER_GUIDE_TITLE1"="Welcome to the world of tripinsiders";
 "INSIDER_GUIDE_DESC1"="Meet Travelers from all over the world\nDiscover local experiences\nHave fun and gain deep insights";
 "INSIDER_GUIDE_TITLE2"="Create a Trip";
@@ -729,6 +1473,13 @@ I/*
 "INSIDER_GUIDE_DESC3"="Assist Travelers from all over the world\nHear the sounds of a distant place\nGet paid\nMake new friends";
 "INSIDER_GUIDE_TITLE4"="Become a Tripinsider";
 "INSIDER_GUIDE_DESC4"="Live Like a Local";
+
+/*
+ * -----------------------------------------------------------------------
+ * Section: Other
+ * -----------------------------------------------------------------------
+ */
+
 "OTHER_HELLO"="Hi, %@";
 "OTHER_SNAPSHOT"="Snapshot Time: %@";
 "TRIPINSIDERS_RECOMMEND"="Tripinsiders Favorite";
