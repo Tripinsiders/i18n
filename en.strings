@@ -224,6 +224,7 @@
 "TRIP_ATTRIBUTE_CAPACITY_VALUE_MORE"="{INT} travelers";
 "TRIP_ATTRIBUTE_MEET"="Meeting Point";
 "TRIP_ATTRIBUTE_MEET_DESC"="Where will you meet?";
+"TRIP_ATTRIBUTE_MEET_DESC2"="Please choose a meeting point";
 "TRIP_ATTRIBUTE_ADVICE"="Notices";
 "TRIP_ATTRIBUTE_SAFETY"="Safety Notices";
 "TRIP_ATTRIBUTE_OUTFIT"="Outfit Recommendations";
