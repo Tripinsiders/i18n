@@ -1172,52 +1172,97 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "WALLET"="Wallet";
-//
+// Wallet is available in "Insider" profile only. Can be used for checking transactions, making withdrawls, and updating accounts.
 "WALLET_POINT"="To access your Wallet just click in the \"Wallet\" item";
+// A pop up that shows only the first time that you access your Insider profile in the app. Shows where the walet feature is by highlighting it on screen.
 "WALLET_INTRO_TITLE_1"="Wallet";
+// Pop Up that introduces Wallet the first time you use "Insider" profile. This is the title of the first page.
 "WALLET_INTRO_DESC_1"="We have added the 'Wallet' to your profile.";
+// Pop Up that introduces Wallet the first time you use "Insider" profile. This is the text on the first page.
 "WALLET_INTRO_TITLE_2"="Accounts";
+// Pop Up that introduces Wallet the first time you use "Insider" profile.This is the title of the second page.
 "WALLET_INTRO_DESC_2"="Using your Wallet you can add your bank account and PayPal account details.";
+// Pop Up that introduces Wallet the first time you use "Insider" profile. This is the text on the second page.
 "WALLET_INTRO_TITLE_3"="Transactions";
+// Pop Up that introduces Wallet the first time you use "Insider" profile. Title for 3rd page
 "WALLET_INTRO_DESC_3"="You can also view your transaction history and individual transaction details.";
+// Pop Up that introduces Wallet the first time you use "Insider" profile. Text for 3rd page.
 "WALLET_INTRO_TITLE_4"="Withdraw";
+// Pop Up that introduces Wallet the first time you use "Insider" profile. Title for 4th (and final) page
 "WALLET_INTRO_DESC_4"="And the most important part, withdrawing your money is now even easier!";
+// Pop Up that introduces Wallet the first time you use "Insider" profile. Text for 4th page
 "WALLET_EXCHANGE RATE"="Exchange Rate";
+// Button that shows the exchange rate for the day (exchange rates are updated on a daily basis)
 "WALLET_BALANCE"="Balance";
+// A title that shows near the top of the screen. Directly beneath the title, the current balance is displayed in USD as: $0.00 (sign, then amount)
 "WALLET_WITHDRAW_MONEY"="Withdraw Money";
+// Button in "wallet" that takes you to a screen that allows you to withdraw your balance.
 "WALLET_WITHDRAW_AMOUNT"="Withdrawal amount";
+// Section that allows you to type a specific amount to withdraw.
 "WALLET_WITHDRAW_ALL"="Withdraw all";
+// Button that allows you to withdraw entire balance.
 "WALLET_WITHDRAW_EXCEED"="Oops, the amount exceeds your balance";
-"WALLET_WITHDRAW_DESC"="The funds will be transferred to your account within 5-7 business days.";
+// Pop up that shows when you type an amount to withdraw larger than the total current balance.
+"WALLET_WITHDRAW_DESC"="The funds will be transferred to your account within 5-7 business days";
+// Messge that shows following successful withdrawal of funds.
 "WALLET_WITHDRAW_FAIL_TITLE"="Oops, something went wrong";
-"WALLET_WITHDRAW_FAIL_DESC"="Please try again or change your withdraw method";
+// Error message that shows if some part of the process fails (for example, signal is lost during withdrawal)
+"WALLET_WITHDRAW_FAIL_DESC"="Please try again, or you can try changing the account you're withdrawing to";
+// Shows when a withdrawl has been unsuccessful
 "WALLET_ACCOUNT"="Accounts";
+// Button that takes you to the bank/paypal/other accounts that have been linked to your profile
 "WALLET_ACCOUNT_OPERATE_ADD"="Add account";
+// Button that takes you to the screen that allows you to add another (or a first) account
 "WALLET_ACCOUNT_TYPE"="Account Type";
+// Identifies the type of account that you have linked: i.e Bank/ Paypal etc.
 "WALLET_ACCOUNT_TYPE_PAYPAL"="PayPal";
-"WALLET_ACCOUNT_TYPE_PAYPAL_DESC"="Please check your account to avoid transfer failure";
+// One of the account types that can currenty be linked to your Insider account
+"WALLET_ACCOUNT_TYPE_PAYPAL_DESC"="Please double check your account details to avoid transfer failure";
+// Cautionary message asking you to make sure that the details are correct
 "WALLET_ACCOUNT_TYPE_BANK"="Bank Account";
+// One of the account types that can currenty be linked to your Insider account
 "WALLET_ACCOUNT_BANK"="Banks";
+// Title above the section that you select your bank from a list of options
 "WALLET_ACCOUNT_BANK_NAME"="Bank’s Name";
+// Section title that has the name of the selected bank next to it like this: Banks Name: World Bank
 "WALLET_ACCOUNT_BANK_ACCOUNT_NO"="Account No";
-"WALLET_ACCOUNT_BANK_BENEFICIARY"="Beneficiary name";
+// Place holder that displays the bank account number once it is entered
+"WALLET_ACCOUNT_BANK_BENEFICIARY"="Account holders name";
+// Place Holder that displays the account holders name once it is entered
 "WALLET_ACCOUNT_BANK_HELP_TITLE"="Add a Bank Account";
-"WALLET_ACCOUNT_BANK_HELP_DESC"="To register a bank account, you must provide three elements:\n\n1) Bank’s name: Select your bank from the list provided.\n\n2) Account Number:  Usually, your account number can be found your debit/credit. Failing this, it can be found on your bank statements.\n\n3) Beneficiary name.";
-"WALLET_ACCOUNT_ERROR"="The account number entered is invalid";
+// Description for page that you enter details
+"WALLET_ACCOUNT_BANK_HELP_DESC"="To register a bank account, you must provide three elements:\n\n1) Bank’s name: Select your bank from the list provided.\n\n2) Account Number:  Usually, your account number can be found on your debit/credit. Failing this, it can be found on your bank statements.\n\n3) Account holders name.";
+// Help tip offered in the "add an account" section by pressing the "?" button in the top right hand side of the screen.
+"WALLET_ACCOUNT_ERROR"="The account number you entered doesn't seem to be correct. You can usually find your account number on your credit/debit card, or on your bank statements";
+// Pop up when an account number has been entered incorrectly
 "WALLET_ACCOUNT_DELETE_CONFIRM"="Are you sure you want to delete this account?";
+// Confirmation window: text inside the window
 "WALLET_TRANSACTION"="Transactions";
+// Button that takes you to view your transaction history
 "WALLET_TRANSACTION_DETAIL"="Details";
+// Gives the details of a specific transaction
 "WALLET_TRANSACTION_STATE_PROCESSING"="Processing";
+// Status indicator of a transaction
 "WALLET_TRANSACTION_STATE_RECEIVED"="Received";
+// Status indicator of a transaction
 "WALLET_TRANSACTION_STATE_RECEIVED"="Withdrawn";
+// Status indicator of a transaction
 "WALLET_TRANSACTION_STATE_FAILED"="Failed";
+// Status indicator of a transaction
 "WALLET_TRANSACTION_TYPE"="Transaction Type";
+// Shows at top of the page above the section that describes the type of transaction
 "WALLET_TRANSACTION_TYPE_TRIP"="Trip Payment";
+// Transaction type which is shown next to the transaction
 "WALLET_TRANSACTION_TYPE_PENALTY"="Penalty";
+// Transaction type which is shown next to the transaction
 "WALLET_TRANSACTION_TYPE_REWARD"="Reward";
+// Transaction type which is shown next to the transaction
 "WALLET_TRANSACTION_TYPE_WITHDRAWAL"="Withdrawal";
+// Transaction type which is shown next to the transaction
 "WALLET_TRANSACTION_TRANSFERRED_ON"="Transferred On";
+// Shows the date the transfer took place
 "WALLET_TRANSACTION_AMOUNT"="Amount";
+// Shows the value of the transaction
 
 /*
  * -----------------------------------------------------------------------
