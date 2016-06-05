@@ -7,7 +7,7 @@ I/*
  *
  * Date: 2016-06-03
  * Author: Ciaran Robert McLinton Esquire
- * Author: Carlos 
+ * Author: Carlos the Large
  *
  * Copyright © 2016 Tripinsiders.com. All Rights Reserved.
  */
@@ -1297,8 +1297,8 @@ These are category titles like: Nightlife, shopping, party etc  */
 // Message appears on screen when inbox is empty
 "MESSAGE_TYPE_BOOK"="Booking Message";
 // Message content is related to bookings.
-"MESSAGE_TYPE_SYSTEM"="System Message";
-// Message is system generated
+"MESSAGE_TYPE_SYSTEM"="Inbox";
+// Inbox for system generated messages
 
 /*
  * -----------------------------------------------------------------------
@@ -1380,14 +1380,23 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "VERIFICATION_CODE"="Verification Code";
+// Text on screen next to the area that you enter the ver. code sent to your cell phone.
 "VERIFICATION_CODE_SEND"="Send Verification Code";
+// Button pressed when a piece of information is entered to be confirmed (usually a cell phone number or email)
 "VERIFICATION_CODE_SEND_FEEDBACK_SUC"="A verification code has been sent to\n%@";
-"VERIFICATION_CODE_SEND_FEEDBACK_FAIL"="Get Verification Code failed. Please try again.";
+// Message appears when information has been entered correctly and a code is sent
+"VERIFICATION_CODE_SEND_FEEDBACK_FAIL"="Unable to send verification code, please try again.";
+// Error message. Usually appears because information is entered incorrectly
 "VERIFICATION_CODE_CHECK"="Check Verification Code";
-"VERIFICATION_CODE_CHECK_MAIL"="A verification code has been sent to your email. Please log into your email.";
+// once a verification code is entered, this button is pressed to check it
+"VERIFICATION_CODE_CHECK_MAIL"="A verification code has been sent to your email, check it out!";
+// Message that appears following successful sending of verification code
 "VERIFICATION_CODE_DESC_1"="Please enter verification code";
+// Message appears in box that you enter the verification code into
 "VERIFICATION_CODE_RESEND"="Resend after %ds";
+// If you have already asked for a verification code, the Button that says ‘send verification code’ is greyed out and this message takes its place, counting down from 60 seconds.
 "VERIFICATION_CODE_INCORRECT"="Your verification code is not correct";
+// Error message
 
 /*
  * -----------------------------------------------------------------------
@@ -1396,21 +1405,37 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "SIGN_IN"="Login";
+// Press this button to go tot he page that you can enter your login details. (takes you to enter username and pass.)
 "SIGN_IN_WITH"="Login with";
+// Can either use phone or email
 "SIGN_IN_NOT"="Login";
+// As in ‘please sign in’ after you have already pressed ‘Login’ this button appears below the area you enter your details.
 "SIGN_UP"="Sign Up";
+// Press this option to begin the sign up process. Takes you to the page to choose your user name and password.
 "SIGN_UP_CREATE"="Create an Account";
+// Takes you to a page that allows you to sign up for tripinsiders
 "SIGN_UP_ALREADY_HAVE"="Already have one? Login";
+// If you already have an account, press this button to sign in with your details
 "SIGN_UP_UPDATE_USER_PROFILE"="Update Your Profile";
+// Option to make changes to your profile.
 "SIGN_UP_CONNECT_PHONE"="Connect Phone Account";
+// Allows you to choose a phone to connect to your account when signing up
 "SIGN_UP_CONNECT_PHONE_DESC"="Connecting Tripinsiders account to get better service.";
+// Message that shows after you enter phone number and confirmation is sent
 "SIGN_UP_SET_PASSWORD"="Set Password";
+// Allows you to set a password when signing up
 "SIGN_UP_SET_PASSWORD_DESC"="Set password to protect security of your account.";
+// Prompt that appears above the box to enter password
 "SIGN_UP_SET_PROFILE_PICTURE"="Please upload profile picture";
+// Prompt that appears in the area you can select a profile photo
 "SIGN_UP_SET_CITY"="Where do you live?";
-"SIGN_UP_SET_EMAIL"="Please fill out an email as your account";
+// Question that appears next to the area you select your home country and city
+"SIGN_UP_SET_EMAIL"="Please enter an email address you regularly use for your Tripinsiders account.";
+// Please fill out an email as your main account contact address.
 "SIGN_OUT"="Sign Out";
+// Button in setting that allows you to sign out of Tripinsiders.
 "SIGN_OUT_CONFIRM"="Sign Out?";
+// Confirmation of action pop up
 
 /*
  * -----------------------------------------------------------------------
@@ -1419,11 +1444,17 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "SOCIAL"="Social Network Account";
+// Button inside 'Verified ID' section.
 "SOCIAL_WECHAT"="WeChat";
+// A Social Network account you can choose to verify
 "SOCIAL_FACEBOOK"="Facebook";
+// A SNA you can choose to verify
 "SOCIAL_GOOGLE_PLUS"="Google+";
+// A SNA you can choose to verify
 "SOCIAL_SINA"="Weibo";
-"SOCIAL_WECHAT_NOT_INSTALLED"="WeChat is currently not installed";
+// A SNA you can choose to verify
+"SOCIAL_WECHAT_NOT_INSTALLED"="Ah, sorry, apparently WeChat isn’t installed on your phone at the moment.";
+// Message that appears if you select WeChat without having installed the app on your phone
 
 /*
  * -----------------------------------------------------------------------
@@ -1432,22 +1463,40 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "SHARE"="Share";
+// Button that allows you to share TI through a variety of media
 "SHARE_COPY"="Copy Links";
+// Copies the links of the pages that you are on or of the App itself.
 "SHARE_COPY_SUC"="Copied Successfully";
+// Completion message
 "SHARE_TITLE"="I found this amazing app! Tripinsiders. Check it out.";
+// This is the title that appears with the link for the app when you share.
 "SHARE_DESC"="Full of unique travel experiences from all over the globe. I'm using it now, why not take a look?";
+// This is the content under the title that appears when you share the app.
 "SHARE_FROM"="From Tripinsiders";
+// Shows the receiver where the shared content originated. appears as a title
 "SHARE_DOWNLOAD"="Download address: %@";
+// This is a download link for the App
 "SHARE_OFFICIAL_ACCOUNT"="Facebook: https://www.facebook.com/tripinsiders";
+// This is the link to the Tripinsiders Official Account
 "SHARE_AT_USER"="A friend @ you %@";
-"SHARE_NO_MAIL"="You forgot to set up an Email account on this phone.";
+// Share directly to a user
+"SHARE_NO_MAIL"="Oops! You forgot to set up an Email account on this phone. You need to do that first, silly goose.";
+// A message that pops up when attempting to share via email and their is no email account set up on the phone.
 "SHARE_WECHAT"="WeChat";
+// share via one of the most popular social media platforms in China. This allows you to share the app through this platform directly into the chats of the app, either individual or group.
 "SHARE_FACEBOOK"="Facebook";
+// Share the app on a small american based social media platform that a couple of people use.
 "SHARE_SINA"="Weibo";
+// Share through Chinese equivalent of Twitter
 "SHARE_MOMENTS"="Moments";
+/* This shares the app to Wechat as  well, but posts the link in your ‘Moments’, like your wall on Facebook, rather than directly into a chat.
+That way everyone that has added you as a friend can see it */
 "SHARE_MESSENGER"="Messenger";
+// Shares visa Facebook messenger’
 "SHARE_QZONE"="Qzone";
+//
 "SHARE_QQ"="QQ";
+// Share through a chinese Messenger service which also have an email attached to its services.
 
 /*
  * -----------------------------------------------------------------------
@@ -1456,8 +1505,11 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "MAP_CHOOSE"="Choose your preferred map provider.";
+// This message appears which allows you to select the map platform that you prefer; Google, or GaDe
 "MAP_GOOGLE"="Google Maps";
+// This appears as an option to select for map service that you use
 "MAP_GAODE"="GaoDe Maps";
+// This appears as an option to select for map service that you use
 
 /*
  * -----------------------------------------------------------------------
@@ -1466,13 +1518,21 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "INSIDER_GUIDE_TITLE1"="Welcome to the world of tripinsiders";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 1 of 4. Title.
 "INSIDER_GUIDE_DESC1"="Meet Travelers from all over the world\nDiscover local experiences\nHave fun and gain deep insights";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 1 of 4. Description.
 "INSIDER_GUIDE_TITLE2"="Create a Trip";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 2 of 4. Title.
 "INSIDER_GUIDE_DESC2"="Guide a Traveler\nExplore unforgettable local food\nDiscover culture and customs\nSeek local experiences";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 2 of 4. Description.
 "INSIDER_GUIDE_TITLE3"="Complete a Trip";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 3 of 4. Title.
 "INSIDER_GUIDE_DESC3"="Assist Travelers from all over the world\nHear the sounds of a distant place\nGet paid\nMake new friends";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 3 of 4. Description.
 "INSIDER_GUIDE_TITLE4"="Become a Tripinsider";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 4 of 4. Title.
 "INSIDER_GUIDE_DESC4"="Live Like a Local";
+// This is seen  as a part of the ‘Insider Guide’, a pop up welcome message for users the first time that they open the app and use their Insider profile. Page 4 of 4. Description.
 
 /*
  * -----------------------------------------------------------------------
@@ -1481,7 +1541,12 @@ These are category titles like: Nightlife, shopping, party etc  */
  */
 
 "OTHER_HELLO"="Hi, %@";
+// Shows as a pop up when sending a personalised message. Can be combined with a variety or emails, in app messages and pop ups. Is always the initial greeting
 "OTHER_SNAPSHOT"="Snapshot Time: %@";
+//
 "TRIPINSIDERS_RECOMMEND"="Tripinsiders Favorite";
+// This shows next to trips that come recommended by Tripinsiders.
 "VIDEO_REPLAY"="Replay";
+// Appears under the button for replay at the end of watching a video
 "AMBASSADOR_ACTIVITY"="Ambassador Activity";
+/* Identifies an “Ambassador activity” Ambassadors are Insiders who take a more active role in Tripinsiders than ordinary Insiders. Their role is still being defined. This page may be associated with a variety of activities/ trips/ events. */
