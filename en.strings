@@ -605,22 +605,39 @@ These are category titles like: Nightlife, shopping, party etc  */
 "TRIP_PHOTO"="Images";
 // 
 "TRIP_PHOTO_OPERATE_CHOOSE"="Choose your photos";
+// Title of the page that allows you to select the photos that you will use for your trip
 "TRIP_PHOTO_DESC_1"="Try to upload at least 3 photos";
+// Tip on the page that appears just below the title 'Choose your photos'
 "TRIP_PHOTO_DESC_2"="Upload some photos that represent the essence of your Trip";
+// Tip on the page that appears just below the title 'Choose your photos'
 "TRIP_PHOTO_DESC_3"="Press and hold the photo to change the order";
+// Tip on the page 'Choose your photos that appears below the photos you have uploaded.
 "TRIP_COVER"="Cover Photo";
+// A tag that appears on the First photo to show that this photo will be used as the main 'cover photo', i.e. the photo that people see when your trip appears in the app on a list
 "TRIP_PHOTO_OPERATE_ADD"="Add photos";
+// Buttton at the bottom of the page 'Choose your photos'
 "TRIP_PHOTO_OPERATE_ADD_DESCRIPTION"="Add a description";
+// An option offered if you click a photo that you have selected. Allows you to give individual photos descriptions
 "TRIP_PHOTO_OPERATE_DELET_CONFIRM"="Delete this photo?";
+// Confirmation pop up when you selecrt a photo and pusg the trash can symbol in the top right hand side of the screen
 "TRIP_PHOTO_UPLOAD_1"="Uploading";
+// Status message shown when uploading photos
 "TRIP_PHOTO_UPLOAD_2"="Uploading";
+// Status message shown when uploading photos
 "TRIP_PRICE_DETAIL"="Trip Pricing Details";
-"OPERATION_UPLOAD_PHOTO_LIMIT_1_ONE"="Up to %d Image";
-"OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="Up to %d Images";
+// Button that takes you to the Trip design section that lets yo
+"OPERATION_UPLOAD_PHOTO_LIMIT_1_ONE"="Up to %d photo";
+// Shows you that you upload 1 more image
+"OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="Up to %d photos";
+// Displays how many more images you can upload
 "TRIP_PHOTO_OPERATE_PRIVACY"="Allow Tripinsiders to access your album in \"Settings\"->\"Privacy\"->\"Photos\"";
+// Tip that appears when permission is required to access images
 "TRIP_CREATE_SUCC"="Successfully created a Trip";
+// Message displayed when The Trip draft has been created  (not necessarily completedd though)
 "TRIP_CREATE_SUCC_DESC"="Great! In order to finish your Trip,\nplease complete the following steps";
+// Message shown when some steps still remain to complete the trip. Displays the steps remaining below message
 "TRIP_CREATE_TITLE"="Continue";
+// Button that alows you to move to the next stage in several parts of the Trip creation
 
 /*
  * -----------------------------------------------------------------------
