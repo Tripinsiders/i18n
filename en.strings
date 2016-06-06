@@ -572,25 +572,41 @@ These are category titles like: Nightlife, shopping, party etc  */
 //
 "TRIP_LIST_TITLE_MORE"="%d Trips";
 //
-"TRIP_TITLE_DESC_1"="Enter a title for your trip";
-"TRIP_TITLE_DESC_2"="Choosing a great trip title is very important!";
-"TRIP_OPERATE_EDIT"="Edit trip";
+"TRIP_TITLE_DESC_1"="Enter a title for your Trip";
+// Place holder in the spot where you enter your Trip title in 'create a Trip' section of insiders profile
+"TRIP_TITLE_DESC_2"="Choosing a great Trip title is very important!";
+// Message underneath the area that you type your trip title
+"TRIP_OPERATE_EDIT"="Edit Trip";
+// This is the title inside the section where you create your trip
 "TRIP_TITLE"="Trip title";
-"TRIP_CONTENT_INTRO"="Trip Introduction";
+// This is the title of the
+"TRIP_CONTENT_INTRO"="Trip Story";
+// One of the subsections inside the Trip Description area of 'creat a Trip'. This section describes the reason behind the trip, the inspiration for creating it, why you love it etc
 "TRIP_CONTENT_DETAIL"="Trip Description";
+// One of the subsections inside the Trip Description area of 'creat a Trip'. This section describes te trip itinerary in detail. Specific details, meeting place etc.
 "TRIP_CONTENT_HIGHLIGHT"="Trip Highlights";
-"TRIP_CONTENT_INTRO_DESC_1"="Enter your trip introduction.";
-"TRIP_CONTENT_INTRO_DESC_2"="Enter a brief introduction for your trip. This will be give Travelers an idea what to expect. For example, something about yourself, what the trip will be about, why you chose this trip, and why you like it.";
+// One of the subsections inside the Trip Description area of 'creat a Trip'. This section gives short bullet points about the best parts or 'selling points' of the Trip.
+"TRIP_CONTENT_INTRO_DESC_1"="Tell the story of why you made this Trip and why you love it";
+// The place holder in the box for 'Trip Story' section.
+"TRIP_CONTENT_INTRO_DESC_2"="Use this space to write a short introduction for your Trip. What influenced you to make this trip, how it is personal to you, why you love it, maybe something about yourself, things like that. This will be give Travelers an idea what to expect, and also help them get to know you a bit better.";
+// This is the description given underneath at the bottom of the page for the Trip Story
 "TRIP_CONTENT_INTRO_SEE_EXAMPLE"="Click here to see examples.";
-"TRIP_CONTENT_DETAIL_DESC_1"="Enter your trip description.";
-"TRIP_CONTENT_DETAIL_DESC_2"="Enter the full description of your trip above. This description should give a detailed itinerary and schedule, as well as specific details for meeting points.";
+// A link at the bottom of the 'Trip Story' page that takes the user to see examples of previous Stories
+"TRIP_CONTENT_DETAIL_DESC_1"="Enter your Trip description.";
+// The place holder in the box for 'Trip Description' section.
+"TRIP_CONTENT_DETAIL_DESC_2"="Enter a full description of your Trip is the area above. Try to give a detailed itinerary and schedule, as well as specific details for meeting points. It will make the traveller feel more at ease knowing what to expect on the Trip";
+// This is the description given underneath at the bottom of the page for the Trip Description
 "TRIP_CONTENT_HIGHLIGHT_OPERATE_ADD"="Add highlight";
-"TRIP_CONTENT_HIGHLIGHT_DESC_1"="Enter a highlight of the trip here";
-"TRIP_CONTENT_HIGHLIGHT_DESC_2"="Trip highlights are your selling point for Travelers. Capture the essence of your trip with these.";
+// Button found in 'Highlights and Category' Section of the Trip Description Area. Allows you to add another 'selling point' about your trip
+"TRIP_CONTENT_HIGHLIGHT_DESC_1"="Enter a highlight of the Trip here";
+// Place holder for the spot you type your Trip Highlights in Highlights and Category section.
+"TRIP_CONTENT_HIGHLIGHT_DESC_2"="Trip highlights are your selling point for Travelers. Capture the essence of your Trip with these.";
+// Description located at the botom of the page for 'Highlights and Category' page
 "TRIP_PHOTO"="Images";
+// 
 "TRIP_PHOTO_OPERATE_CHOOSE"="Choose your photos";
 "TRIP_PHOTO_DESC_1"="Try to upload at least 3 photos";
-"TRIP_PHOTO_DESC_2"="Upload some photos that represent the essence of your trip";
+"TRIP_PHOTO_DESC_2"="Upload some photos that represent the essence of your Trip";
 "TRIP_PHOTO_DESC_3"="Press and hold the photo to change the order";
 "TRIP_COVER"="Cover Photo";
 "TRIP_PHOTO_OPERATE_ADD"="Add photos";
@@ -602,8 +618,8 @@ These are category titles like: Nightlife, shopping, party etc  */
 "OPERATION_UPLOAD_PHOTO_LIMIT_1_ONE"="Up to %d Image";
 "OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="Up to %d Images";
 "TRIP_PHOTO_OPERATE_PRIVACY"="Allow Tripinsiders to access your album in \"Settings\"->\"Privacy\"->\"Photos\"";
-"TRIP_CREATE_SUCC"="Successfully created a trip";
-"TRIP_CREATE_SUCC_DESC"="Great! In order to finish your trip,\nplease complete the following steps";
+"TRIP_CREATE_SUCC"="Successfully created a Trip";
+"TRIP_CREATE_SUCC_DESC"="Great! In order to finish your Trip,\nplease complete the following steps";
 "TRIP_CREATE_TITLE"="Continue";
 
 /*
