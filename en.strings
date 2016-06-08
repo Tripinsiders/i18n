@@ -81,7 +81,7 @@ I/*
 /* Used, for example, to edit a Trip that you created. When you view the Trip, ‘Edit’ appears in the top right hand corner of the screen.
 This allows you to change the Trip.
 Also appears in Trip creation under the Trip title, lets you create or change the title. */
-"OPERATION_CANCEL_CONFRIM"="Exit without saving？";
+"OPERATION_CANCEL_CONFRIM"="Exit without saving?";
 // After creating or editing a Trip, if you click the ‘back’, or ‘previous screen’ button without saving, this message will appear.
 "OPERATION_SUBMIT"="Submit";
 // This is used in lots of circumstances, for example; ‘Submit a booking request’, ‘Submit a Trip for review’, ‘Submit a user review’ etc.
@@ -153,7 +153,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 "OPERATION_CONTACT_TRAVELLER"="Contact Traveler";
 // Button allows you to get in touch with the traveler via the in-app message system.
 "OPERATION_BECOME_INSIDER"="Go";
-// First time you go to your insider profile, a quick welcome guide is shown. At the end of the guide, the button 'Go' appears, which lets you continue
+// First time you go to your  Insider profile, a quick welcome guide is shown. At the end of the guide, the button 'Go' appears, which lets you continue
 "OPERATION_NEXT"="Next";
 // Goes to the next page. Used in various points like Trip creation, profile set up etc.
 "OPERATION_REFER_FRIEND"="Refer a Friend to Tripinsiders";
@@ -170,7 +170,7 @@ Must have at least on to be used as a cover photo for the Trip. */
  */
 
 "VALUE_NO_SET"="Not Set";
-// This is used in various locations when you have not yet assigned a value. i.e: trip price: not set
+// This is used in various locations when you have not yet assigned a value. i.e: Trip price: not set
 "VALUE_CONNECTED"="Connected";
 // Status indicator for social media accounts linked to your profile
 "VALUE_OPTIONAL"="optional";
@@ -198,7 +198,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 // Shown when a page is loading data
 "FEEDBACK_NO_INTERNET_1"="Woops…no Internet connection. Try checking your network settings.";
 // Appears when attempting to load a page and network connection is lost
-"FEEDBACK_NO_INTERNET_2"="Please connect to Internet. It’s the source from which we draw our power.";
+"FEEDBACK_NO_INTERNET_2"="Please connect to the Internet. It’s the source from which we draw our power.";
 // Appears as a prompt when trying to access part of the app without network connection
 "FEEDBACK_NO_GPS"="Open location services to allow Tripinsiders to determine your location";
 // Appears when attempting to determine location or add a preloaded location to Trip descriptions, and Location access has not been granted to Tripinsiders.
@@ -283,7 +283,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 "FILTER_OPTION_FEATURED"="Interested In";
 // Identifies the interests of the Insider for the Trip you are looking at
 "FILTER_OPTION_INSIDER"="Insider";
-// Title that appears above the Insiders details at the bottom of their Trip description that you view as a traveller
+// Title that appears above the Insiders details at the bottom of their Trip description that you view as a Traveler
 "FILTER_OPTION_INSIDER_DESC"="Insider's Gender";
 //  Identifies the Insider as Male or Female
 "FILTER_OPTION_INSIDER_VALUE_MALE"="Male";
@@ -412,7 +412,7 @@ This list includes all currently active categories. */
 /* Used when creating a Trip as a prompt asking the user to define the categories their Trips cover.
 You can currently select up to a maximum of 4 main categories */
 "CATEGORY_SET_LIMIT"="Select up to %d categories";
-// This identifies how many categories the insider can select in regards to their Trip.
+// This identifies how many categories the  Insider can select in regards to their Trip.
  
 
 /*
@@ -459,7 +459,7 @@ These are category titles like: Nightlife, shopping, party etc  */
 "TRIP_ATTRIBUTE_COVER_PHOTO_DESC"="We need a picture that will represent you Trip, so choose an impressive one!";
 // Underneath the page title for adding cover photo
 "TRIP_ATTRIBUTE_DESCRIPTION"="Description";
-// Title on the page of trip description if you press the "more' option. Pages shows th full trip description
+// Title on the page of  Trip description if you press the "more' option. Pages shows th full  Trip description
 "TRIP_ATTRIBUTE_DESCRIPTION_DESC_1"="Description";
 // Add a description for the Trip (the text box under title)
 "TRIP_ATTRIBUTE_DESCRIPTION_DESC_2"="Upload relevant photos and tell the travelers what you love about the experience you are hosting.";
@@ -507,7 +507,7 @@ These are category titles like: Nightlife, shopping, party etc  */
 "TRIP_ATTRIBUTE_MEET_DESC"="Where will you meet? Be remarkably specific.";
 // Shows above the section that allows you to select meeting point.
 "TRIP_ATTRIBUTE_ADVICE"="Notices";
-/* Section is insider additional information. Allows you to add any relevant tips or advice. For example;
+/* Section is  Insider additional information. Allows you to add any relevant tips or advice. For example;
  ‘Be sure to allows at least on hour to reach the meeting point as traffic is usually bad’ */
 "TRIP_ATTRIBUTE_SAFETY"="Safety Notices";
 /* Insider Additional info section: allows to add any safety tip for the Trip. For example;
@@ -562,11 +562,11 @@ These are category titles like: Nightlife, shopping, party etc  */
 "TRIP_PRICE_DESC_2"="FAQs";
 // Takes user to our FAQ page in-app regarding price/fees etc
 "TRIP_LIST_TITLE_ONE"="%d Trip";
-// After typing a specific search item, and then adding a filter, this appears at the top of the screen to show how many trips were found for the parameters indicated. (1 Trip)
+// After typing a specific search item, and then adding a filter, this appears at the top of the screen to show how many Trips were found for the parameters indicated. (1 Trip)
 "TRIP_LIST_TITLE_MORE"="%d Trips";
-// After typing a specific search item, and then adding a filter, this appears at the top of the screen to show how many trips were found for the parameters indicated. (>1 Trips)
+// After typing a specific search item, and then adding a filter, this appears at the top of the screen to show how many Trips were found for the parameters indicated. (>1 Trips)
 "TRIP_TITLE_DESC_1"="Enter a title for your Trip";
-// Place holder in the spot where you enter your Trip title in 'create a Trip' section of insiders profile
+// Place holder in the spot where you enter your Trip title in 'create a Trip' section of  Insiders profile
 "TRIP_TITLE_DESC_2"="Choosing a great Trip title is very important!";
 // Message underneath the area that you type your Trip title
 "TRIP_OPERATE_EDIT"="Edit Trip";
@@ -587,7 +587,7 @@ These are category titles like: Nightlife, shopping, party etc  */
 // A link at the bottom of the 'Trip Story' page that takes the user to see examples of previous Stories
 "TRIP_CONTENT_DETAIL_DESC_1"="Enter your Trip description.";
 // The place holder in the box for 'Trip Description' section.
-"TRIP_CONTENT_DETAIL_DESC_2"="Enter a full description of your Trip is the area above. Try to give a detailed itinerary and schedule, as well as specific details for meeting points. It will make the traveller feel more at ease knowing what to expect on the Trip";
+"TRIP_CONTENT_DETAIL_DESC_2"="Enter a full description of your Trip is the area above. Try to give a detailed itinerary and schedule, as well as specific details for meeting points. It will make the Traveler feel more at ease knowing what to expect on the Trip";
 // This is the description given underneath at the bottom of the page for the Trip Description
 "TRIP_CONTENT_HIGHLIGHT_OPERATE_ADD"="Add highlight";
 // Button found in 'Highlights and Category' Section of the Trip Description Area. Allows you to add another 'selling point' about your Trip
@@ -759,7 +759,7 @@ These are category titles like: Nightlife, shopping, party etc  */
 "BOOK_POPUP_CANCEL_DESC_FI"="Traveler cancelled the Trip";
 // Further info for the Insider
 "BOOK_POPUP_NEW"="You have a new booking!";
-// Pop up for the insider
+// Pop up for the  Insider
 "BOOK_POPUP_NEW_DESC"="%@ has requested a booking!";
 // Identifies which Traveller has requested the booking
 "BOOK_POPUP_PAY"="Paid Successfully";
@@ -769,9 +769,9 @@ These are category titles like: Nightlife, shopping, party etc  */
 "BOOK_POPUP_REVIEW"="You have a new review!";
 // Pop up for the Insider
 "BOOK_POPUP_REVIEW_DESC"="%@ left a review of the Trip!";
-// Further info for the insider
+// Further info for the  Insider
 "BOOK_POPUP_MODIFY"="%@ changed the booking details";
-// Shows as a pop up for insider or traveler
+// Shows as a pop up for  Insider or traveler
 "BOOK_BLANK_DESC_FT"="Book your favorite Trip\nDiscover a different world!";
 // Shows as a full screen message when using Traveler Profile
 "BOOK_BLANK_DESC_FI"="Waiting for your confirmed reservations";
@@ -805,9 +805,9 @@ These are category titles like: Nightlife, shopping, party etc  */
 "BOOK_SUBMIT_PEOPLE_MAX_MORE"="%d people maximum";
 // shows when you select the maximum people that can attend your Trip (2-6 people)
 "BOOK_SUBMIT_ADDITIONAL_TITLE"="Any preferences?";
-// When booking a trip, this area allows you to write a message to the Insider about special requests or preferences you may have
+// When booking a Trip, this area allows you to write a message to the Insider about special requests or preferences you may have
 "BOOK_SUBMIT_ADDITIONAL_DESC"="So that our Insiders have a chance to exceed your expectations, let us know if you have any personal preferences that they can work around. For example, you love shell fish, or you’re scared of heights, or that even being near shellfish might be lethal for you. You know, the little things.";
-// Section that allows travellers to add a small personal statement, i.e ‘Hate jellyfish, please no jellyfish food’.
+// Section that allows Travelers to add a small personal statement, i.e ‘Hate jellyfish, please no jellyfish food’.
 
 /*
  * -----------------------------------------------------------------------
@@ -913,7 +913,7 @@ These are category titles like: Nightlife, shopping, party etc  */
 "USER_ATTRIBUTE_NAME"="Legal Name";
 // Inside ‘Identification document’ section. Pressing this allows you to enter the name on the ID Doc
 "USER_ATTRIBUTE_NAME_LIMIT"="Please enter your full legal name.";
-// Prompt insider the ‘Legal Name’ box
+// Prompt  Insider the ‘Legal Name’ box
 "USER_ATTRIBUTE_GENDER"="Gender";
 // Inside ‘Identification document’ section. Allows you to choose
 "USER_ATTRIBUTE_GENDER_DESC"="Your Gender";
@@ -1024,13 +1024,13 @@ These are category titles like: Nightlife, shopping, party etc  */
 "PRICE"="Price";
 // This Describes the price of the Trip when viewing and is only used in this method. In the screen for purchasing, the word used it ‘total’
 "PRICE_ATTRIBUTE_TYPE"="Pricing Type";
-// This describes the method used for pricing Trips: I.e fixed price/ per traveller.
+// This describes the method used for pricing Trips: I.e fixed price/ per Traveler.
 "PRICE_ATTRIBUTE_TYPE_VALUE_FREE"="Free";
 // This description is used for a Trip that does not charge a fee.
 "PRICE_ATTRIBUTE_TYPE_VALUE_FIXED"="Fixed Price";
-// This is used to describe Trips that are the same price regardless of number of travellers.
+// This is used to describe Trips that are the same price regardless of number of Travelers.
 "PRICE_ATTRIBUTE_TYPE_VALUE_PEOPLE"="Per Traveler";
-// This is used to describe Trips that charge the displayed amount for each traveller that comes. E.g 1 Traveler: 10 USD, 5 Travelers: 50 USD
+// This is used to describe Trips that charge the displayed amount for each Traveler that comes. E.g 1 Traveler: 10 USD, 5 Travelers: 50 USD
 "PRICE_ATTRIBUTE_INCLUSION"="Price includes";
 // This is the title of a list that shows all things included in the price of the Trip: e.g. lunch, admission tickets etc
 "PRICE_ATTRIBUTE_EXCLUSION"="Price does not include";
