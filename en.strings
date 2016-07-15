@@ -623,10 +623,15 @@ These are category titles like: Nightlife, shopping, party etc  */
 // Status message shown when uploading photos
 "TRIP_PRICE_DETAIL"="Trip Pricing Details";
 // Button that takes you to the Trip design section that lets yo
-"OPERATION_UPLOAD_PHOTO_LIMIT_1_ONE"="Up to %d photo";
+"OPERATION_UPLOAD_PHOTO_LIMIT_1_ONE"="Up to {INT} photo";
 // Shows you that you upload 1 more image
-"OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="Up to %d photos";
+"OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="Up to {INT} photos";
 // Displays how many more images you can upload
+"TRIP_PHOTO_UPLOAD_MAX_SELECTION"="Select a maximum of {INT} photos";
+// Message shown when select more than %d photos at one time
+"TRIP_PHOTO_UPLOAD_PHOTOS_LIMITATION"="We support a maximum of {INT} photos per Trip, you can add {INT} more";
+// Message shown when achieve the maximum of photos
+
 "TRIP_PHOTO_OPERATE_PRIVACY"="Allow Tripinsiders to access your album in \"Settings\"->\"Privacy\"->\"Photos\"";
 // Tip that appears when permission is required to access images
 "TRIP_CREATE_SUCC"="Successfully created a Trip";

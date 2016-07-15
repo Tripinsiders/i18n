@@ -298,8 +298,10 @@
 "TRIP_PHOTO_UPLOAD_1"="正在处理";
 "TRIP_PHOTO_UPLOAD_2"="正在上传";
 "TRIP_PRICE_DETAIL"="预约设置";
-"OPERATION_UPLOAD_PHOTO_LIMIT_1_ONE"="最多上传{INT}张图片";
-"OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="最多上传{INT}张图片";
+"OPERATION_UPLOAD_PHOTO_LIMIT_1_ONE"="最多上传{INT}张照片";
+"OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="最多上传{INT}张照片";
+"TRIP_PHOTO_UPLOAD_MAX_SELECTION"="你最多只能选择%d张照片";
+"TRIP_PHOTO_UPLOAD_PHOTOS_LIMITATION"="每个行程最多可上传%d张照片，你还可以选择%d张";
 "TRIP_PHOTO_OPERATE_PRIVACY"="请在系统的”设置-隐私-照片”选项中，允许脆饼访问你的手机相册";
 "TRIP_CREATE_SUCC"="行程创建成功";
 "TRIP_CREATE_SUCC_DESC"="继续完成几个步骤就能完成发布，\n旅行者们才能预约到此行程";
