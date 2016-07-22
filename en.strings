@@ -408,7 +408,7 @@
 "TRIP_PHOTO_OPERATE_DELET_CONFIRM"="Delete this photo?";
 "TRIP_TITLE"="Trip Title";
 "MONTH_OCT"="October %d";
-"TRIP_ATTRIBUTE_DESCRIPTION_DESC_1"="Description";
+"TRIP_ATTRIBUTE_DESCRIPTION_DESC_1"="Details";
 "WALLET_INTRO_TITLE_3"="Transactions";
 "TRIP_ATTRIBUTE_DESCRIPTION_DESC_2"="Upload relevant photos and tell the travelers what you love about the experience you are hosting.";
 "WALLET_WITHDRAW_FAIL_DESC"="Please try again or change your withdraw method";
