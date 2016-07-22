@@ -349,7 +349,7 @@
 "USER_ATTRIBUTE_BIRTH_DESC"="Date of Birth";
 "FEEDBACK_UPDATE"="Your current version is v%@. A new version is available. Do you want to update now?";
 "New Key"="English（US）";
-"TRIP_PHOTO_OPERATE_PRIVACY"="Allow Tripinsiders to access your album in "Settings"->"Privacy"->"Photos"";
+"TRIP_PHOTO_OPERATE_PRIVACY"="Allow Tripinsiders to access your album in \"Settings\"->\"Privacy\"->\"Photos\"";
 "BOOK_STATE_PROGRESS_DESC"="Aaaaand go!\nHave a great Trip!";
 "TRIP_PRICE_DETAIL"="Trip Pricing Details";
 "OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="Up to %d Images";
@@ -377,7 +377,7 @@
 "REVIEW_OPERATION_VIEW"="All Reviews";
 "BOOK_OPERATION_ACCEPT"="Confirm";
 "SIGN_IN"="Login";
-"WALLET_POINT"="To access your Wallet just click in the "Wallet" item";
+"WALLET_POINT"="To access your Wallet just click in the \"Wallet\" item";
 "TRANSACTION_RATE"="Today's Exchange Rate";
 "TRIP_PHOTO"="Images";
 "MONTH_MAR"="March %d";
