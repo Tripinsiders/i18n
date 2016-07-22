@@ -6,7 +6,7 @@
 "OPERATION_VIEW_THIS_TRIP"="View this trip";
 "FEE_RECIVED"="Received";
 "CATEGORY_RELAX_AND_WELLNESS"="Relaxation & Wellness";
-"TRIP_TITLE_DESC_2"="Choosing a great trip title is very important!";
+"TRIP_TITLE_DESC_2"="Your Trip Title should be clear, simple, and relate directly to the Trip.";
 "FEEDBACK_NO_INTERNET_2"="Please connect to Internet";
 "TAG_OUTDOOR"="Outdoor";
 "WALLET_TRANSACTION_TYPE"="Transaction Type";
@@ -22,7 +22,7 @@
 "BOOK_STATE_REVIEWED"="Reviewed";
 "SETTING_CONTACT_WECHAT"="Follow us on our official WeChat account: cuitrip";
 "OPERATION_VIEW_TRIP"="View";
-"TRIP_DETAIL_DETAIL"="Trip Detail";
+"TRIP_DETAIL_DETAIL"="Trip Details";
 "SHARE_DOWNLOAD"="Download address: %@";
 "BOOK_POPUP_FINISH"="Trip Finshed!";
 "REVIEW_OPERATION_RATE_DESC"="Rate this Trip";
@@ -78,7 +78,7 @@
 "ACCOUNT_PAYPAL"="PayPal Account";
 "TRIP_ATTRIBUTE_DESTINATION"="Destination";
 "TRIP_CONTENT_VIDEO"="Trip Video";
-"TRIP_CONTENT_INTRO"="Trip Introduction";
+"TRIP_CONTENT_INTRO"="Trip Story";
 "TRIP_ATTRIBUTE_TAG_DESC"="Add tags to let the travelers know some of your trip features";
 "TRIP_OPERATION_PROFILE_PHONECODE"="Send code";
 "TRIP_OPERATION_PROFILE_NAME"="Hi";
@@ -164,7 +164,7 @@
 "MONTH_AUG"="August %d";
 "USER_COMPLETE_PROFILE_PICTURE_DESC"="Please upload a clear picture of yourself";
 "CHAT_MSG_TYPE_NOTICE"="sent you a message";
-"WALLET_INTRO_DESC_2"="Using your Wallet you can add your bank account and PayPal account details.";
+"WALLET_INTRO_DESC_2"="Using your Wallet you can add your bank account and 3rd-party payment platform account details.";
 "BOOK_OPERATION_ACCEPT_CONFIRM"="Are you sure you want to confirm this booking?";
 "TRIP_ATTRIBUTE_LOCATION"="Location";
 "SETTING_CONTACT"="Contact Us";
@@ -190,9 +190,9 @@
 "TRIP_ATTRIBUTE_CAPACITY"="Capacity";
 "USER_INVITE_NUMBER_2"="You have invited %d friend";
 "WALLET_ACCOUNT_TYPE_BANK"="Bank Account";
-"TRIP_CONTENT_INTRO_DESC_1"="Enter your trip introduction.";
+"TRIP_CONTENT_INTRO_DESC_1"="Enter your Trip Story.";
 "COUPON_NOT_USE"="Don't use Coupon";
-"TRIP_CONTENT_HIGHLIGHT_DESC_2"="Trip highlights are your selling point for Travelers. Capture the essence of your trip with these.";
+"TRIP_CONTENT_HIGHLIGHT_DESC_2"="Trip Highlights are your selling point for Travelers. Capture the essence of your trip with these.";
 "BOOK_STATE_BEGIN_DESC"="Paid & Waiting to begin trip";
 "OPERATION_NEXT"="Next";
 "USER_INVITE_DETAIL"="Detail";
@@ -299,13 +299,13 @@
 "OPERATION_YES"="Yes";
 "VERIFICATION_CODE_CHECK_MAIL"="A verification code has been sent to your email. Please log into your email.";
 "BOOK_STATE_BEGIN"="Paid";
-"ACCOUNT_PAYPAL_WITHDRAW_DESC"="The funds will be transferred to your account within 3-4 hours. Please bear in mind that PayPal will charge a service fee when you withdraw money from their platform.";
+"ACCOUNT_PAYPAL_WITHDRAW_DESC"="The funds will be transferred to your account within 1 business day. Please bear in mind that 3rd-party payment platforms may charge a transaction or service fee.";
 "TRIP_DETAIL_READ_MORE"="Read more";
 "OPERATION_CANCEL_CONFRIM"="Exit without saving？";
 "TRIP_CONTENT_VIDEO_NETWORK_ERROR"="Network Error";
 "CATEGORY_PARTY"="Party";
 "FEE_TYPE_COUPON"="Coupon";
-"TRIP_EDIT_GUIDE_PRICING"="Set the time your Trip would take place and the price";
+"TRIP_EDIT_GUIDE_PRICING"="Set the price of your Trip here";
 "OPERATION_APPLY"="Apply";
 "TRIP_ATTRIBUTE_TITLE"="Title";
 "TRIP_CONTENT_HIGHLIGHT"="Trip Highlights";
@@ -371,7 +371,7 @@
 "REVIEW_NPS_FEEDBACK"="Can you tell us a bit more about why you chose %d?";
 "CATEGORY_PRIVATE_DINNING"="Private Dining";
 "MONTH_JUL"="July %d";
-"TRIP_CONTENT_DETAIL_DESC_2"="Enter the full description of your trip above. This description should give a detailed itinerary and schedule, as well as specific details for meeting points.";
+"TRIP_CONTENT_DETAIL_DESC_2"="The Trip Description is used to give a detailed itinerary of the Trip. So, when you will meet the Traveler, what kind of things you will do on the Trip, where you will take them to, and when the Trip will finish.";
 "BOOK_POPUP_NEW"="You have a new booking!";
 "USER_ATTRIBUTE_NICKNAME_SAVE_CONFIRM"="Your display name is now %@, and cannot be changed for 30 days.";
 "REVIEW_OPERATION_VIEW"="All Reviews";
@@ -392,7 +392,7 @@
 "PRICE"="Price";
 "OPERATION_UPLOAD_PHOTO_DESC"="You can upload %d photos more";
 "TRIP_ATTRIBUTE_CATEGORIES_DESC_1"="Your trip categories";
-"TRIP_ATTRIBUTE_DURATION_DESC"="How long is your trip?";
+"TRIP_ATTRIBUTE_DURATION_DESC"="What is the start/finish time?";
 "TRIP_ATTRIBUTE_CATEGORIES_DESC_2"="what categories best describe your trip?";
 "TRIP_OPERATION_PROFILE_ID_TYPE_1"="ID Type";
 "OPERATION_CREATE"="Create";
@@ -406,7 +406,7 @@
 "TRIP_CONTENT_VIDEO_EXIT_YES"="Yes";
 "TRIP_CONTENT_VIDEO_RETRY_BUTTON"="Retry";
 "TRIP_PHOTO_OPERATE_DELET_CONFIRM"="Delete this photo?";
-"TRIP_TITLE"="Trip title";
+"TRIP_TITLE"="Trip Title";
 "MONTH_OCT"="October %d";
 "TRIP_ATTRIBUTE_DESCRIPTION_DESC_1"="Description";
 "WALLET_INTRO_TITLE_3"="Transactions";
@@ -519,7 +519,7 @@
 "VERIFICATION_CODE_SEND_FEEDBACK_FAIL"="Get Verification Code failed. Please try again.";
 "SORT"="Sort";
 "SHARE_COPY_SUC"="Copied Successfully";
-"TRIP_CONTENT_INTRO_DESC_2"="Enter a brief introduction for your trip. This will be give Travelers an idea what to expect. For example, something about yourself, what the trip will be about, why you chose this trip, and why you like it.";
+"TRIP_CONTENT_INTRO_DESC_2"="The Trip Story is the reason for you designing this Trip. Why you decided to create it, and what the Trip means to you. It will help the Travelers get to know the real you, and appreciate the Trip more.";
 "TRIPINSIDERS"="Tripinsiders";
 "TRIP_CONTENT_VIDEO_VIEW_DEMO_BUTTON"="View Demo";
 "TRIP_STATE_SUBMISSION_DESC_2"="Please update your profile so that travelers can know you better";
@@ -606,7 +606,7 @@
 "BOOK_OPERATION_CANCEL_FEEDBACK_SUC"="Cancelled Successfully";
 "PRICE_ATTRIBUTE_TYPE_VALUE_FIXED"="Fixed Price";
 "USER_ATTRIBUTE_ID_DOCUMENT_EXPIRY"="Expires On";
-"TRIP_ATTRIBUTE_DESCRIPTION"="Description";
+"TRIP_ATTRIBUTE_DESCRIPTION"="Details";
 "SIGN_IN_NOT"="Login";
 "CATEGORY_DANCE"="Dance";
 "VALUE_CONNECTED"="Connected";
