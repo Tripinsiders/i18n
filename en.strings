@@ -522,6 +522,8 @@ You can currently select up to a maximum of 4 main categories */
 // Section that allows you to set price of Trip. Can be either ‘Fixed Price’, ‘Per Traveler’, or ‘Free’
 "TRIP_ATTRIBUTE_PRICE_VALUE_PER_PERSON"="%@ pp";
 //= Shows the price in this way when you choose ‘Per person’ pricing option
+"TRIP_ATTRIBUTE_TRANSLATE_BUTTON"="Translate into English";
+// Button that appears on the top of the trip content
 "TRIP_STATE_DRAFT"="Draft";
 // Identifies the status of the Trip you are creating. If it is not yet completed and submitted for review, it shows as draft
 "TRIP_STATE_WAITING"="Waiting for Review";
@@ -596,6 +598,8 @@ You can currently select up to a maximum of 4 main categories */
 //= Place holder for the spot you type your Trip Highlights in Highlights and Category section.
 "TRIP_CONTENT_HIGHLIGHT_DESC_2"="Trip highlights are your selling point for Travelers. Capture the essence of your Trip with these.";
 //= Description located at the botom of the page for 'Highlights and Category' page
+"TRIP_DETAIL_NO_REVIEWS"="Request to book this Trip now, and be the first to write a review!";
+// On Trip detail page when it's a new trip and no reviews
 "TRIP_PHOTO"="Images";
 /*= In Trip Creation, if you select the area that lets you add photos, at the bottom of the screen, we you press 'Add photos' it redirects to a page that lets you choose images from the phone. the title of the pagec is 'Images' */
 "TRIP_PHOTO_OPERATE_CHOOSE"="Choose your photos";
@@ -632,6 +636,40 @@ You can currently select up to a maximum of 4 main categories */
 //= Message shown when some steps still remain to complete the Trip. Displays the steps remaining below message
 "TRIP_CREATE_TITLE"="Continue";
 // Button that alows you to move to the next stage in several parts of the Trip creation
+"TRIP_CONTENT_VIDEO_CHOOSE_COUNTRY"="Please choose a country or region";
+// If click the add account button without choosing country or region first, it will show up
+"TRIP_CONTENT_VIDEO_NO_WIFI"="You’re using cellular data network so uploading videos may incur cost. Do you wish to continue?";
+// Message shown when using cellular data network
+"TRIP_CONTENT_VIDEO_NETWORK_ERROR"="Network Error";
+// Text when lost connection during uploading the Videos
+"TRIP_CONTENT_VIDEO_ADD_VIDEO_BUTTON"="Add Video";
+// Button of adding / to upload a video
+"TRIP_CONTENT_VIDEO_VIDEOS_LIMITATION"="You can only upload 5 videos at most";
+// Message displayed when has 5 videos and click the Add Video button again
+"TRIP_CONTENT_VIDEO_VIEW_DEMO_BUTTON"="View Demo";
+// Button Text shown on the demo video
+"TRIP_CONTENT_VIDEO_PAUSED"="Paused";
+// Text when click the home button / return to desktop and back to App again
+"TRIP_CONTENT_VIDEO_CONFIRM_DELETE"="Are you sure you want to delete this video now?";
+// Confirm message shown for deleting a video
+"TRIP_CONTENT_VIDEO_RETRY_BUTTON"="Retry";
+// When network error happens, one of the button is Retry
+"TRIP_CONTENT_VIDEO_CANCEL_UPLOAD_BUTTON"="Cancel Upload";
+// When network error happens, one of the button is to cancel the upload
+"TRIP_CONTENT_VIDEO_COMPRESSING"="Compressing";
+// After choosing a video and click OK button, the video will be compressed first before uploading
+"TRIP_CONTENT_VIDEO_NO_PHOTOS"="No Photos or Videos";
+// Message displayed when there is no photos or videos can be uploaded
+"TRIP_CONTENT_FETCH_PHOTO_ERROR"="Error fetching the photo, please try other photos";
+// A iOS on iPad bug, can not choose large panorama photos
+"REFUSE_PERMISSION"="Please go to Settings - Apps - Tripinsiders - Permissions and turn on the permission";
+// For Android with no permission of accessing photos or videos
+"VIDEO_UNIT"="";
+// The unit of videos, no unit in English
+"WAIT_FINISH"="Please wait until the upload is complete";
+// Click back button when uploading the videos
+"FOLDER_ALL_VIDEOS"="All Videos";
+// The folder name of all videos
 
 /*
  * -----------------------------------------------------------------------
