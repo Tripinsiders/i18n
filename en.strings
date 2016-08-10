@@ -3,11 +3,10 @@
  *
  * @file: en.strings
  * @Language: English
- * @App version: v2.2.0
+ * @App version: v2.6.0
  *
- * Date: 2016-07-29
+ * Date: 2016-08-10
  * Author: Ciaran Robert McLinton Esquire
- * Author: Carlos the Large
  *
  * Copyright © 2016 Tripinsiders.com. All Rights Reserved.
  */
@@ -18,13 +17,55 @@
 * will be added directly beneath the string. For Example:
 *
 * "STRING_EXAMPLE"="Example"
-* //This string is used as an example to explain context//
+* //= This string is used as an example to explain context//
 */
- 
 
 /*
  * -----------------------------------------------------------------------
- * Section: Navigation Bar
+ * Contents
+ *
+ * Section 1:  Navigation Bar
+ * Section 2:  Operational Commands/ Options
+ * Section 3:  Value
+ * Section 4:  Feedback
+ * Section 5:  Term
+ * Section 6:  Search
+ * Section 7:  Sort
+ * Section 8:  Filter
+ * Section 9:  Week, Month, and Time
+ * Section 10: Category
+ * Section 11: Trip
+ * Section 12: Book
+ * Section 13: Chat
+ * Section 14: Navigation Bar
+ * Section 15: Favourite
+ * Section 16: Review
+ * Section 17: Price
+ * Section 18: Fee
+ * Section 19: Coupon
+ * Section 20: Pay
+ * Section 21: Account
+ * Section 22: Transaction
+ * Section 23: Wallet
+ * Section 24: Withdraw
+ * Section 25: Setting
+ * Section 26: Message
+ * Section 27: Password
+ * Section 28: Cell Phone
+ * Section 29: Email
+ * Section 30: Verification Code
+ * Section 31: Sign up, Sign in, and Sign out
+ * Section 32: Social
+ * Section 33: Share
+ * Section 34: Map
+ * Section 35: Insider Guide
+ * Section 36: Other
+ * -----------------------------------------------------------------------
+ */
+
+/*
+ * -----------------------------------------------------------------------
+ * Section 1: Navigation Bar
  * -----------------------------------------------------------------------
  */
 
@@ -49,7 +90,7 @@
  
  /*
  * -----------------------------------------------------------------------
- * Section: Operational Commands/ Options
+ * Section 2: Operational Commands/ Options
  * -----------------------------------------------------------------------
  */
 
@@ -146,7 +187,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 "OPERATION_SKIP"="Skip";
 //= Button the appears on tips and tutorial info
 "OPERATION_CONTINUE"="Continue";
-// Option shown on pop-up tutorial shown the first time a user enters the 'Wallet' feature in-app. Allows you to go to the next page
+//= Option shown on pop-up tutorial shown the first time a user enters the 'Wallet' feature in-app. Allows you to go to the next page
 "OPERATION_GOT_IT"="Got it!";
 //= Button option given in pop ups that equates to 'ok'.
 "OPERATION_CONTACT_TRAVELLER"="Contact Traveler";
@@ -164,7 +205,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Value
+ * Section 3: Value
  * -----------------------------------------------------------------------
  */
 
@@ -177,7 +218,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Feedback
+ * Section 4: Feedback
  * -----------------------------------------------------------------------
  */
 
@@ -226,7 +267,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Term
+ * Section 5: Term
  * -----------------------------------------------------------------------
  */
 
@@ -245,7 +286,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Search
+ * Section 6: Search
  * -----------------------------------------------------------------------
  */
 
@@ -254,7 +295,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Sort
+ * Section 7: Sort
  * -----------------------------------------------------------------------
  */
 
@@ -273,7 +314,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Filter
+ * Section 8: Filter
  * -----------------------------------------------------------------------
  */
 
@@ -284,7 +325,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 "FILTER_OPTION_INSIDER"="Insider";
 //= Title that appears above the Insiders details at the bottom of their Trip description that you view as a Traveler
 "FILTER_OPTION_INSIDER_DESC"="Insider's Gender";
-//  Identifies the Insider as Male or Female
+//= Identifies the Insider as Male or Female
 "FILTER_OPTION_INSIDER_VALUE_MALE"="Male";
 //= Filters search results to only show Trips made by Male Insiders
 "FILTER_OPTION_INSIDER_VALUE_FEMALE"="Female";
@@ -296,7 +337,7 @@ Must have at least on to be used as a cover photo for the Trip. */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Week, Month, and Time
+ * Section 9: Week, Month, and Time
  * -----------------------------------------------------------------------
  */
 
@@ -348,7 +389,7 @@ and time for the Trip are based on the local time, not the time in the area you 
 
 /*
  * -----------------------------------------------------------------------
- * Section: Category
+ * Section 10: Category
  * -----------------------------------------------------------------------
  */
 
@@ -414,11 +455,32 @@ This list includes all currently active categories. */
 You can currently select up to a maximum of 4 main categories */
 "CATEGORY_SET_LIMIT"="Select up to %d categories";
 //= This identifies how many categories the  Insider can select in regards to their Trip.
+"TAG_ART"="Art";
+"TAG_FOOD"="Food";
+"TAG_RELIGION"="Religion";
+"TAG_PARTY"="Party";
+"TAG_LEISURE"="Leisure";
+"TAG_NATURE"="Nature";
+"TAG_EXHIBITION"="Exhibition";
+"TAG_HISTORY"="History";
+"TAG_PARENT_CHILD"="Family";
+"TAG_CULTURE"="Culture";
+"TAG_VOLUNTEER"="Volunteer";
+"TAG_TRADITION"="Local customs";
+"TAG_SPORT"="Sport";
+"TAG_PET"="Pet";
+"TAG_EDUCATION"="Education";
+"TAG_FESTIVAL"="Festival";
+"TAG_ADVENTURE"="Adventure";
+"TAG_VOCATION"="Vocational";
+"TAG_SKILL"="Skill";
+"TAG_SHOPPING"="Shopping";
+"TAG_MUSIC"="Music";
  
 
 /*
  * -----------------------------------------------------------------------
- * Section: Trip
+ * Section 11: Trip
  * -----------------------------------------------------------------------
  */
 
@@ -599,7 +661,7 @@ You can currently select up to a maximum of 4 main categories */
 "TRIP_CONTENT_HIGHLIGHT_DESC_2"="Trip highlights are your selling point for Travelers. Capture the essence of your Trip with these.";
 //= Description located at the botom of the page for 'Highlights and Category' page
 "TRIP_DETAIL_NO_REVIEWS"="Request to book this Trip now, and be the first to write a review!";
-// On Trip detail page when it's a new trip and no reviews
+//= On Trip detail page when it's a new trip and no reviews
 "TRIP_PHOTO"="Images";
 /*= In Trip Creation, if you select the area that lets you add photos, at the bottom of the screen, we you press 'Add photos' it redirects to a page that lets you choose images from the phone. the title of the pagec is 'Images' */
 "TRIP_PHOTO_OPERATE_CHOOSE"="Choose your photos";
@@ -637,43 +699,103 @@ You can currently select up to a maximum of 4 main categories */
 "TRIP_CREATE_TITLE"="Continue";
 //= Button that alows you to move to the next stage in several parts of the Trip creation
 "TRIP_CONTENT_VIDEO_CHOOSE_COUNTRY"="Please choose a country or region";
-// If click the add account button without choosing country or region first, it will show up
+//= If click the add account button without choosing country or region first, it will show up
 "TRIP_CONTENT_VIDEO_NO_WIFI"="You’re using cellular data network so uploading videos may incur cost. Do you wish to continue?";
 // Message shown when using cellular data network
 "TRIP_CONTENT_VIDEO_NETWORK_ERROR"="Network Error";
-// Text when lost connection during uploading the Videos
+//= Text when lost connection during uploading the Videos
 "TRIP_CONTENT_VIDEO_ADD_VIDEO_BUTTON"="Add Video";
-// Button of adding / to upload a video
+//= Button of adding / to upload a video
 "TRIP_CONTENT_VIDEO_VIDEOS_LIMITATION"="You can only upload 5 videos at most";
-// Message displayed when has 5 videos and click the Add Video button again
+//= Message displayed when has 5 videos and click the Add Video button again
 "TRIP_CONTENT_VIDEO_VIEW_DEMO_BUTTON"="View Demo";
 //= Button Text shown on the demo video
 "TRIP_CONTENT_VIDEO_PAUSED"="Paused";
 //= Text when click the home button / return to desktop and back to App again
 "TRIP_CONTENT_VIDEO_CONFIRM_DELETE"="Are you sure you want to delete this video now?";
-// Confirm message shown for deleting a video
+//= Confirm message shown for deleting a video
 "TRIP_CONTENT_VIDEO_RETRY_BUTTON"="Retry";
-// When network error happens, one of the button is Retry
+//= When network error happens, one of the button is Retry
 "TRIP_CONTENT_VIDEO_CANCEL_UPLOAD_BUTTON"="Cancel Upload";
 //= When network error happens, one of the button is to cancel the upload
 "TRIP_CONTENT_VIDEO_COMPRESSING"="Compressing";
-// After choosing a video and click OK button, the video will be compressed first before uploading
+//= After choosing a video and click OK button, the video will be compressed first before uploading
 "TRIP_CONTENT_VIDEO_NO_PHOTOS"="No Photos or Videos";
 //= Message displayed when there is no photos or videos can be uploaded
 "TRIP_CONTENT_FETCH_PHOTO_ERROR"="Error fetching the photo, please try other photos";
-// A iOS on iPad bug, can not choose large panorama photos
+//= A iOS on iPad bug, can not choose large panorama photos
 "REFUSE_PERMISSION"="Please go to Settings - Apps - Tripinsiders - Permissions and turn on the permission";
-// For Android with no permission of accessing photos or videos
+//= For Android with no permission of accessing photos or videos
 "VIDEO_UNIT"="";
-// The unit of videos, no unit in English
+//= The unit of videos, no unit in English
 "WAIT_FINISH"="Please wait until the upload is complete";
-// Click back button when uploading the videos
+//= Click back button when uploading the videos
 "FOLDER_ALL_VIDEOS"="All Videos";
-// The folder name of all videos
+//= The folder name of all videos
+"OPERATION_VIEW_TRIP"="View";
+"TRIP_DETAIL_DETAIL"="Trip Details";
+"TRIP_PHOTO_UPLOAD_PHOTOS_LIMITATION"="We support a maximum of %d photos per Trip, you can add %d more";
+"TRIP_CONTENT_VIDEO_CHOOSE_COUNTRY"="Please choose a country or region";
+"TRIP_PHOTO_UPLOAD_MAX_SELECTION"="Select a maximum of %d photos";
+"TRIP_CONTENT_VIDEO_WIFI_NO"="No";
+"TRIP_DETAIL_NO_REVIEWS"="Request to book this Trip now, and be the first to write a review!";
+"TRIP_CONTENT_VIDEO_NO_WIFI"="You’re using your cells data network, so uploading videos may incur cost. Do you wish to continue?";
+"TRIP_OPERATION_PROFILE_TITLE_3"="Verify Your ID";
+"TRIP_CONTENT_VIDEO_VIDEOS_LIMITATION"="You can upload 5 videos at most";
+"TRIP_CONTENT_VIDEO"="Trip Video";
+"TRIP_OPERATION_PROFILE_PHONECODE"="Send code";
+"TRIP_OPERATION_PROFILE_NAME"="Hi";
+"TRIP_CONTENT_VIDEO_WIFI_YES"="Yes";
+"TRIP_CONTENT_FETCH_PHOTO_ERROR"="Error fetching the photo, please try different photos";
+"TRIP_LIST_PROFILE"="Complete your profile so your Trips can be approved!";
+"TRIP_EDIT_GUIDE_ADDITIONAINFO"="You can add some details regarding safety tips, poor weather plans, and any other small tips you think are relevant here.";
+"TRIP_DETAIL_PHOTO"="Trip Photos";
+"TRIP_CONTENT_VIDEO_ADD_VIDEO_BUTTON"="Add Video";
+"TRIP_CONTENT_VIDEO_COMPRESSING"="Compressing";
+"TRIP_DETAIL_STORY"="Trip Story";
+"TRIP_CONTENT_VIDEO_EXIT_NO"="No";
+"TRIP_DETAIL_READ_MORE"="Read more";
+"TRIP_CONTENT_VIDEO_NETWORK_ERROR"="Network Error";
+"TRIP_EDIT_GUIDE_PRICING"="Set the price of your Trip here";
+"TRIP_CONTENT_VIDEO_CHOICE_TITLE"="Video";
+"TRIP_CONTENT_VIDEO_SUBTITLE"="You can upload a video to give a feel for your Trip (No longer than 5 minutes)";
+"TRIP_OPERATION_PROFILE_ID_TYPE_1"="ID Type";
+"TRIP_OPERATION_PROFILE_ID_TYPE_2"="Select";
+"TRIP_OPERATION_PROFILE_TITLE_2"="Verify Cell Phone";
+"TRIP_CONTENT_VIDEO_TITLE"="Trip Video";
+"TRIP_CONTENT_VIDEO_EXIT_YES"="Yes";
+"TRIP_CONTENT_VIDEO_RETRY_BUTTON"="Retry";
+"TRIP_OPERATION_PROFILE_INTRO"="Use this section to write a short introduction about yourself. Tell people what you do, what you like, and what you love! ";
+"TRIP_CONTENT_VIDEO_CONFIRM_DELETE"="Are you sure you want to delete this video now?";
+"TRIP_CONTENT_VIDEO_CHOICE_LIMIT"="Sorry! The video can’t be over %d minutes long.";
+"TRIP_OPERATION_PROFILE_SUBMIT_1"="Great! Now, for your Trip to be approved, you're profile details will also need to be competed.";
+"TRIP_ATTRIBUTE_TRANSLATE_BUTTON"="Translate into English";
+"TRIP_EDIT_GUIDE_PREVIEW"="When you are editing, you can preview any changes you’ve made or content that you’ve created.";
+"TRIP_OPERATION_PROFILE_NOTICE_1"="Choose your city!";
+"TRIP_OPERATION_PROFILE_SUBMIT_2"="Complete Information";
+"TRIP_EDIT_GUIDE_BUTTON_1"="Next";
+"TRIP_OPERATION_PROFILE_SIKP"="Are you sure you want to skip this section?";
+"TRIP_OPERATION_PROFILE_PHOTO"="Please upload a profile photo";
+"TRIP_CONTENT_VIDEO_WIFI"="At the moment, you're not connected to WiFi. Playing the video will use your data. Continue?";
+"TRIP_DETAIL_KNOW_MORE"="More Information";
+"TRIP_OPERATION_PROFILE_NOTICE_2"="Select your gender!";
+"TRIP_OPERATION_PROFILE_ID_DESC_1"="Use this section to upload a valid form of ID, such as a passport or ID card.";
+"TRIP_OPERATION_PROFILE_ID_DESC_2"="Upload a photo of your chosen ID";
+"TRIP_OPERATION_PROFILE_ID_DESC_3"="Please make sure the photo is clear and without reflections. It’ll speed the whole thing up.";
+"TRIP_ATTRIBUTE_MEET_DESC2"="Please choose a meeting point";
+"TRIP_OPERATION_PROFILE_NOTICE_3"="Give a short introduction about yourself to let other users get to know you a little.";
+"BOOK_TRIP_DATE"="Trip Date: %@";
+"TRIP_EDIT_GUIDE_BUTTON_2"="Create a great Trip";
+"TRIP_ATTRIBUTE_TRANSLATE_ERROR"="Oops! Translation failed, please retry!";
+"TRIP_EDIT_GUIDE_PHOTO"="Click here to upload your photos";
+"TRIP_OPERATION_PROFILE_TITLE_1"="Basic Information";
+"TRIP_ATTRIBUTE_TRANSLATE_TITLE"="About This Trip";
+"TRIP_CONTENT_VIDEO_EXIT"="Video is uploading, if you exit now it will cancel the upload. Are you sure you want to leave this page?";
+
 
 /*
  * -----------------------------------------------------------------------
- * Section: Book
+ * Section 12: Book
  * -----------------------------------------------------------------------
  */
 
@@ -738,7 +860,7 @@ You can currently select up to a maximum of 4 main categories */
 "BOOK_OPERATION_SUMBIT"="Submit";
 //= Shows as a banner at bottom of page after pressing request to book. Page allows you to select date and number of travelers
 "BOOK_OPERATION_SUMBIT_CONFIRM"="Ready to book this Trip?";
-// Confirmation request
+//= Confirmation request
 "BOOK_OPERATION_CHANGE"="Modify";
 //= Shows when a you want to modify a booking request
 "BOOK_OPERATION_ACCEPT"="Confirm";
@@ -815,7 +937,7 @@ You can currently select up to a maximum of 4 main categories */
 "BOOK_BLANK_DESC_FI"="Waiting for your confirmed reservations";
 //= Shows in the ‘Bookings’ section of Insider profile when you do not have any booking requests
 "BOOK_Trip_DATE"="Trip Date: %@";
-// Identifies the Trip date in bookings list
+//= Identifies the Trip date in bookings list
 "BOOK_MESSAGE_DEFAULT"="Hi, I'm %@. I'm interested in going on  your  '%@' Trip on %@.";
 //= Automated message sent to the Insider when a Traveler Requests to book a Trip
 "BOOK_MESSAGE_ADDITIONAL"="Is there any additional information that you would like to give the Insider?";
@@ -849,7 +971,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Chat
+ * Section 13: Chat
  * -----------------------------------------------------------------------
  */
 
@@ -884,7 +1006,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Navigation Bar
+ * Section 14: Navigation Bar
  * -----------------------------------------------------------------------
  */
 
@@ -907,7 +1029,7 @@ You can currently select up to a maximum of 4 main categories */
 "USER_ATTRIBUTE_NICKNAME_LIMIT"="We suggest you use your real name to help encourage trust. Maximum %d characters. This display name can only be changed once every 30 days, so don't change your identity too often unless witness protection tells you it's necessary.";
 //= Tip given when you press “Display Name’ and it takes you to the page you can change it
 "USER_ATTRIBUTE_NICKNAME_SAVE_CONFIRM"="Your display name is now %@, and cannot be changed for 30 days.";
-// Message that appears after changing your display name
+//= Message that appears after changing your display name
 "USER_ATTRIBUTE_PROFILE_PICTURE"="Profile Picture";
 //= In 'About me’ section. Allows you to change your display pic if pressed.
 "USER_ATTRIBUTE_WORK"="Work";
@@ -920,7 +1042,7 @@ You can currently select up to a maximum of 4 main categories */
 //= Description beside ‘City’
 "USER_ATTRIBUTE_HOBBY"="Passionate about";
 //= ‘About me' section. Section gives 60 characters for brief description of passions and hobbies
-"USER_ATTRIBUTE_HOBBY_DESC"="What are you passionate about?";
+"USER_ATTRIBUTE_HOBBY_DESC"="What are you interested in?";
 //= Description beside the ‘passionate about’ title
 "USER_ATTRIBUTE_LANGUAGE"="Spoken Language";
 //= ‘About me’ section. Lets you select your spoken languages
@@ -979,7 +1101,7 @@ You can currently select up to a maximum of 4 main categories */
 "USER_OPERATION_UPLOAD_ID_COPY_DESC"="Upload your valid certificate, such as passport, ID card, etc. Do not forget to include the expiry date if it appears on a different page. Please make sure the upload is clear.";
 //= Prompt  in the section that allows you to upload your ID photo.
 "USER_OPERATION_VERIFY_FEEDBACK"="Your information is being verified. You'll receive a notice once it is completed.";
-// Message shown once your ID documents have been submitted]
+//= Message shown once your ID documents have been submitted]
 "USER_VERIFY_STATE_0"="Not Yet Verified";
 //= (different from master) Status indicator
 "USER_VERIFY_STATE_1"="Processing…";
@@ -997,7 +1119,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Favourite
+ * Section 15: Favourite
  * -----------------------------------------------------------------------
  */
 
@@ -1012,7 +1134,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Review
+ * Section 16: Review
  * -----------------------------------------------------------------------
  */
 
@@ -1055,7 +1177,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Price
+ * Section 17: Price
  * -----------------------------------------------------------------------
  */
 
@@ -1080,7 +1202,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Fee
+ * Section 18: Fee
  * -----------------------------------------------------------------------
  */
 
@@ -1111,12 +1233,12 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Coupon
+ * Section 19: Coupon
  * -----------------------------------------------------------------------
  */
 
 "COUPON"="Coupon";
-// In the ‘me’ section there is this option for ‘coupon’
+//= In the ‘me’ section there is this option for ‘coupon’
 "COUPON_ATTRIBUTE_EXPIRY"="Expired On: %@";
 //= Shows the expiration date of the coupon
 "COUPON_STATE_UNUSED"="Unused";
@@ -1132,7 +1254,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Pay
+ * Section 20: Pay
  * -----------------------------------------------------------------------
  */
 
@@ -1159,7 +1281,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Account
+ * Section 21: Account
  * -----------------------------------------------------------------------
  */
 
@@ -1194,11 +1316,11 @@ You can currently select up to a maximum of 4 main categories */
 "ACCOUNT_CARD_ATTRIBUTE_NUMBER"="Card Number";
 //= Space for entering card number
 "ACCOUNT_CARD_ATTRIBUTE_EXPIRY"="Expiry MM/YY";
-// =Space for Expiry details
+//= Space for Expiry details
 
 /*
  * -----------------------------------------------------------------------
- * Section: Transaction
+ * Section 22: Transaction
  * -----------------------------------------------------------------------
  */
 
@@ -1229,7 +1351,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Wallet
+ * Section 23: Wallet
  * -----------------------------------------------------------------------
  */
 
@@ -1273,7 +1395,7 @@ You can currently select up to a maximum of 4 main categories */
 //= Shows when a withdrawl has been unsuccessful
 "WALLET_ACCOUNT"="Accounts";
 //= Button that takes you to the bank/paypal/other accounts that have been linked to your profile
-"WALLET_ACCOUNT_OPERATE_ADD"="Add account";
+"WALLET_ACCOUNT_OPERATE_ADD"="Add an account";
 //= Button that takes you to the screen that allows you to add another (or a first) account
 "WALLET_ACCOUNT_TYPE"="Account Type";
 //= Identifies the type of account that you have linked: i.e Bank/ Paypal etc.
@@ -1328,7 +1450,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Withdraw
+ * Section 24: Withdraw
  * -----------------------------------------------------------------------
  */
 
@@ -1357,7 +1479,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Setting
+ * Section 25: Setting
  * -----------------------------------------------------------------------
  */
 
@@ -1394,7 +1516,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Message
+ * Section 26: Message
  * -----------------------------------------------------------------------
  */
 
@@ -1409,7 +1531,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Password
+ * Section 27: Password
  * -----------------------------------------------------------------------
  */
 
@@ -1438,7 +1560,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Cell Phone
+ * Section 28: Cell Phone
  * -----------------------------------------------------------------------
  */
 
@@ -1459,7 +1581,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Email
+ * Section 29: Email
  * -----------------------------------------------------------------------
  */
 
@@ -1482,7 +1604,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Verification Code
+ * Section 30: Verification Code
  * -----------------------------------------------------------------------
  */
 
@@ -1507,7 +1629,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Sign up, Sign in, and Sign out
+ * Section 31: Sign up, Sign in, and Sign out
  * -----------------------------------------------------------------------
  */
 
@@ -1546,7 +1668,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Social
+ * Section 32: Social
  * -----------------------------------------------------------------------
  */
 
@@ -1565,7 +1687,7 @@ You can currently select up to a maximum of 4 main categories */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Share
+ * Section 33: Share
  * -----------------------------------------------------------------------
  */
 
@@ -1607,7 +1729,7 @@ That way everyone that has added you as a friend can see it */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Map
+ * Section 34: Map
  * -----------------------------------------------------------------------
  */
 
@@ -1620,7 +1742,7 @@ That way everyone that has added you as a friend can see it */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Insider Guide
+ * Section 35: Insider Guide
  * -----------------------------------------------------------------------
  */
 
@@ -1643,7 +1765,7 @@ That way everyone that has added you as a friend can see it */
 
 /*
  * -----------------------------------------------------------------------
- * Section: Other
+ * Section 36: Other
  * -----------------------------------------------------------------------
  */
 
@@ -1667,108 +1789,28 @@ That way everyone that has added you as a friend can see it */
 
 "FILTER_OPTION_DATE"="Date";
 "USER_INVITE_DESC_2"="So far you haven't invited any friends to join Tripinsiders. Why not take a moment now and send someone an invitation?";
-"OPERATION_VIEW_TRIP"="View";
-"TRIP_DETAIL_DETAIL"="Trip Details";
-"TRIP_PHOTO_UPLOAD_PHOTOS_LIMITATION"="We support a maximum of %d photos per Trip, you can add %d more";
-"TRIP_CONTENT_VIDEO_CHOOSE_COUNTRY"="Please choose a country or region";
-"TRIP_PHOTO_UPLOAD_MAX_SELECTION"="Select a maximum of %d photos";
-"TRIP_CONTENT_VIDEO_WIFI_NO"="No";
-"TRIP_DETAIL_NO_REVIEWS"="Request to book this Trip now, and be the first to write a review!";
-"TRIP_CONTENT_VIDEO_NO_WIFI"="You’re using your cells data network, so uploading videos may incur cost. Do you wish to continue?";
-"TRIP_OPERATION_PROFILE_TITLE_3"="Verify Your ID";
-"TAG_ART"="Art";
-"TRIP_CONTENT_VIDEO_VIDEOS_LIMITATION"="You can upload 5 videos at most";
-"TRIP_CONTENT_VIDEO"="Trip Video";
-"TRIP_OPERATION_PROFILE_PHONECODE"="Send code";
-"TRIP_OPERATION_PROFILE_NAME"="Hi";
-"TRIP_CONTENT_VIDEO_WIFI_YES"="Yes";
-"TAG_FOOD"="Food";
-"TRIP_CONTENT_FETCH_PHOTO_ERROR"="Error fetching the photo, please try different photos";
-"TAG_RELIGION"="Religion";
-"TAG_PARTY"="Party";
-"TAG_LEISURE"="Leisure";
-"TAG_NATURE"="Nature";
 "OTHER_SNAPSHOT"="Snapshot Time: %@";
 "USER_INVITE_NUMBER_2"="You have invited %d friend";
 "USER_INVITE_DETAIL"="Detail";
 "OPERATION_CONNECT"="Connect";
-"TAG_EXHIBITION"="Exhibition";
 "USER_INVITE_DETAIL_LIST"="Name";
-"TRIP_LIST_PROFILE"="Complete your profile so your Trips can be approved!";
-"TRIP_EDIT_GUIDE_ADDITIONAINFO"="You can add some details regarding safety tips, poor weather plans, and any other small tips you think are relevant here.";
-"TAG_HISTORY"="History";
-"TRIP_DETAIL_PHOTO"="Trip Photos";
-"TRIP_CONTENT_VIDEO_ADD_VIDEO_BUTTON"="Add Video";
-"TRIP_CONTENT_VIDEO_COMPRESSING"="Compressing";
-"TRIP_DETAIL_STORY"="Trip Story";
-"TRIP_CONTENT_VIDEO_EXIT_NO"="No";
-"TRIP_DETAIL_READ_MORE"="Read more";
-"TRIP_CONTENT_VIDEO_NETWORK_ERROR"="Network Error";
-"TRIP_EDIT_GUIDE_PRICING"="Set the price of your Trip here";
-"TAG_PARENT_CHILD"="Family";
-"TAG_CULTURE"="Culture";
-"TRIP_CONTENT_VIDEO_CHOICE_TITLE"="Video";
-"TAG_VOLUNTEER"="Volunteer";
 "FILTER_OPTION_INSIDER_DESC"="Insider's Gender";
 "USER_INVITE_SHARE_SIGNUP"="%@ invited you to join Tripinsiders.";
-"TRIP_CONTENT_VIDEO_SUBTITLE"="You can upload a video to give a feel for your Trip (No longer than 5 minutes)";
 "REVIEW_OPERATION_VIEW"="All Reviews";
 "USER_INVITE_DETAIL_TITLE"="Friend Invitation Detail";
-"TRIP_OPERATION_PROFILE_ID_TYPE_1"="ID Type";
-"TRIP_OPERATION_PROFILE_ID_TYPE_2"="Select";
-"TRIP_OPERATION_PROFILE_TITLE_2"="Verify Cell Phone";
-"TRIP_CONTENT_VIDEO_TITLE"="Trip Video";
-"TRIP_CONTENT_VIDEO_EXIT_YES"="Yes";
-"TRIP_CONTENT_VIDEO_RETRY_BUTTON"="Retry";
 "USER_INVITE_DETAIL_REWARD"="Reward";
-"TRIP_OPERATION_PROFILE_INTRO"="Use this section to write a short introduction about yourself. Tell people what you do, what you like, and what you love! ";
-"TRIP_CONTENT_VIDEO_CONFIRM_DELETE"="Are you sure you want to delete this video now?";
-"TRIP_CONTENT_VIDEO_CHOICE_LIMIT"="Sorry! The video can’t be over %d minutes long.";
-"TRIP_OPERATION_PROFILE_SUBMIT_1"="Great! Now, for your Trip to be approved, you're profile details will also need to be competed.";
 "USER_INVITE_DETAIL_STATUS"="Status";
 "MESSAGE_STATE_1"="Read All";
-"TRIP_ATTRIBUTE_TRANSLATE_BUTTON"="Translate into English";
-"TAG_TRADITION"="Local customs";
-"TAG_SPORT"="Sport";
 "USER_INVITE_RULE"="Once your invited friend has a Trip created and reviewed, you will receive %d USD as a Reward to your Wallet.";
 "OPERATION_VIEW_DATE"="View";
-"TRIP_EDIT_GUIDE_PREVIEW"="When you are editing, you can preview any changes you’ve made or content that you’ve created.";
-"TRIP_OPERATION_PROFILE_NOTICE_1"="Choose your city!";
-"TRIP_CONTENT_VIDEO_EXIT"="Video is uploading, if you exit now it will cancel the upload. Are you sure you want to leave this page?";
 "USER_INVITE_NUMBER_1"="You have invited %d friends";
-"TRIP_OPERATION_PROFILE_SUBMIT_2"="Complete Information";
-"TAG_PET"="Pet";
 "USER_INVITE_SHARE_BUTTON"="Invite a Friend";
-"TAG_EDUCATION"="Education";
-"TRIP_EDIT_GUIDE_BUTTON_1"="Next";
-"TRIP_OPERATION_PROFILE_SIKP"="Are you sure you want to skip this section?";
-"TRIP_OPERATION_PROFILE_PHOTO"="Please upload a profile photo";
 "USER_INVITE_SHARE_TITLE"="Join Tripinsiders with %@";
-"TAG_FESTIVAL"="Festival";
 "TRIP_CONTENT_VIDEO_BUTTON"="Add Video";
-"TRIP_CONTENT_VIDEO_WIFI"="At the moment, you're not connected to WiFi. Playing the video will use your data. Continue?";
-"TRIP_DETAIL_KNOW_MORE"="More Information";
-"TRIP_OPERATION_PROFILE_NOTICE_2"="Select your gender!";
 "USER_INVITE_TITLE"="Invite a Friend";
-"TRIP_OPERATION_PROFILE_ID_DESC_1"="Use this section to upload a valid form of ID, such as a passport or ID card.";
-"TRIP_OPERATION_PROFILE_ID_DESC_2"="Upload a photo of your chosen ID";
-"TRIP_OPERATION_PROFILE_ID_DESC_3"="Please make sure the photo is clear and without reflections. It’ll speed the whole thing up.";
-"TAG_ADVENTURE"="Adventure";
 "VALUE_NO_LIMIT"="Any";
-"TAG_VOCATION"="Vocational";
-"TAG_SKILL"="Skill";
-"TRIP_ATTRIBUTE_MEET_DESC2"="Please choose a meeting point";
-"INSIDER_STORY_CARD_TITLE"="Insider Story";
-"TRIP_OPERATION_PROFILE_NOTICE_3"="Give a short introduction about yourself to let other users get to know you a little.";
-"BOOK_TRIP_DATE"="Trip Date: %@";
-"TRIP_EDIT_GUIDE_BUTTON_2"="Create a great Trip";
-"TRIP_ATTRIBUTE_TRANSLATE_ERROR"="Oops! Translation failed, please retry!";
 "TERM_SERVICE_EN_FI"="Terms of Service for Insiders";
-"TRIP_EDIT_GUIDE_PHOTO"="Click here to upload your photos";
-"TAG_SHOPPING"="Shopping";
-"TRIP_OPERATION_PROFILE_TITLE_1"="Basic Information";
-"TAG_MUSIC"="Music";
-"TRIP_ATTRIBUTE_TRANSLATE_TITLE"="About This Trip";
+"INSIDER_STORY_CARD_TITLE"="Insider Story";
 "CHAT_CONNECT_ERROR"="Exception state of chat";
 "USER_INVITE_SHARE_CONTENT"="%@ invited you to join this adventure. Sign up and learn more on about our rewards…";
 
@@ -1793,50 +1835,42 @@ That way everyone that has added you as a friend can see it */
 "TRIP_CONTENT_INTRO_DESC_1"="Enter your Trip Story.";
 "TRIP_ATTRIBUTE_DESCRIPTION"="Details";
 "TRIP_OPERATE_EDIT"="Edit Trip";
-
-
-
-"USER_BECOME_AN_INSIDER" = "Become an Insider"; // 新增 KEY
-"USER_BECOME_AN_INSIDER_GREETING" = "Glad to see you here!"; // 新增 KEY
-"USER_BECOME_AN_INSIDER_PROFILE_DESC" = "First, you need to complete or confirm the following information"; // 新增 KEY
-"USER_ATTRIBUTE_CITY_DESC" = "Where do you live?"; // 更新 VALUE
-"USER_ATTRIBUTE_HOBBY_DESC" = "What are you interested in?"; // 更新 VALUE
-"USER_ATTRIBUTE_WORK_DESC" = "What do you do?"; // 新增 KEY
-"USER_LANGUAGE_SETTING" = "Languages Spoken"; // 新增 KEY
-"USER_LANGUAGE_SETTING_DESC" = "Showing what languages you speak and your proficiency in them is really helpful for Travelers." // 新增 KEY
-"USER_LANGUAGE_LEVEL1" = "Beginner";  // 新增 KEY
-"USER_LANGUAGE_LEVEL2" = "Intermediate";  // 新增 KEY
-"USER_LANGUAGE_LEVEL3" = "Fluent";  // 新增 KEY
-"USER_QUESTIONNAIRE" = "Questionnaire"; // 新增 KEY
-"USER_DESCRIBE_YOURSELF" = "Self Introduction"; // 新增 KEY
-"OPERATION_DONE" = "DONE"; // 新增 KEY
-"USER_DESCRIBE_YOURSELF_DESC" = "A good introduction will help the Travelers get to know you better, and build trust with them. Just tell them who you are and what you are interested in."; // 新增 KEY
-"USER_DESCRIBE_YOURSELF_CONTENT" = "Hi! My name is %@. I live in %@. My job is %@. I'm interested in %@. I can speak %@. You're welcome to book my Trip!"; // 新增 KEY
-"USER_BECOME_AN_INSIDER_FINISH" = "Congratulations!"; // 新增 KEY
+"USER_BECOME_AN_INSIDER" = "Become an Insider";
+"USER_BECOME_AN_INSIDER_GREETING" = "Glad to see you here!";  
+"USER_BECOME_AN_INSIDER_PROFILE_DESC" = "First, you need to complete or confirm the following information";  
+"USER_ATTRIBUTE_WORK_DESC" = "What do you do?";  
+"USER_LANGUAGE_SETTING" = "Languages Spoken";  
+"USER_LANGUAGE_SETTING_DESC" = "Showing what languages you speak and your proficiency in them is really helpful for Travelers."  
+"USER_LANGUAGE_LEVEL1" = "Beginner";   
+"USER_LANGUAGE_LEVEL2" = "Intermediate";   
+"USER_LANGUAGE_LEVEL3" = "Fluent";   
+"USER_QUESTIONNAIRE" = "Questionnaire";  
+"USER_DESCRIBE_YOURSELF" = "Self Introduction";  
+"OPERATION_DONE" = "DONE";  
+"USER_DESCRIBE_YOURSELF_DESC" = "A good introduction will help the Travelers get to know you better, and build trust with them. Just tell them who you are and what you are interested in.";  
+"USER_DESCRIBE_YOURSELF_CONTENT" = "Hi! My name is %@. I live in %@. My job is %@. I'm interested in %@. I can speak %@. You're welcome to book my Trip!";  
+"USER_BECOME_AN_INSIDER_FINISH" = "Congratulations!";  
 "USER_BECOME_AN_INSIDER_FINISH_DESC" = "You're almost there! After you design your Trips, you will be a fully fledged Insider! Excited yet? We are!\n\nAn email with instructions, tutorials, and materials on how to design a good Trip has already been sent to you at: %@.\n\nSo let's get you started on designing your first Trip!";
 "USER_BECOME_AN_INSIDER_FINISH_BUTTON" = "OK, I'm ready";
-"WALLET_ACCOUNT_DEFAULT_TEXT" = "Default"; // 新增 KEY
-"WALLET_ACCOUNT_SET_DEFAULT_CONFIRM_TITLE" = "Set as Default Account?"; // 新增 KEY
-"WALLET_ACCOUNT_SET_DEFAULT_CONFIRM_DESC" = "Making this your default account will put this to the top of your options when withdrawing."; // 新增 KEY
-"WALLET_ADD_PAYOUT_METHOD" = "Choose how we pay you"; // 新增 KEY
-"WALLET_PAYOUT_PROCESSING_TIME_PREFIX" = "Arrives in "; // 新增 KEY，到賬週期的前綴
-"WALLET_ACCOUNT_OPERATE_ADD" = "Add an Account"; // 更新 VALUE
-"WALLET_ACCOUNT_TYPE_DESC" = "Please make sure the account details are correct to avoid transfer failures."; // 新增 KEY
-"WALLET_ACCOUNT_SET_DEFAULT" = "Set as Default"; // 新增 KEY
-"WALLET_NO_ACCOUNTS_DESC" = "At the moment you don't have any account details saved. The accounts here are used to transfer your money from the Tripinsiders platform."; // 新增 KEY
-"WALLET_NO_TRANSACTIONS" = "At the moment you don't have any transactions to show."; // 新增 KEY
-"WALLET_WITHDRAW_PROCESSING_TEXT" = "Processing Time: "; // 新增 KEY
-"WALLET_WITHDRAW_ADDITIONAL_FEE_TEXT" = "Additional Fee: "; // 新增 KEY
-"PAY_CHANGE_CURRENCY" = "Change to another currency?"; // 新增 KEY
+"WALLET_ACCOUNT_DEFAULT_TEXT" = "Default";  
+"WALLET_ACCOUNT_SET_DEFAULT_CONFIRM_TITLE" = "Set as Default Account?";  
+"WALLET_ACCOUNT_SET_DEFAULT_CONFIRM_DESC" = "Making this your default account will put this to the top of your options when withdrawing.";  
+"WALLET_ADD_PAYOUT_METHOD" = "Choose how we pay you";  
+"WALLET_PAYOUT_PROCESSING_TIME_PREFIX" = "Arrives in ";  ，
+"WALLET_ACCOUNT_TYPE_DESC" = "Please make sure the account details are correct to avoid transfer failures.";  
+"WALLET_ACCOUNT_SET_DEFAULT" = "Set as Default";  
+"WALLET_NO_ACCOUNTS_DESC" = "At the moment you don't have any account details saved. The accounts here are used to transfer your money from the Tripinsiders platform.";  
+"WALLET_NO_TRANSACTIONS" = "At the moment you don't have any transactions to show.";  
+"WALLET_WITHDRAW_PROCESSING_TEXT" = "Processing Time: ";  
+"WALLET_WITHDRAW_ADDITIONAL_FEE_TEXT" = "Additional Fee: ";  
+"PAY_CHANGE_CURRENCY" = "Change to another currency?";  
 "TRIP_PRICE_NOTICE" = "Tripinsiders charges a %d%% service fee for the use of the platform. So the amount you receive for this Trip will be %d%% less than the price you set. With this price, you would receive %@ %.2f %@.";
-"TRIP_AUTO_SAVE" = "Auto Saved"; // 新增 KEY
-"BOOK_PAY_BEFORE_NOTICE" = "Sorry, but the Insider has to confirm your request before you can pay for the Trip. "; // 新增 KEY
-"BOOK_REVIEW_BEFORE_TRIPDATE" = "We know you're excited to share your story, but you need to review the Trip on a day after the trip date."; // 新增 KEY
-
-
-
-/* Check this */
-"TRIP_ATTRIBUTE_TRANSLATE_DESC_1"="Automatic translation use Google Translate and may not be completely accurate";
+"TRIP_AUTO_SAVE" = "Auto Saved";  
+"BOOK_PAY_BEFORE_NOTICE" = "Sorry, but the Insider has to confirm your request before you can pay for the Trip. ";  
+"BOOK_REVIEW_BEFORE_TRIPDATE" = "We know you're excited to share your story, but you need to review the Trip on a day after the trip date.";
+"USER_BECOME_AN_INSIDER_REQUIRED_NOTICE" = "Please make sure all the fields on this page have been completed before continuing."
+"TRIP_CAMERA_OPERATE_PRIVACY"="Allow Tripinsiders to access your camera in \"Settings\"->\"Privacy\"->\"Camera\"";
+"TRIP_ATTRIBUTE_TRANSLATE_DESC_1"="This translation used Google Translate and may not be completely accurate";
 
 
 
