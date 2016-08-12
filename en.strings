@@ -569,8 +569,8 @@ You can currently select up to a maximum of 4 main categories */
 //= Found in ‘Additional Information section’. Allows you to select a meeting point Using Maps.
 "TRIP_ATTRIBUTE_MEET_DESC"="Where will you meet? Be remarkably specific.";
 //= Shows above the section that allows you to select meeting point.
-"TRIP_ATTRIBUTE_ADVICE"="Notices";
-/*= Section is  Insider additional information. Allows you to add any relevant tips or advice. For example;
+"TRIP_ATTRIBUTE_ADVICE"="Extra Tips";
+/*= Section is  Insider additional information at the end of the Trip creator section. Allows you to add any relevant tips or advice. For example;
  ‘Be sure to allows at least on hour to reach the meeting point as traffic is usually bad’ */
 "TRIP_ATTRIBUTE_SAFETY"="Safety Notices";
 /*= Insider Additional info section: allows to add any safety tip for the Trip. For example;
