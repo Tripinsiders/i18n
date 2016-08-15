@@ -818,7 +818,7 @@ You can currently select up to a maximum of 4 main categories */
 //= Button top right of screen used to go to the next section
 "TRIP_OPERATION_PROFILE_SIKP"="Are you sure you want to skip this section?";
 //= Confirmation mesxage shown when moving past a section
-"TRIP_OPERATION_PROFILE_PHOTO"="Please upload a profile photo"
+"TRIP_OPERATION_PROFILE_PHOTO"="Please upload a profile photo";
 //= On screen message shown
 "TRIP_CONTENT_VIDEO_WIFI"="At the moment, you're not connected to WiFi. Playing the video will use your data. Continue?";
 //= Warning message for Traveler
@@ -1885,10 +1885,10 @@ That way everyone that has added you as a friend can see it */
 "TRIP_EDIT_GUIDE_PRICING"="Set the price of your Trip here";
 "TRIP_ATTRIBUTE_DURATION_DESC"="What is the start/finish time?";
 "TRIP_CONTENT_INTRO_DESC_2"="The Trip Story is the reason for you designing this Trip. Why you decided to create it, and what the Trip means to you. It will help the Travelers get to know the real you, and appreciate the Trip more.";
-"TRIP_CONTENT_DETAIL_DESC_2"="The Trip Description is used to give a detailed itinerary of the Trip. So, when you will meet the Traveler, what kind of things you will do on the Trip, where you will take them to, and when the Trip will finish."
+"TRIP_CONTENT_DETAIL_DESC_2"="The Trip Description is used to give a detailed itinerary of the Trip. So, when you will meet the Traveler, what kind of things you will do on the Trip, where you will take them to, and when the Trip will finish.";
 "TRIP_CONTENT_HIGHLIGHT_DESC_2"="Trip Highlights are your selling point for Travelers. Capture the essence of your trip with these.";
 "TRIP_TITLE"="Trip Title";
-"TRIP_TITLE_DESC_2"="Your Trip Title should be clear, simple, and relate directly to the Trip.”;
+"TRIP_TITLE_DESC_2"="Your Trip Title should be clear, simple, and relate directly to the Trip.";
 "TRIP_DETAIL_DETAIL"="Trip Details";
 "TRIP_CONTENT_INTRO"="Trip Story";
 "TRIP_CONTENT_INTRO_DESC_1"="Enter your Trip Story.";
@@ -1915,7 +1915,7 @@ That way everyone that has added you as a friend can see it */
 "WALLET_ACCOUNT_SET_DEFAULT_CONFIRM_TITLE" = "Set as Default Account?";  
 "WALLET_ACCOUNT_SET_DEFAULT_CONFIRM_DESC" = "Making this your default account will put this to the top of your options when withdrawing.";  
 "WALLET_ADD_PAYOUT_METHOD" = "Choose how we pay you";  
-"WALLET_PAYOUT_PROCESSING_TIME_PREFIX" = "Arrives in ";  ，
+"WALLET_PAYOUT_PROCESSING_TIME_PREFIX" = "Arrives in ";
 "WALLET_ACCOUNT_TYPE_DESC" = "Please make sure the account details are correct to avoid transfer failures.";  
 "WALLET_ACCOUNT_SET_DEFAULT" = "Set as Default";  
 "WALLET_NO_ACCOUNTS_DESC" = "At the moment you don't have any account details saved. The accounts here are used to transfer your money from the Tripinsiders platform.";  
