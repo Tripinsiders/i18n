@@ -317,6 +317,7 @@
 "MAIL_VERIFY"="验证电子邮箱";
 "FEEDBAKC_EXIT_APP"="再按一次退出脆饼旅行";
 "VIDEO_REPLAY"="重新播放";
+"VIDEO_UNIT" = "个";
 "MONTH_FEB"="%d年2月";
 "TRIP_CONTENT_VIDEO_CHOICE_TITLE"="视频";
 "CHAT_MSG_TYPE_NOT_SUPPORT"="不支持消息";
@@ -810,4 +811,8 @@
 "BOOK_REVIEW_BEFORE_TRIPDATE" = "请稍等，评价只可以在行程日期之后才能发表。";
 "USER_BECOME_AN_INSIDER_REQUIRED_NOTICE" = "请确认所有项目都已完成，然后进入下一步。";
 "USER_SETTINGS_INCOMPLETE_NOTICE" = "请至少选择一项";
+"TRIP_CAMERA_OPERATE_PRIVACY"="请在系统的“设置-隐私-相机”选项中，允许脆饼访问你的相机";
 "MESSAGE_TYPE_REMINDER" = "行程提醒";
+"WAIT_FINISH"="请等待视频上传完毕";
+"FOLDER_ALL_VIDEO"="所有视频";
+"REFUSE_PERMISSION"="权限被禁用，请在设置中打开应用权限";

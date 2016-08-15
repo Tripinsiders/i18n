@@ -316,6 +316,7 @@
 "MAIL_VERIFY"="驗證電子信箱";
 "FEEDBAKC_EXIT_APP"="再按一次退出脆餅旅行";
 "VIDEO_REPLAY"="重新播放";
+"VIDEO_UNIT"="條";
 "MONTH_FEB"="%d年2月";
 "TRIP_CONTENT_VIDEO_CHOICE_TITLE"="影片";
 "CHAT_MSG_TYPE_NOT_SUPPORT"="不支援消息";
@@ -812,3 +813,6 @@
 "USER_SETTINGS_INCOMPLETE_NOTICE" = "請至少選擇一項";
 "TRIP_CAMERA_OPERATE_PRIVACY"="請在系統的「設定—隱私權-相機」選項中，允許脆餅訪問你的相機";
 "MESSAGE_TYPE_REMINDER" = "行程提醒";
+"WAIT_FINISH" = "請等待影片上傳完畢";
+"FOLDER_ALL_VIDEO"="所有影片";
+"REFUSE_PERMISSION"="權限被禁用，請在設置中打開應用權限";
