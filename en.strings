@@ -187,7 +187,7 @@
 "TRIP_OPERATION_START"="Start";
 "PASSWORD_NEW_REENTER"="Re-enter new password";
 "BOOK_MSG_REVIEWED"="[NICK] just reviewed the Trip! Check your now and find out what they thought of it!";
-"TRIP_CAMERA_OPERATE_PRIVACY"="Allow Tripinsiders to access your camera in "Settings"->"Privacy"->"Camera"";
+"TRIP_CAMERA_OPERATE_PRIVACY"="Allow Tripinsiders to access your camera in \"Settings\"->\"Privacy\"->\"Camera\"";
 "BOOK_POPUP_CANCEL"="Trip Cancelled";
 "TAG_LEISURE"="Leisure";
 "USER_ATTRIBUTE_BIRTH"="Date of Birth";
@@ -365,7 +365,7 @@
 "USER_ATTRIBUTE_BIRTH_DESC"="Date of Birth";
 "FEEDBACK_UPDATE"="Your current version is v{STRING}. We have a shiny new version ready for you to try. Do you want to update now?";
 "New Key"="English（US）";
-"TRIP_PHOTO_OPERATE_PRIVACY"="Allow Tripinsiders to access your album in "Settings"->"Privacy"->"Photos"";
+"TRIP_PHOTO_OPERATE_PRIVACY"="Allow Tripinsiders to access your album in \"Settings\"->\"Privacy\"->\"Photos\"";
 "BOOK_STATE_PROGRESS_DESC"="Aaaaand go!\nHave a great Trip!";
 "TRIP_PRICE_DETAIL"="Trip Pricing Details";
 "OPERATION_UPLOAD_PHOTO_LIMIT_1_MORE"="Up to %d photos";
@@ -394,7 +394,7 @@
 "BOOK_OPERATION_ACCEPT"="Confirm";
 "REVIEW_OPERATION_VIEW"="All Reviews";
 "SIGN_IN"="Login";
-"WALLET_POINT"="To access your Wallet just click in the "Wallet" item";
+"WALLET_POINT"="To access your Wallet just click in the \"Wallet\" item";
 "TRANSACTION_RATE"="Today's Exchange Rate";
 "TRIP_PHOTO"="Images";
 "MONTH_MAR"="March %d";
