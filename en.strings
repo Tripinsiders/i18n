@@ -1929,7 +1929,6 @@ That way everyone that has added you as a friend can see it */
 "TRIP_CAMERA_OPERATE_PRIVACY"="Allow Tripinsiders to access your camera in \"Settings\"->\"Privacy\"->\"Camera\"";
 "TRIP_ATTRIBUTE_TRANSLATE_DESC_1"="This translation used Google Translate and may not be completely accurate";
 "VIDEO_UNIT" = "";
-"FOLDER_ALL_VIDEO" = "All Videos";
 "MESSAGE_TYPE_REMINDER" = "Reminder";
 "USER_SETTINGS_INCOMPLETE_NOTICE" = "Please choose at least one option before continuing.";
 "USER_INVITE_DESC_1" = "Send your invitation code";
