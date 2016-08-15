@@ -833,7 +833,7 @@ You can currently select up to a maximum of 4 main categories */
 "TRIP_OPERATION_PROFILE_ID_DESC_3"="Please make sure the photo is clear and without reflections. It’ll speed the whole thing up.";
 //= On screen text
 "TRIP_ATTRIBUTE_MEET_DESC2"="Please choose a meeting point";
-//= Subtitle on the page where you use map to set a meeting point for the Trip
+//= Subtitle on the page where yoau use map to set a meeting point for the Trip
 "TRIP_OPERATION_PROFILE_NOTICE_3"="Give a short introduction about yourself to let other users get to know you a little.";
 //= Place holder guide in the section you write a self intro
 "BOOK_TRIP_DATE"="Trip Date: %@";
@@ -995,8 +995,6 @@ You can currently select up to a maximum of 4 main categories */
 //= Shows as a full screen message when using Traveler Profile
 "BOOK_BLANK_DESC_FI"="Waiting for your confirmed reservations";
 //= Shows in the ‘Bookings’ section of Insider profile when you do not have any booking requests
-"BOOK_Trip_DATE"="Trip Date: %@";
-//= Identifies the Trip date in bookings list
 "BOOK_MESSAGE_DEFAULT"="Hi, I'm %@. I'm interested in going on  your  '%@' Trip on %@.";
 //= Automated message sent to the Insider when a Traveler Requests to book a Trip
 "BOOK_MESSAGE_ADDITIONAL"="Is there any additional information that you would like to give the Insider?";
