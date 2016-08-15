@@ -1899,9 +1899,9 @@ That way everyone that has added you as a friend can see it */
 "USER_BECOME_AN_INSIDER_PROFILE_DESC" = "First, you need to complete or confirm the following information";  
 "USER_ATTRIBUTE_WORK_DESC" = "What do you do?";  
 "USER_LANGUAGE_SETTING" = "Languages Spoken";  
-"USER_LANGUAGE_SETTING_DESC" = "Showing what languages you speak and your proficiency in them is really helpful for Travelers."  
-"USER_LANGUAGE_LEVEL1" = "Beginner";   
-"USER_LANGUAGE_LEVEL2" = "Intermediate";   
+"USER_LANGUAGE_SETTING_DESC" = "Showing what languages you speak and your proficiency in them is really helpful for Travelers.";
+"USER_LANGUAGE_LEVEL1" = "Basic";
+"USER_LANGUAGE_LEVEL2" = "Moderate";
 "USER_LANGUAGE_LEVEL3" = "Fluent";   
 "USER_QUESTIONNAIRE" = "Questionnaire";  
 "USER_DESCRIBE_YOURSELF" = "Self Introduction";  
@@ -1927,7 +1927,7 @@ That way everyone that has added you as a friend can see it */
 "TRIP_AUTO_SAVE" = "Auto Saved";  
 "BOOK_PAY_BEFORE_NOTICE" = "Sorry, but the Insider has to confirm your request before you can pay for the Trip. ";  
 "BOOK_REVIEW_BEFORE_TRIPDATE" = "We know you're excited to share your story, but you need to review the Trip on a day after the Trip date.";
-"USER_BECOME_AN_INSIDER_REQUIRED_NOTICE" = "Please make sure all the fields on this page have been completed before continuing."
+"USER_BECOME_AN_INSIDER_REQUIRED_NOTICE" = "Please make sure all the fields on this page have been completed before continuing.";
 "TRIP_CAMERA_OPERATE_PRIVACY"="Allow Tripinsiders to access your camera in \"Settings\"->\"Privacy\"->\"Camera\"";
 "TRIP_ATTRIBUTE_TRANSLATE_DESC_1"="This translation used Google Translate and may not be completely accurate";
 
