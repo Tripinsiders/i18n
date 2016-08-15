@@ -1930,8 +1930,7 @@ That way everyone that has added you as a friend can see it */
 "USER_BECOME_AN_INSIDER_REQUIRED_NOTICE" = "Please make sure all the fields on this page have been completed before continuing.";
 "TRIP_CAMERA_OPERATE_PRIVACY"="Allow Tripinsiders to access your camera in \"Settings\"->\"Privacy\"->\"Camera\"";
 "TRIP_ATTRIBUTE_TRANSLATE_DESC_1"="This translation used Google Translate and may not be completely accurate";
-
-
+"VIDEO_UNIT" = "";  
 
 
 
