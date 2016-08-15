@@ -814,5 +814,5 @@
 "TRIP_CAMERA_OPERATE_PRIVACY"="请在系统的“设置-隐私-相机”选项中，允许脆饼访问你的相机";
 "MESSAGE_TYPE_REMINDER" = "行程提醒";
 "WAIT_FINISH"="请等待视频上传完毕";
-"FOLDER_ALL_VIDEO"="所有视频";
+"FOLDER_ALL_VIDEOS"="所有视频";
 "REFUSE_PERMISSION"="权限被禁用，请在设置中打开应用权限";

@@ -814,5 +814,5 @@
 "TRIP_CAMERA_OPERATE_PRIVACY"="請在系統的「設定—隱私權-相機」選項中，允許脆餅訪問你的相機";
 "MESSAGE_TYPE_REMINDER" = "行程提醒";
 "WAIT_FINISH" = "請等待影片上傳完畢";
-"FOLDER_ALL_VIDEO"="所有影片";
+"FOLDER_ALL_VIDEOS"="所有影片";
 "REFUSE_PERMISSION"="權限被禁用，請在設置中打開應用權限";
