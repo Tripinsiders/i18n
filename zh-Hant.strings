@@ -813,3 +813,4 @@
 "USER_INVITE_SHARE_CONTENT"="%@邀請你參加這個活動，註冊可以獲得更多的獎勵...";
 "SIGN_UP_ALREADY_HAVE"="已有帳號，去登入";
 "PASSWORD_FORGOT"="忘記密碼";
+"SERIVCE_PRICE_TOOLOWER" = "你設置的行程價格過低，請至少設置為%@ %d";
