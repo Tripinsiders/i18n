@@ -813,4 +813,3 @@
 "USER_INVITE_SHARE_CONTENT"="%@邀请你参加这个活动，注册可以获得更多的奖励…";
 "SIGN_UP_ALREADY_HAVE"="已有账号，去登录";
 "PASSWORD_FORGOT"="忘记密码?";
-"SERIVCE_PRICE_TOOLOWER" = "你设置的行程价格过低，请至少设置为%@ %d";

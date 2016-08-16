@@ -270,8 +270,7 @@
 "TRIP_OPERATION_FINISH_CONFIRM"="Are you sure you want to finish the Trip?";
 "TRIP_EDIT_GUIDE_ADDITIONAINFO"="You can add some details regarding safety tips, poor weather plans, and any other small tips you think are relevant here.";
 "PAY_OPERATION_PAY_FEEDBACK_SUC_DESC"="We have received your payment.\nOnce the Trip is completed, as long as there have been no problems, we will transfer the money to %@s’ account.\n\nWe hope you have a great Trip!";
-"TRIP_PRICE_NOTICE"="Tripinsiders charges a %d%% service fee for the use of the platform. So the amount you receive for this Trip will be %d%% less than the price you set. With this price, you would receive %@ %.2f.";
-"SERIVCE_PRICE_TOOLOWER" = "Your Trip price is too low, the minimum is %@ %d.";
+"TRIP_PRICE_NOTICE"="Tripinsiders charges a %d%% service fee for the use of the platform. So the amount you receive for this Trip will be %d%% less than the price you set. With this price, you would receive %@ %.2f %@.";
 "TAG_HISTORY"="History";
 "USER_VERIFY_STATE_1"="Processing…";
 "TRIPINSIDERS_RECOMMEND"="Tripinsiders Favorite";
